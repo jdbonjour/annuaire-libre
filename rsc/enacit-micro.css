@@ -1,0 +1,421 @@
+/* Feuille de style enacit-micro.css / "Micro-charte" web 2010 ENAC-IT / J.-D. Bonjour :
+     - implémentation stand-alone de la charte web 2010 EPFL
+     - implémentation de styles spécifiques ENAC-IT
+     - début implémentation "responsive design"...
+   
+   L'activation de ces styles s'effectue, dans BODY ou par JavaScript, par
+   catégories via les classes do<Categorie> suivantes :
+     - doBanner : affichage du bandeau supérieur
+     - doTitles : titres niveau 1 à 6 (2 à 6 enac-it)
+     - doTitles-shadow : variante de doTitles avec titres 2 et 3 ombrés (enac-it)
+     - doImages-shadow : ombrage des images (enac-it)
+     - doLinks : liens à la façon charte 2010
+     - doLinks-bold : liens à l'ancienne façon enac-it (enac-it)
+     - doTables : pour faciliter la mise en oeuvre de tables (enac-it)
+     - doTables-shadow : ombrage des tables (enac-it)
+     - doHr : pour HR fin et grisé
+     - doLists : amélioration des listes à puces et numérotées (enac-it)
+     - doDefLists-faq : DL/DT/DD à la façon FAQ (enac-it)
+     - doForms : stylisation des champs de formulaires (enac-it)
+     - doTtPre : stylisation de TT et PRE (enac-it)
+     - doDocIt : styles pour documentations IT : touches de clavier, souris, menus, boutons (enac-it)
+     - doPre-hollow : PRE en creux (enac-it)
+*/
+
+/* RAPPEL:  .xxx s'applique à <... class=xxx>   tandis que  #yyy s'applique à <... id=yyy>  ; 
+   dans le cas <... class=xxx id=yyy> les propriétés de #yyy priment sur celles de .xxx  */
+
+
+/************* Caractéristiques de base de l'ensemble du BODY de la page */
+body { font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: rgb(69,69,69); }
+body { max-width: 980px; margin-left: auto; margin-right: auto; margin-top: 6pt; }
+
+
+/************* BANDEAU (logo EPFL, menu et zone de recherche) */
+/* Invisible par défaut */
+#bandeau_epfl, #bandeau_menu { display: none; }
+/* Affiché si  media=screen ET doBanner activé ET largeur écran > 1000px (responsive design) */
+@media screen and (min-width: 1000px) {
+    .doBanner body #bandeau_epfl, .doBanner body #bandeau_menu, body.doBanner #bandeau_epfl, body.doBanner #bandeau_menu {
+        vertical-align: top;
+        display: inline;
+    }
+}
+
+
+/************* Zones TRACKING, LANGUE, PIED PAGE (dérivé de #breadcrumps, #languages, #footer) */
+/************* et zones LOGON et VISUELS (enac-it)  */
+#tracking, #langues, #footer, #logon_username {
+  color: #000;
+  font-family:  Arial, helvetica, sans-serif;
+  font-size: 11px;
+}
+#tracking       { float: left;  padding: 20px 0 0 0; }
+#langues        { float: right; padding: 20px 0 0 0; }
+@media screen and (max-width: 1000px) {
+    #tracking, #langues { padding: 5px 0 0; }  /* responsive design */
+}
+#footer         { border-bottom: 1px solid #000; margin: 24px 0 24px 0; padding-bottom: 2px; }
+#logon_username { font-family: Georgia, 'Times New Roman', Times, serif; font-style: italic; }
+
+/* adaptations de l'apparence/comportement des liens dans ces zones */
+#tracking a, #langues a, #footer a { color: rgb(69,69,69); font-weight: normal; text-decoration: none; border-bottom: none; }
+#tracking a:hover, #langues a:hover, #footer a:hover { text-decoration: underline; background-color: #fff; }
+
+/* les 3 règles ci-dessous permettent d'afficher username ET/OU bouton */
+#logon_div      { float: right; padding-top: 33px; }
+#logon_username, #logon_button { display: inline-block; vertical-align: bottom; }
+#logon_username { margin-top: 10px; }
+@media screen and (max-width: 1000px) {
+    #logon_div { padding-top: 10px; }  /* responsive design */
+}
+#visuel_div { float: right; }
+@media screen and (max-width: 1000px) {
+    #visuel_div { display: none; }  /* responsive design */
+}
+
+/* grande image-visuel */
+@media screen and (max-width: 1000px) {
+    #image_visuel { display: none; }  /* responsive design */
+}
+
+
+
+
+/************* LIENS à la façon charte 2010 : améliorations de l'apparence/comportement  */
+.doLinks a        { text-decoration: none; border-bottom: 1px dotted #454545; color: inherit; }
+.doLinks a:hover  { background-color: #ddd; }
+.doLinks a:active { background-color: #666; color: #fff; }
+
+
+/************* LIENS à l'ancienne façon enac-it  */
+.doLinks-bold a        { text-decoration: none; border-bottom: none; color: #003366; font-weight: bold; }
+.doLinks-bold a:hover  { text-decoration: underline; background-color: #ddd; }
+.doLinks-bold a:active { background-color: #666; color: #fff; }
+
+
+/************* Effet visuel des liens sur images */
+/* l'implémentation classe roll sur IMG plutôt que sur A fonctionnerait sous Ffox et Chrome, mais pas sous IE 8  */
+.doLinks a.roll:hover, .doLinks-bold a.roll:hover  img { opacity: 0.5; filter:alpha(opacity= 50); }
+.doLinks a.roll, .doLinks-bold a.roll              img { opacity: 1.0; filter:alpha(opacity=100); }
+/* masquage du pourtour dans image-lien */
+.doLinks a img, .doLinks-bold a img    { border: 0px; }
+/* masquage du bord inférieur dans image-lien, et éviter bas d'image de couleur différente quand on la survole */
+.doLinks a.noborder, .doLinks-bold a.noborder { border-bottom: none; font-size: 0px; }  
+
+
+/************* Images ombrées */
+.doImages-shadow img, img.doImages-shadow { box-shadow: 3px 3px 3px #aaa; }
+
+
+/************* TITRE de page H1 (charte) */
+.doTitles h1, .doTitles-shadow h1 {
+	font-family: Impact, "Arial Black", "DejaVu Sans", Arial, Helvetica , sans-serif;
+	font-size: 27px;
+	letter-spacing:.08em;
+	padding-bottom: 6px;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin: 0pt;
+}
+@media screen and (max-width: 1000px) {
+    .doTitles h1, .doTitles-shadow h1 { font-size: 20px; }  /* responsive design */
+}
+
+/* Apparence du NOM d'UNITÉ (basé H1) et comportement des liens sur celui-ci */
+/*   redéf. ci-dessous réglages font-weight, color et text-decoration au cas où on choisit classe .doLinks-bold  */
+h1.site_unite         { color: #000;    font-weight: normal;    padding-top: 29px; }
+h1.site_unite a       { color: #000;    font-weight: normal;    border-bottom: none; }
+h1.site_unite a:hover { color: #ea5e00; background-color: #fff; text-decoration: none; }
+@media screen and (max-width: 1000px) {
+    h1.site_unite { padding-top: 6px; }  /* responsive design */
+}
+
+
+/************* TITRES H2 à H5 (enac-it), via classe doTitles ou doTitles-shadow (à choix) */
+.doTitles h2, .doTitles-shadow h2, .doTitles h3, .doTitles-shadow h3, .doTitles h4, .doTitles-shadow h4, .doTitles h5, .doTitles-shadow h5, .doTitles h6, .doTitles-shadow h6 {
+	font-family: "Arial Black", "DejaVu Sans", Arial, Helvetica, sans-serif;
+	line-height: 100%; 
+	letter-spacing: normal;
+	padding: 2px 0 3px 0;
+	font-weight: normal;
+}
+.doTitles h2 { font-size: 19px; margin: 16px 0 8px 0; background-color: #fff5d5; padding-left: 5px; border-bottom: 1px solid #eb6; border-right: 1px solid #eb6; color: #ea5e00; }
+.doTitles-shadow h2, h2.doTitles-shadow { font-size: 19px; margin: 20px 0 16px 0; background-color: #fff5d5; padding-left: 5px; color: #ea5e00; box-shadow: 3px 3px 3px #aaa; border: 0; }
+.doTitles h3 { font-size: 18px; margin: 12px 0 8px 0; background-color: #f4f4f4; padding-left: 5px; border-bottom: 1px solid #999; border-right: 1px solid #999; }
+.doTitles-shadow h3, h3.doTitles-shadow { font-size: 18px; margin: 16px 0 16px 0; background-color: #f4f4f4; padding-left: 5px; box-shadow: 3px 3px 3px #aaa; border: 0; }
+.doTitles h4, .doTitles-shadow h4 { font-size: 17px; margin: 10px 0 4px 0; }
+.doTitles h5, .doTitles-shadow h5 { font-size: 14px; margin: 10px 0 4px 0; }
+.doTitles h6, .doTitles-shadow h6 { font-size: 13px; margin:  4px 0 0   0; }
+
+
+
+/* Autre variante pour titres H2 et H3 (enac-it) */
+h2.eit_titres1 { background-color: #ea5e00; border-bottom: none; border-right: none; box-shadow: none; color: #fff; }
+h3.eit_titres1 { background-color: #ddd;    border-bottom: none; border-right: none; box-shadow: none; }
+
+
+/************* Améliorations des LISTES à puce et numérotées */
+.doLists ul       { margin: 6px 0 6px 0; padding: 0 0 0 30px; list-style-type: disc; }
+.doLists ol       { margin: 6px 0 6px 0; padding: 0 0 0 30px; }
+.doLists ul ul    { margin: 2px 0 2px 0; list-style-type: circle; }  /* cercle vide puces 2e niveau  */
+.doLists ul ul ul { margin: 2px 0 2px 0; list-style-type: square; }  /* carré rempli puces 3e niveau */
+.doLists ul ol    { margin: 2px 0 2px 0; }
+.doLists ol ul    { margin: 2px 0 2px 0; }
+.doLists ol ol    { margin: 2px 0 2px 0; }
+
+
+/************* Améliorations des LISTES de définitions (dl/dt/dd) */
+/* au style FAQ */
+.doDefLists-faq dl dt { font-size: 14px; font-weight: bold; margin-left: 15px; margin-bottom: 4px; color: #ea5e00; }
+.doDefLists-faq dd    { margin-bottom: 12px; }
+
+
+/************* Améliorations des TABLES */
+/* Ajout bordure par défaut ; faire <table width=100%> pour occuper toute la largeur */
+.doTables table    { border-collapse: collapse; }
+.doTables table th { padding: 3px; border:solid 1px #999; text-align:  center; font-weight: bold; }
+.doTables table td { padding: 3px; border:solid 1px #999; line-height: inherit; }
+
+/* Table sans bordures via cette classe "noborder" */
+.doTables table.noborder th  { padding: 3px; border:none; line-height: inherit; }
+.doTables table.noborder td  { padding: 3px; border:none; line-height: inherit; }
+
+/* Centrage horizontal de la table via cette classe "center" */
+.doTables table.center { margin-left:auto; margin-right:auto; }
+
+/* Couleur de fonds quand on survole une ligne de tableau, mais pour autant que l'on ajoute classe show_hover dans <table> */
+table.show_hover tr:hover { background: #fff8e8; } 
+
+/************* TABLES alignement vertical du contenu */
+.doTables-valign table tr, table tr.doTables-valign { vertical-align: top; }
+
+/************* TABLES ombrées */
+.doTables-shadow table, table.doTables-shadow { box-shadow: 3px 3px 3px #aaa; }
+
+
+/************* Améliorations des séparations HR */
+.doHr hr { height: 1px; border: 0; color: #999; background-color: #999; }
+
+
+/************* Styles pour texte PREFORMATE et chasse fixe (CODE) */
+.doTtPre tt, .doTtPre pre, .doTtPre code { font-family: monospace; color: #559; background-color: #f8f8ff; }
+.doTtPre pre, .doTtPre code  { font-size: 11px; border-width: 1px 1px 1px 5px; border-color: #ddf; border-style: solid; padding: 3pt 2pt 3pt 5pt; line-height: 13px; }
+.doTtPre tt    { font-size: 12px; font-weight: bold; padding-left: 3pt; padding-right: 3pt; }
+.doTtPre tt i  { font-weight: normal; } 
+
+/* Code dans boîte creuse (à utiliser le cas échéant conjointement avec .doTtPre ) */
+.doPre-hollow pre, pre.doPre-hollow { border-style: inset; border-width: 3px; border-color: #ddf; }
+
+
+/************* Styles pour documentations informatiques */
+.doDocIt tt.key, .doDocIt tt.mouse { border:1px solid #bbf; color: #000099; background: #fff; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; font-family: Arial, Helvetica, sans-serif; font-weight: normal; }
+.doDocIt tt.menu   { color: #666666; background: #f0f0f0; font-weight: bold; font-family: Arial, Helvetica, sans-serif; }
+.doDocIt tt.button { border-right:2px solid #999999; border-bottom:2px solid #999999; color: #444444; background: #f0f0f0; font-weight: normal; font-family: Arial, Helvetica, sans-serif; }
+
+
+/************* Amélioration des widgets de FORMULAIRES (apparence, effets) */
+/* Pour INPUT je cible les types TEXT, PASSWORD et FILE pour ne pas parasiter les BOUTONS (connexion, afficher/masquer...) */
+
+/* sur type=file, on n'arrive pas à enlever l'encadrement relief-3D avec border:1px ! */ 
+.doForms input[type=text], .doForms input[type=password], .doForms input[type=file], .doForms textarea, .doForms select {
+	font-family: Verdana, sans-serif; font-size: 12px;
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; 
+	background: #fff; border: solid 1px #ccc; color: #777;
+}
+
+.doForms input[type=text], .doForms input[type=password], .doForms textarea {
+	padding: 1px 3px 1px 3px;  /* mais pas pour type=file et SELECT ! voir ci-dessous */
+}
+.doForms input[type=file], .doForms select { padding: 0 0 0 0; } 
+
+.doForms input[type=text]:hover, .doForms input[type=password]:hover, .doForms input[type=file]:hover, .doForms textarea:hover, .doForms select:hover {
+	background: #ddd;
+}
+.doForms input[type=text]:focus, .doForms input[type=password]:focus, .doForms input[type=file]:focus, .doForms textarea:focus, .doForms select:focus {
+	background: #ffc; border: solid 1px #ea5e00; color: #b91e00;
+}
+.doForms textarea, .doForms select { vertical-align: top; } 
+
+
+/************* Boutons view/hide de la fonction JavaScript "showhide_button" (enac-it) */
+/* ci-dessous:  border-radius est la spécification CSS3, -moz-border-radius pour navigateurs Gecko (firefox...), -webkit-border-radius pour navigateurs Webkit (chrome, safari...)   */
+
+input.bouton {
+	background: #eee url('b-g-show.png') 4px no-repeat; padding-left: 24px; 
+	border: solid 1px #666; border-top-color: #ccc; border-left-color: #ccc;
+	border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; 
+	color: #333; margin-left: 2pt; font-size: 1.0em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	cursor: pointer;
+}
+input.bouton_masquer {
+	background: #eee url('b-g-hide.png') 4px no-repeat; padding-left: 24px; 
+	border: solid 1px #666; border-top-color: #ccc; border-left-color: #ccc;
+	border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px; 
+	color: #333; margin-left: 2pt; font-size: 1.0em;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	cursor: pointer;
+}
+input.bouton:focus, .bouton_masquer:focus {
+	background-color: #eee;
+	border: solid 1px #ccc; border-top-color: #666; border-left-color: #666;
+}
+input.bouton:hover, .bouton_masquer:hover { 
+	background-color: #ddd;
+}
+
+
+/************* Division BI-COLONNE alignée s/bandeau charte (larg. standards 652 & 324 espacées 4px) */
+/* div. "contenu" de gauche (650 = 652 - 2x1px pour éventuelle bordure) */
+div.content       { float: left; max-width: 650px; padding: 0; margin-right: 4px; border: 1px solid #fff; }
+/* div. "colonne" de droite (312 = 324 - 2x5px éventuel fonds coloré - 2x1px éventuelle bordure) */
+div.right-col     { float: left; width: 310px; padding: 5px; border: 1px solid #fff; }
+/* div. "encart" à droite, à utiliser aussi conjointement avec div.content (310= 324 - 2x5 - 4) */
+div.encart        { float: left; width: 310px; padding: 5px; border-right: 4px solid #ddd; border-bottom: 4px solid #ddd; background-color: #f6f6f6; }
+/* idem avec ombre (sous IE depuis version 9)  (314= 324 - 2x5) */
+div.encart-shadow { float: left; width: 314px; padding: 5px; box-shadow: 3px 3px 3px #aaa; background-color: #f4f4f4; }
+
+@media screen and (max-width: 1000px) {
+    /* Décide de supprimer éléments de la colonne de droite si largeur fenêtre < 1000px */
+    div.right-col, div.encart, div.encart-shadow { display: none; }  /* responsive design */
+}
+
+
+/************* Association d'ICONES à LIENS (enac-it) */
+ a.page {
+	background-image : url(/img/links/page_o.png);
+	background-position : left center;
+	background-repeat : no-repeat;
+	padding-left : 16px;
+	padding-top : 2px;
+}
+a.script {
+	background-image : url(/img/links/script.png);
+	background-position : left center;
+	background-repeat : no-repeat;
+	padding-left : 16px;
+	padding-top : 2px;
+}
+a.popup {
+	background-image : url(/img/links/popup_o.png);
+	background-position : right center;
+	background-repeat : no-repeat;
+	padding-right : 14px;
+	padding-top : 2px;
+}
+a.image {
+	background-image : url(/img/links/image_o.png);
+	background-position : right center;
+	background-repeat : no-repeat;
+	padding-right : 16px;
+	padding-top : 2px;
+}
+a.package {
+	background-image : url(/img/links/package.png);
+	background-position : left center;
+	background-repeat : no-repeat;
+	padding-left : 16px;
+	padding-top : 2px;
+}
+a.auth {
+	background-image : url(/img/links/auth.png);
+	background-position : right center;
+	background-repeat : no-repeat;
+	padding-right : 28px;
+	padding-top : 0px;
+}
+a.locked {
+	background-image : url(/img/links/locked.png);
+	background-position : right center;
+	background-repeat : no-repeat;
+	padding-right : 16px;
+	padding-top : 0px;
+}
+a.dossier {
+	background-image : url(/img/links/dossier_g.png);
+	background-position : left center;
+	background-repeat : no-repeat;
+	padding-left : 16px;
+	padding-top : 2px;
+}
+a.fichier {
+	background-image : url(/img/links/fichier_g.png);
+	background-position : left center;
+	background-repeat : no-repeat;
+	padding-left : 16px;
+	padding-top : 2px;
+}
+
+
+/************* COULEURS de TEXTE (charte + enac-it) */
+.local-color      {color:#fff;      }
+.local-color-text {color:#ea5e00;   }
+.eit_tx_standard  { color: #454545; }  /* couleur de texte standard epfl */
+.eit_tx_gray1     { color: #474e52; }  /* correspond à classe epfl "short"  (darker gray) */
+.eit_tx_gray2     { color: #696f6e; }  /* correspond à classe epfl "school" (dark gray)   */
+.eit_tx_gray3     { color: #999c98; }  /* correspond à classe epfl "portal" (light gray)  */
+.eit_tx_blanc     { color: #fff;    }
+.eit_tx_rouge     { color: #f00;    }
+.eit_tx_vert      { color: #080;    }
+.eit_tx_bleu      { color: #00f;    }
+
+
+/************* COULEURS de BACKGROUND (charte + enac-it) */
+.local-color   { background-color: #ea5e00; }
+.local-color-light { background-color: #d53c00; }
+.local-color-dark  { background-color: #b91e00; }
+.eit_bg_gray1  { background-color: #474e52; }  /* correspond à classe epfl "short"  (darker gray) */
+.eit_bg_gray2  { background-color: #696f6e; }  /* correspond à classe epfl "school" (dark gray)   */
+.eit_bg_gray3  { background-color: #999c98; }  /* correspond à classe epfl "portal" (light gray)  */
+
+.eit_bg_gris1  { background-color: #ccc; }
+.eit_bg_gris2  { background-color: #ddd; }
+.eit_bg_gris3  { background-color: #eee; }
+
+.eit_bg_jaune1 { background-color: #ff7; }
+.eit_bg_jaune2 { background-color: #ffa; }
+.eit_bg_jaune3 { background-color: #ffc; }
+
+.eit_bg_rouge1 { background-color: #fbb; }
+.eit_bg_rouge2 { background-color: #fdd; }
+.eit_bg_rouge3 { background-color: #fee; }
+
+.eit_bg_vert1  { background-color: #bfb; }
+.eit_bg_vert2  { background-color: #dfd; }
+.eit_bg_vert3  { background-color: #efe; }
+
+.eit_bg_bleu1  { background-color: #ccf; }
+.eit_bg_bleu2  { background-color: #ddf; }
+.eit_bg_bleu3  { background-color: #eef; }
+
+.eit_bg_brun1  { background-color: #fca; }
+.eit_bg_brun2  { background-color: #fdb; }
+.eit_bg_brun3  { background-color: #fec; }
+
+
+/************* Directives menu de NAVIGATION */
+#navigation-bar {
+	max-width: 980px;
+	padding: 6px 0px 3px 0px;
+	background-color: #ea5e00;
+	margin-bottom: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size: 13px;
+	color: #fff;
+}
+#navigation-bar a {
+	text-decoration: none;
+	border-bottom: none;
+	padding: 6px 10px 3px 10px;
+	border-left: solid 1px #fff;
+	border-right: solid 1px #fff;
+	color: #fff;
+}
+#navigation-bar a:hover {
+	background-color: #d53c00;
+}
+
+/*  la suite en chantier... voir WORK-menu.css  */
+
