@@ -369,6 +369,7 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 		<li>présentation
 		<li>dessin vectoriel
 		<li>base de données
+		<li>formulaires
 		</ul>
 	<td id=l>	<img src=s2.png> <a href=https://www.libreoffice.org>LibreOffice</a>, modules:
 		<ul>
@@ -378,10 +379,11 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 		<li>Impress
 		<li>Draw
 		<li>Base
+		<li>Form
 		</ul>
-	<td id=c>	Suite bureautique complète, sous l'égide de la <a href=https://www.documentfoundation.org/>Document Foundation</a>
+	<td id=c>	Suite bureautique très riche, publiée sous l'égide de la <a href=https://www.documentfoundation.org/>Document Foundation</a>. Hautement compatible avec MS Office 2007/365
 				<p>
-				Dérivé (fork) <!-- fork annoncé le 28.9.2010 --> du projet <a href=https://www.openoffice.org>OpenOffice.org</a> désormais maintenu par l'Apache Foundation <!-- ex Sun, ex Oracle -->
+				Dérivée (fork) <!-- fork annoncé le 28.9.2010 --> de la suite <a href=https://www.openoffice.org>OpenOffice.org</a> (désormais maintenue par l'Apache Foundation) <!-- ex Sun, ex Oracle -->
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	Microsoft Office, Office 365
 		<ul>
@@ -405,19 +407,10 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 
 <tr>
 	<td id=d rowspan=3>	Gestionnaire de notes
-	<td id=l>	<img src=s0.png> <a href=http://keepnote.org>KeepNote</a> <br>
-				<img src=s0.png> <a href=https://www.giuspen.com/cherrytree/>CherryTree</a>
-	<td id=c>	Organisation hiérarchique de notes, avec fichiers attachés, liens...
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=3>	Evernote, MS OneNote
-</tr>
-
-<tr>
-	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://joplinapp.org/>Joplin</a>
 	<td id=c>	Gestionnaire de notes et de tâches basé sur la syntaxe Markdown
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png> <img src=ios.png>
-	<!-- rowspan -->
+	<td id=s rowspan=3>	Evernote, MS OneNote, Google Keep
 </tr>
 
 <tr>
@@ -429,11 +422,12 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 </tr>
 
 <tr>
-	<td id=d>	Gestionnaire de notes en mode web
-	<td id=l>	<img src=s0.png> <a href=https://openpaper.work/fr/>Paperwork</a>
-	<td id=c>	Gestionnaire de notes et fichiers attachés. Auto-hébergeable (basé PHP, MySQL)
-	<td id=p>	<img src=web.png>
-	<td id=s>	Evernote, MS OneNote, Google Keep
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=http://keepnote.org>KeepNote</a> <br>
+				<img src=s0.png> <a href=https://www.giuspen.com/cherrytree/>CherryTree</a>
+	<td id=c>	Organisation hiérarchique de notes, avec fichiers attachés, liens...
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
 </tr>
 
 <tr>
@@ -447,7 +441,7 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 <tr>
 	<td id=d>	Balisage léger, élaboration et conversion de documents
 	<td id=l>	<img src=s1.png> <a href=https://pandoc.org/>Pandoc</a> <img src=cmd.png>
-	<td id=c>	Outil d'élaboration et conversion de documents supportant de très nombreux formats (Markdown, HTML, PDF, reST, MediaWiki, TeX/LaTeX, AsciiDoc, ePub, rtf, odt, docx...). Voir <a href=https://enacit1.epfl.ch/markdown-pandoc/>cette page</a>
+	<td id=c>	Outil de conversion de documents supportant de très nombreux formats (Markdown, HTML, PDF, reST, MediaWiki, TeX/LaTeX, AsciiDoc, ePub, rtf, odt, docx...). Voir notre <a href=https://enacit1.epfl.ch/markdown-pandoc/>introduction</a>
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	
 </tr>
@@ -467,70 +461,72 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 </tr>
 
 <tr>
-	<td id=d rowspan=5>	Traitement et mise en page de documents scientifiques
-	<td id=l>	<img src=s1.png> <a href=https://www.tug.org/texlive>TeX Live</a> <br>
-				<img src=s0.png> (nommé MacTeX s/Mac)
-	<td id=c>	Environnement <a href=https://www.latex-project.org/>LaTeX</a> complet <!-- article FI B. Barras juin 2011  -->
-	<td id=p>	<img src=lin.png> [<img src=win.png>] <img src=mac.png>
-	<td id=s rowspan=5>	
+	<td id=d rowspan=2>	Traitement et mise en page de documents scientifiques <a href=https://www.latex-project.org/>LaTeX</a>
+	<td id=l>	<img src=s0.png> <a href=https://www.tug.org/texlive>TeX Live</a> <br>
+				<img src=s0.png> &nbsp; (<a href=https://www.tug.org/mactex/>MacTeX</a> s/macOS) <br>
+				<img src=s0.png> <a href=https://miktex.org/>MiKTeX</a> <br>
+				<img src=s0.png> <a href=https://www.lyx.org/>LyX</a>
+	<td id=c>	Environnements LaTeX complets <!-- article FI B. Barras juin 2011  -->
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<td id=s rowspan=2>	
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://miktex.org/>MiKTeX</a>
-	<td id=c>	Environnement LaTeX pour Windows
-	<td id=p>	<img src=win.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=http://texstudio.sourceforge.net>TeXstudio</a>
-	<td id=c>	Éditeur LaTeX avec PDF preview
+	<td id=l>	<img src=s0.png> <a href=http://texstudio.sourceforge.net>TeXstudio</a><br>
+				<img src=s0.png> <a href=https://www.xm1math.net/texmaker>Texmaker</a>
+	<td id=c>	Éditeurs LaTeX
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
 
 <tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://www.xm1math.net/texmaker>Texmaker</a>
-	<td id=c>	Éditeur LaTeX
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://www.lyx.org/>LyX</a>
-	<td id=c>	Un autre environnement LaTeX
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<td id=d>	Reconnaissance optique de caractères (OCR)
-	<td id=l>	<img src=s1.png> (Google) <a href=https://github.com/tesseract-ocr/tesseract>Tesseract</a> <img src=cmd.png>
-	<td id=c>	Moteur d'OCR très puissant. <br>
-				Sous Windows, inclu un GUI. <br>
-				Sous Linux, utiliser interface <a href=https://wiki.gnome.org/action/show/Apps/OCRFeeder>OCRFeeder</a> <img src=lin.png> ou <a href=https://gitlab.gnome.org/World/OpenPaperwork/paperwork>Paperwork</a> <img src=lin.png>
+	<td id=d rowspan=3>	Reconnaissance optique de caractères (OCR)
+	<td id=l>	<img src=s0.png> <a href=https://github.com/tesseract-ocr/tesseract>Tesseract OCR</a> <img src=cmd.png>
+	<td id=c>	Moteur d'OCR puissant. Sous Windows, inclu un GUI. <br>
+				Sous Linux, utiliser interface <a href=https://gitlab.gnome.org/World/OpenPaperwork/paperwork>Paperwork</a> <img src=lin.png>
 	<td id=p>	<img src=lin.png> <img src=win.png> [<img src=mac.png>]
-	<td id=s>	FineReader, ReadIris, Omnipage...
+	<td id=s rowspan=3>	FineReader, ReadIris, Omnipage...
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://wiki.gnome.org/action/show/Apps/OCRFeeder>OCRFeeder</a>
+	<td id=c>	Solution OCR avec GUI ou en mode commande <img src=cmd.png>
+	<td id=p>	<img src=lin.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://ocrmypdf.readthedocs.io/>OCRmyPDF</a> <img src=cmd.png>
+	<td id=c>	Solution OCR d'ajout de layer texte à des PDF provenant de texte scannés
+	<td id=p>	<img src=lin.png> [<img src=win.png>] [<img src=mac.png>]
+	<!-- rowspan -->
 </tr>
 
 <tr>
 	<td id=d>	Mise en page et publication (PAO)
 	<td id=l>	<img src=s0.png> <a href=https://www.scribus.net/>Scribus</a>
-	<td id=c>	Mise en page professionnelle
+	<td id=c>	Logiciel de mise en page professionnelle
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	Adobe InDesign (et l'ancien PageMaker), Quark XPress, MS Publisher...
 </tr>
 
 <tr>
-	<td id=d>	Tableur, grapheur
-	<td id=l>	<img src=s0.png> <a href=http://www.gnumeric.org/>Gnumeric</a>
-	<td id=c>	Bonne compatibilité avec Calc et Excel, mais possibilités graphiques plus évoluées. Développé dans le cadre du projet GNOME.
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s>	Microsoft Excel
+	<td id=d rowspan=2>	Gestion électronique de documents (GED)
+	<td id=l>	<img src=s0.png> <a href=https://www.alfresco.com/>Alfresco</a>
+	<td id=c>	Solution de GED complète (mais aussi complexe)
+	<td id=p>	<img src=web.png>
+	<td id=s rowspan=2>	Microsoft SharePoint...
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> OpenPaper <a href=https://openpaper.work/fr/>Paperwork</a>
+	<td id=c>	Numérisation et gestion de documents
+	<td id=p>	<img src=lin.png> <img src=win.png>
+	<!-- rowspan -->
 </tr>
 
 <tr>
@@ -544,7 +540,7 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://www.mupdf.com/>MuPDF</a>
-	<td id=c>	Lecteur léger de PDF et OpenXPS (Open XML Paper Specification, format Microsoft), particulièrement efficace pour visualiser de très gros fichiers
+	<td id=c>	Lecteur léger de PDF et OpenXPS (Open XML Paper Specification, de Microsoft), particulièrement efficace pour visualiser de très gros fichiers
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=and.png> <img src=ios.png>
 	<!-- rowspan -->
 </tr>
@@ -558,41 +554,56 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 </tr>
 
 <tr>
-	<td id=d rowspan=2>	Annotation de PDF <b>(2)</b>
-	<td id=l>	<img src=s0.png> <a href=http://xournal.sourceforge.net/>Xournal</a> <p>
-				<img src=s1.png> <a href=https://github.com/xournalpp/xournalpp>Xournal++</a>
+	<td id=d rowspan=3>	Annotation de PDF <b>(2)</b>
+	<td id=l>	<img src=s1.png> <a href=https://github.com/xournalpp/xournalpp>Xournal++</a>
 	<td id=c>	Annotation avec outils Texte (notes éditables) et Marker (objets rasters mais sélectionnables/effaçables) sur des "calques" sauvegardés sous forme de fichier *.pdf.xoj séparé du *.pdf original, mais pouvant au besoin être fusionné avec le PDF sur un nouveau PDF
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=7>	Adobe Acrobat X Pro
+	<td id=s rowspan=9>	Adobe Acrobat X Pro
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://skim-app.sourceforge.io/>Skim</a>
-	<td id=c>	
-	<td id=p>	<img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<td id=d>	Création de PDF <b>(3)</b>
-	<td id=l>	<img src=s2.png> <a href=https://www.pdfforge.org/>PDFCreator</a>
-	<td id=c>	Implémenté sous la forme d'un driver d'impression Windows
-	<td id=p>	<img src=win.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<td id=d rowspan=4>	Découpe, fusionnement de fichiers PDF, rotation de pages...
-	<td id=l>	<img src=s1.png> <a href=https://pdfsam.org/>PDFsam</a> (Split &amp; Merge)
-	<td id=c>	Enlever, ajouter, fusionner des pages
+	<td id=l>	<img src=s0.png> <a href=http://java-notelab.sourceforge.net/>NoteLab</a>
+	<td id=c>	Annotation de PDF
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=http://jpdftweak.sourceforge.net/>jPDF Tweak</a>
+	<td id=l>	<img src=s0.png> <a href=https://skim-app.sourceforge.io/>Skim</a>
+	<td id=c>	Annotation de PDF
+	<td id=p>	<img src=mac.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<td id=d>	Création de PDF <b>(3)</b>
+	<td id=l>	<img src=s0.png> <a href=https://www.pdfforge.org/>PDFCreator</a>
+	<td id=c>	Implémenté sous la forme d'un driver d'impression Windows
+	<td id=p>	<img src=win.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<td id=d rowspan=5>	Découpe, fusionnement de fichiers PDF, rotation de pages...
+	<td id=l>	<img src=s2.png> <a href=https://github.com/pdfarranger/pdfarranger>PDF Arranger</a>
+	<td id=c>	Outil très efficace et simple de réorganisation de PDFs (fusion, rotation)
+	<td id=p>	<img src=lin.png> <img src=win.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s1.png> <a href=https://pdfsam.org/>PDFsam</a> (Split &amp; Merge)
+	<td id=c>	Idem
+	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=http://jpdftweak.sourceforge.net/>jPDF Tweak</a>
 	<td id=c>	Plus sophistiqué que PDFsam, permet en outre : rotation, changement d'échelle, watermark, édition signets, effets de transitions, encrypion/signature, export tiff-multipage...
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
@@ -637,7 +648,7 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 <tr>
 	<td id=d rowspan=2>	Édition de fichiers PDF <b>(4)</b>
 	<td id=l>	<img src=s1.png> LibreOffice <a href=https://www.libreoffice.org>Draw</a>
-	<td id=c>	Le module de dessin Draw de LibreOffice est papable d'éditer des PDF !
+	<td id=c>	Le module de dessin Draw de LibreOffice est capable d'éditer des PDFs !
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s rowspan=2>	Adobe Acrobat X Pro, Adobe Illustrator
 </tr>
@@ -646,7 +657,7 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://code-industry.net/masterpdfeditor/>Master PDF Editor</a> <img src=fre.png> 
 	<td id=c>	Éditeur de PDF gratuit sous Linux, payant sous autres OS
-	<td id=p>	<img src=lin.png> (<img src=win.png>) (<img src=mac.png>)
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
 
@@ -669,19 +680,17 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 <li>Fonctionnalités intégrées au niveau OS : <a href=https://okular.kde.org/>Okular</a><img src=lin-g.png>, Aperçu (Preview)<img src=mac-r.png>
 <li>Fonctionnalitée intégrée au niveau OS : Aperçu (Preview)<img src=mac-r.png>
 <li>Possible sous Linux<img src=lin-g.png> et macOS<img src=mac-r.png> depuis toute application via le module PDF du système d'impression CUPS. Également depuis tous les modules LibreOffice, Scribus, LaTeX...
-<li>Voyez aussi : Inkscape (plus bas)
+<li>Voyez aussi Inkscape (plus bas)
 </ol>
 
 <p>
 Encore <b>quelques logiciels</b> dans ce domaine :
 <ul class=carre>
 <li><a href=https://calligra.org/>Calligra Suite</a> (ex KOffice) <img src=lin.png> [<img src=win.png>] [<img src=mac.png>] : environnement de bureautique complet standard sous Linux/KDE (texte, tableur, présentation, dessin, diagrammes, images, équations...)
-<li><a href=https://www.abisource.com/>AbiWord</a> <img src=lin.png> <img src=win.png> : traitement de texte développé dans le cadre du projet GNOME, frère du tableur/grapheur Gnumeric
+<li><a href=https://www.abisource.com/>AbiWord</a> <img src=lin.png> : traitement de texte développé dans le cadre du projet GNOME, frère du tableur/grapheur Gnumeric
 <li>Autres lecteurs PDF libres :
 	<a href=https://www.xpdfreader.com/>Xpdf</a> <img src=lin.png> <img src=win.png>,
 	<a href=https://www.sumatrapdfreader.org/>Sumatra PDF</a> <img src=win.png>
-<li>Autres solutions d'annotation PDF :
-	<a href=http://java-notelab.sourceforge.net/>NoteLab</a> <img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 <li>Affichage de fichiers PostScript, conversion PostScript-&gt;PDF :
 	<a href=https://www.ghostscript.com/>Ghostscript</a> <img src=lin.png> <img src=win.png> <img src=mac.png>,
 	Evince (voir plus haut)
@@ -698,7 +707,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d rowspan=3>	Navigateur web
-	<td id=l>	<img src=s2.png> Mozilla <a href=https://www.mozilla.org/>Firefox</a>
+	<td id=l>	<img src=s2.png> Mozilla <a href=https://www.mozilla.org/firefox/>Firefox</a>
 	<td id=c>	Navigateur très performant et sécurisé, très modulaire (<a href=https://addons.mozilla.org/fr/firefox/>extensions</a>, thèmes/personas...)
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <br>
                 <img src=and.png> <img src=ios.png> <img src=fir.png>
@@ -708,7 +717,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://www.torproject.org/>Tor Browser</a>
-	<td id=c>	Navigateur dérivé de <b>Firefox</b> permettant de naviguer anonymement sur le réseau d'anonymisation Tor
+	<td id=c>	Navigateur dérivé de <b>Firefox</b> permettant de surfer anonymement sur le web via le réseau d'anonymisation Tor
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png>
 	<!-- rowspan -->
 </tr>
@@ -716,7 +725,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://www.chromium.org/Home>Chromium</a>
-	<td id=c>	Navigateur web et projet sur lequel s'appuie <b>Google Chrome</b>
+	<td id=c>	Navigateur web, mais aussi projet sur lequel s'appuie <b>Google Chrome</b>
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <br>
                 <img src=and.png> <img src=ios.png>
 	<!-- rowspan -->
@@ -724,15 +733,15 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d rowspan=2>	Messagerie électronique et agendas (locaux ou distants)
-	<td id=l>	<img src=s2.png> Mozilla <a href=https://www.thunderbird.net/>Thunderbird</a>
-	<td id=c>	Client email IMAP/POP offrant de nombreuses <a href=https://addons.thunderbird.net/fr/thunderbird/>extensions</a>. Également agrégateur/lecteur de flux RSS et téléchargement de podcasts
+	<td id=l>	<img src=s1.png> <a href=https://www.thunderbird.net/>Thunderbird</a>
+	<td id=c>	Client email IMAP/POP doté de nombreuses <a href=https://addons.thunderbird.net/fr/thunderbird/>extensions</a>. Également agrégateur/lecteur de flux RSS et téléchargement de podcasts
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s rowspan=2>	Microsoft Outlook, Apple Mail...
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://www.thunderbird.net/en-US/calendar/>Lightning</a>
+	<td id=l>	<img src=s0.png> <a href=https://www.thunderbird.net/en-US/calendar/>Lightning Calendar</a>
 	<td id=c>	Module Calendrier/Agenda pour Thunderbird. Calendriers : locaux, CalDAV, ICS, voire MS Exchange avec l'extension "Exchange EWS Provider" (ex "Exchange 2007/2010 Calendar and Tasks Provider")
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
@@ -757,19 +766,12 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d rowspan=4>	Agrégation/lecture de flux RSS/RDF/Atom, podcasts <b>(1)</b>
-	<td id=l>	<img src=s0.png> <a href=https://www.rssowl.org>RSSOwl</a>
-	<td id=c>	Agrégateur/lecteur de flux RSS (avec synchro Google Reader) et téléchargement de podcasts
-	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=4>	Microsoft Outlook...
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://quiterss.org/>QuiteRSS</a>
-	<td id=c>	Agrégateur de flux RSS/Atom
+	<td id=d rowspan=3>	Agrégation/lecture de flux RSS/RDF/Atom, podcasts <b>(1)</b>
+	<td id=l>	<img src=s0.png> <a href=https://www.rssowl.org>RSSOwl</a> <br>
+				<img src=s0.png> <a href=https://quiterss.org/>QuiteRSS</a>
+	<td id=c>	Agrégateur/lecteur de flux RSS
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
+	<td id=s rowspan=3>	Microsoft Outlook...
 </tr>
 
 <tr>
@@ -816,100 +818,63 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d rowspan=3>	Autres applis de messagerie instantanée, Chat, IRC
+	<td id=d rowspan=2>	Autres applis de messagerie instantanée, Chat, IRC
 	<td id=l>	<img src=s0.png> <a href=https://wiki.gnome.org/action/show/Attic/Empathy>Empathy</a>
 	<td id=c>	Application par défaut sous Linux/GNOME, travaillant en modes texte (chat), voix et vidéo, supportant de nombreux protocoles
 	<td id=p>	<img src=lin.png>
-	<td id=s rowspan=3>	Applis de Google, Apple, Facebook, Microsoft...
+	<td id=s rowspan=2>	Applis de Google, Apple, Facebook, Microsoft...
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://www.pidgin.im/>Pidgin</a>
-	<td id=c>	(Successeur de Gaim) Également multi-protocoles
+	<td id=l>	<img src=s0.png> <a href=https://www.pidgin.im/>Pidgin</a> (ex Gaim)
+	<td id=c>	Également multi-protocoles
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://element.io/>Elements</a> (ex-Riot)
-	<td id=c>	Environnement de chat et téléphonie audio/video
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <br>
-				<img src=web.png> <img src=and.png> <img src=ios.png>
-	<!-- rowspan -->
-</tr>
-
-
-<!--  CHAPITRE OBSOLETE
-<tr>
-	<td id=d rowspan=4>	Téléphonie sur IP (VoIP)
-	<td id=l>	<img src=s0.png> <a href=http://jitsi.org>Jitsi</a>
-	<td id=c>	(Successeur de SIP Communicator) Téléphonie et messagerie instantanée (chat).
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=5>	MS Skype, WhatsApp vidéo, Zoom, Webex, Google Meet (ex Hangouts), Facebook Messenger Rooms, MS Teams, Slack...
-</tr>
-
-<tr>
-	<td id=l>	<img src=s0.png> <a href=http://www.ekiga.org>Ekiga</a>
-	<td id=c>	(Successeur de GnomeMeeting) Téléphonie et visioconférennce. Protocoles H.323, SIP, interopérable avec MS NetMeeting
-	<td id=p>	<img src=lin.png> <img src=win.png>
-</tr>
-
-<tr>
-	<td id=l>	<img src=s0.png> <a href=http://www.linphone.org>Linphone</a>
-	<td id=c>	Logiciel multiplateforme de téléphonie, basée SIP
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png> <img src=ios.png>
-</tr>
-
-<tr>
-	<td id=l>	<img src=s0.png> <a href=https://wiki.mumble.info>Mumble</a>
-	<td id=c>	Outils client/serveur de VoIP/chat
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png> <img src=ios.png>
-</tr>
--->
 
 <tr>
 	<td id=d>	Vidéoconférence
 	<td id=l>	<img src=s2.png> <a href=https://jitsi.org/jitsi-meet/>Jitsi Meet</a>
-	<td id=c>	Vidéoconférence à plusieurs, dans navigateur web sur ordinateur, avec app sur smartphone. Via simple URL d'invitation (sur <a href=https://meet.jit.si>meet.jit.si</a>), sans devoir créer de compte. Offre en outre chat, partage d'écran ou fenêtre, enregistrement vidéo.
-	<td id=p>	<img src=chr.png> [<img src=fir.png>] <br> <img src=and.png> <img src=ios.png> <img src=web.png> 
+	<td id=c>	Vidéoconférence à plusieurs, dans navigateur web sur ordinateur ou app sur smartphone. Via simple URL d'invitation (sur <a href=https://meet.jit.si>meet.jit.si</a>), sans devoir créer de compte. Offre en outre chat, partage d'écran ou fenêtre, enregistrement vidéo.
+	<td id=p>	<img src=chr.png> <img src=fir.png> <br> <img src=and.png> <img src=ios.png> <img src=web.png> 
 	<td id=s>   Zoom, Google Meet, MS Teams, Skype, Cisco WebEx...
 </tr>
 
 <tr>
-	<td id=d>	Client de Remote Desktop (accès à applications distantes Windows) <b>(2)</b>
+	<td id=d>	Remote Desktop <b>(2)</b>
 	<td id=l>	<img src=s1.png> <a href=https://remmina.org/>Remmina</a>
-	<td id=c>	Supportant les protocoles RDP, VNC, NX, XDMCP et SSH
+	<td id=c>	Application cliente d'accès à applications distantes Windows, supportant les protocoles RDP, VNC, NX, XDMCP et SSH
 	<td id=p>	<img src=lin.png>
 	<td id=s>	MS Windows Remote Desktop
 </tr>
 
 <tr>
-	<td id=d>	"Serveur" X Window (accès à applications distantes Unix) <b>(3)</b>
+	<td id=d>	Serveur X Window <b>(3)</b>
 	<td id=l>	<img src=s0.png> <a href=http://www.straightrunning.com/XmingNotes/>Xming</a> <br>
-				<img src=s0.png> ou son fork <a href=http://vcxsrv.sourceforge.net/>VcXsrv</a>
-	<td id=c>	Serveur X11 libre, avec fontes...
+				<img src=s0.png> &nbsp; ou son fork <a href=http://vcxsrv.sourceforge.net/>VcXsrv</a> <br>
+				<img src=s0.png> <a href=https://x.cygwin.com>Cygwin/X</a>
+	<td id=c>	Serveurs X11 d'accès à applications distantes Unix
 	<td id=p>	<img src=win.png>
 	<td id=s>	Exceed, X-Win32
 </tr>
 
 <tr>
 	<td id=d rowspan=3>	Communication sécurisée par protocole SSH
-	<td id=l>	<img src=s1.png> <a href=https://www.putty.org/>PuTTY</a> <p>
-				<img src=s0.png> ou son fork <a href=https://kitty.9bis.net/>KiTTY</a>
-	<td id=c>	Client SSH (avec émul. terminal VT220 &amp; Xterm), transfert SCP/SFTP en ligne de commande
-	<td id=p>	<img src=lin.png> <img src=win.png> <p>
-				<img src=win.png>
+	<td id=l>	<img src=s1.png> <a href=https://www.openssh.com/>ssh</a> <img src=cmd.png> <br>
+				<img src=s0.png> <a href=https://www.openssh.com/>OpenSSH</a>
+	<td id=c>	Implémentation SSH client/server de référence
+	<td id=p>	<img src=lin.png> <img src=mac.png>
 	<td id=s rowspan=3>	
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://www.openssh.com/>OpenSSH</a> <br>
-				<img src=s1.png> <a href=https://www.openssh.com/>ssh</a> <img src=cmd.png>
-	<td id=c>	Implémentation SSH client/server de référence
-	<td id=p>	<img src=lin.png> <img src=mac.png>
+	<td id=l>	<img src=s1.png> <a href=https://www.putty.org/>PuTTY</a> <p>
+				<img src=s0.png> ou son fork <a href=https://kitty.9bis.net/>KiTTY</a>
+	<td id=c>	Client SSH (avec émul. terminal VT220 &amp; Xterm) et transfert SCP/SFTP en ligne de commande
+	<td id=p>	<img src=lin.png> <img src=win.png> <p>
+				<img src=win.png>
 	<!-- rowspan -->
 </tr>
 
@@ -938,30 +903,17 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d rowspan=3>	Transfert BitTorrent
-	<td id=l>	<img src=s0.png> <a href=https://www.qbittorrent.org/>qBittorrent</a>
-	<td id=c>	Client bittorrent
+	<td id=d>	Transfert BitTorrent
+	<td id=l>	<img src=s0.png> <a href=https://www.qbittorrent.org/>qBittorrent</a> <br>
+				<img src=s0.png> <a href=https://transmissionbt.com/>Transmission</a> <br>
+				<img src=s0.png> <a href=https://www.deluge-torrent.org/>Deluge</a> <!-- Joachim Desroches 16.11.2017 -->
+	<td id=c>	Clients BitTorrent
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=3>	
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://transmissionbt.com/>Transmission</a>
-	<td id=c>	Environnement client/serveur bittorrent
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://www.deluge-torrent.org/>Deluge</a> <!-- Joachim Desroches 16.11.2017 -->
-	<td id=c>	Client bittorrent basé Python
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
+	<td id=s>	
 </tr>
 
 </table>
+
 
 <p>
 <b>Notes</b> :
@@ -975,13 +927,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <p>
 Encore <b>quelques logiciels</b> dans ce domaine :
 <ul class=carre>
-<li>(Novell) <a href=https://wiki.gnome.org/Apps/Evolution>Evolution</a> <img src=lin.png> : application de groupware (email, contact, calendrier, tâches) hautement compatible MS Outlook/Exchange (avec Ximian Connector for Exchange)
-<li><a href=http://www.opengroupware.org>OpenGroupware.org</a> <img src=web.png> : serveur de groupware (calendrier, contacts, tâches, gestion de ressources...) accessible par navigateur Web
-<li>Clients de messagerie instantanée multi-protocoles :
-	<a href=https://www.miranda-ng.org/>Miranda NG</a> <img src=win.png>,
-<li><a href=https://x.cygwin.com>Cygwin/X</a> <img src=win.png> : autre solution de serveur X Window sous Windows
-<li><a href=https://www.samba.org>SAMBA</a> <img src=lin.png> : implémentation Unix des services de fichiers CIFS/SMB et d'impression Windows
-<li>(Apple) <a href=https://www.cups.org>CUPS</a> <img src=lin.png> <img src=mac.png> : serveur d'impression, utilisé par défaut sous Linux
+<li><a href=https://wiki.gnome.org/Apps/Evolution>Evolution</a> <img src=lin.png> : application de groupware (email, contact, calendrier, tâches) compatible MS Outlook/Exchange (avec Ximian Connector for Exchange)
 <li>Montage de filesystems distants via protocole SSH :
 	<ul>
 	<li><a href=https://github.com/libfuse/sshfs>SSHFS</a> <img src=lin.png> : basé FUSE (Filesystem in Userspace)
@@ -989,32 +935,25 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	</ul>
 <li>Accès de poste à distance et remote assistance, outils en mode graphique :
 	<ul>
-	<li><b>VNC</b> (Virtual Network Computing, protocole développé par Olivetti puis AT&amp;T) : logiciels client et serveur permettant de prendre le contrôle d'une machine distante Lin/Win/Mac (écran, clavier, souris, transfert de fichiers...) :
-		<ul><li>
+	<li><b>VNC</b> (Virtual Network Computing) : logiciels client/serveur de prise de contrôle d'une machine distante Lin/Win/Mac (écran/clavier/souris, transfert de fichiers...) :
 		<a href=https://www.uvnc.com/>UltraVNC</a> <img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>,
 		<a href=https://www.tightvnc.com>TightVNC</a> <img src=jav.png> <img src=win.png>,
 		<a href=https://wiki.gnome.org/Apps/Vinagre>Vinagre</a> <img src=lin.png>,
-		<a href=https://sourceforge.net/projects/chicken/>Chicken</a> <img src=mac.png>,
 		ainsi que portages sous <img src=and.png> <img src=ios.png>
-		</ul>
+        
 	<li>(Google) <a href=https://remotedesktop.google.com/>Chrome Remote Desktop</a> <img src=fre.png> <img src=chr.png> :
-        <ul>
-        <li>remote assistance (extension au navigateur Google Chrome, <img src=lin.png> <img src=win.png> <img src=mac.png>)
-        <li>connexion à distance (actuellement limité à postes distants <img src=win.png> <img src=mac.png>)
-        </ul>
-    <li><b>NX</b> technologie de la société NoMachine de prise de contrôle de machines distantes Linux ou Solaris (très efficace, protocole basé X11 mais utilisant moins de bande passante, connexion sécurisée par SSH) :
-		<ul>
-		<li><a href=https://wiki.x2go.org/>X2Go</a> <img src=lin.png> : serveur et client libres
-		<li><a href=https://www.berlios.de/software/freenx/>FreeNX</a> <img src=lin.png> : serveur et client libres
-		</ul>
-	<li><a href=https://www.teamviewer.com>TeamViewer</a> <img src=fre.png> <img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png> <img src=ios.png> : logiciel de remote assistance
+        remote assistance (extension au navigateur Google Chrome <img src=lin.png> <img src=win.png> <img src=mac.png>), 
+        connexion à distance (actuellement limité à postes distants <img src=win.png> <img src=mac.png>)
+        
+    <li>Technologie NX de la société NoMachine de prise de contrôle de machines distantes Linux ou Solaris (très efficace, protocole basé X11 mais utilisant moins de bande passante, connexion sécurisée par SSH) :
+		<a href=https://wiki.x2go.org/>X2Go</a> <img src=lin.png>,
+		<a href=https://www.berlios.de/software/freenx/>FreeNX</a> <img src=lin.png>
+        
+	<li>Logiciel de remote assistance : <a href=https://www.teamviewer.com>TeamViewer</a> <img src=fre.png> <img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png> <img src=ios.png>
 	</ul>
-<li>Logiciels de blog, wiki, forums <img src=web.png> : voir par exemple
-	<a href=https://www.weblogmatrix.org/>weblogmatrix.org</a>,
-	<a href=https://www.wikimatrix.org/>wikimatrix.org</a>,
-	<a href=https://www.forummatrix.org/>forummatrix.org</a>
+    
 <li>Logiciels CMS (Content Magagement System) majeurs <img src=web.png> (avec modules blog, wiki...) : <a href=https://wordpress.org/>WordPress</a> (PHP), <a href=https://www.joomla.org/>Joomla!</a> (PHP), <a href=https://drupal.org/>Drupal</a> (PHP), <a href=https://typo3.org/>Typo3</a> (PHP), <a href=https://www.spip.net/>SPIP</a> (PHP)...
-<li><a href=https://veyon.io/fr/>Veyon</a> (ex iTALC) <img src=lin.png> <img src=win.png> : logiciel de partage d'écran pour salle de PCs (maître &lt;-&gt; élèves), basé sur le protocole VNC
+
 </ul>
 
 
@@ -1027,35 +966,37 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <!--#include virtual="table-head.shtml" -->
 
 <tr>
-	<td id=d>	Traitement d'images raster/photos
+	<td id=d>	Dessin raster
+	<td id=l>	<img src=s0.png> <a href=http://mypaint.org>MyPaint</a>
+	<td id=c>	Peinture numérique
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<td id=s>	
+</tr>
+
+<tr>
+	<td id=d rowspan=2>	Dessin raster et traitement de photos
+	<td id=l>	<img src=s0.png> <a href=https://pinta-project.com/>Pinta</a>
+	<td id=c>	Logiciel simple de dessin raster et retouche d'image (clone de Paint.NET Windows)
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<td id=s rowspan=2>	Adobe Photoshop, Adobe Lightroom, Affinity Photo...
+</tr>
+
+<tr>
+	<!-- rowspan -->
 	<td id=l>	<img src=s2.png> <a href=https://www.gimp.org/>GIMP</a>
 	<td id=c>	Application très riche et extensible (filtres, extensions)
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s>	Adobe Photoshop, Adobe Lightroom, Affinity Photo...
-</tr>
-
-<tr>
-	<td id=d rowspan=2>	Traitement avancé de photos (format RAW)
-	<td id=l>	<img src=s0.png> <a href=https://rawtherapee.com>RawTherapee</a> 
-	<td id=c rowspan=2>	Traitement d'image non-destructif axé sur fichiers bruts (raw), HDR et rasterisés (TIFF, JPEG, PNG...). Cataloguage de photographies
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=2>	Adobe Lightroom, Affinity Photo...
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://www.darktable.org/>DarkTable</a>
-	<!-- rowspan -->
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
 
 <tr>
-	<td id=d>	Peinture numérique (dessin raster)
-	<td id=l>	<img src=s0.png> <a href=http://mypaint.org>MyPaint</a>
-	<td id=c>	
+	<td id=d>	Traitement avancé de photos (format RAW)
+	<td id=l>	<img src=s0.png> <a href=https://rawtherapee.com>RawTherapee</a> <br>
+				<img src=s0.png> <a href=https://www.darktable.org/>DarkTable</a> <br>
+				<img src=s0.png> <a href=https://lightzoneproject.org/>LightZone</a>
+	<td id=c>	Traitement d'image non-destructif axé sur fichiers bruts (raw), HDR et rasterisés (TIFF, JPEG, PNG...). Catalogage de photographies
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s>	Adobe Photoshop
+	<td id=s>	Adobe Lightroom, Affinity Photo...
 </tr>
 
 <tr>
@@ -1083,7 +1024,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d>	Assemblage de panoramas photo ("<i>stitching</i>")
+	<td id=d>	Assemblage de panoramas photo
 	<td id=l>	<img src=s1.png> <a href=http://hugin.sourceforge.net>Hugin</a>
 	<td id=c>	Excellente interface graphique aux outils <a href=http://panotools.sourceforge.net/>Panorama Tools</a>
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
@@ -1092,7 +1033,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d rowspan=2>	Traitement d'images par lots
-	<td id=l>	<img src=s1.png> <a href=https://www.imagemagick.org>ImageMagick</a> <img src=cmd.png>
+	<td id=l>	<img src=s0.png> <a href=https://www.imagemagick.org>ImageMagick</a> <img src=cmd.png>
 	<td id=c>	Affichage/conversion d'images en ligne de commande (une centaine de formats supportés)
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s rowspan=2>	
@@ -1107,15 +1048,15 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d>	Dessin de figures (vectoriel)
+	<td id=d>	Dessin vectoriel (figures)
 	<td id=l>	<img src=s1.png> LibreOffice <a href=https://www.libreoffice.org>Draw</a>
-	<td id=c>	Module de dessin intégré à LibreOffice
+	<td id=c>	Module de dessin intégré à la suite bureautique LibreOffice
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	MS Drawing toolbar
 </tr>
 
 <tr>
-	<td id=d>	Illustration (vectoriel)
+	<td id=d>	Illustration (dessin vectoriel évolué)
 	<td id=l>	<img src=s2.png> <a href=https://inkscape.org>Inkscape</a>
 	<td id=c>	Dessin vectorisé 2D au format SVG. Permet aussi de retoucher des fichiers PDF
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
@@ -1140,18 +1081,18 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d rowspan=4>	Éditeur de diagrammes (vectoriel)
-	<td id=l>	<img src=s1.png> <a href=https://about.draw.io/integrations/#integrations_offline>draw.io</a>
+	<td id=d rowspan=3>	Dessin de diagrammes (vectoriel)
+	<td id=l>	<img src=s1.png> <a href=https://www.diagrams.net/>draw.io</a>
 	<td id=c>	Dessin de diagramme
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=fir.png>
-	<td id=s rowspan=4>	Microsoft Visio
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=web.png>
+	<td id=s rowspan=3>	Microsoft Visio
 </tr>
 
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s1.png> <a href=https://pencil.evolus.vn/>Pencil</a>  <!-- suggéré par Laurent Indermühle, Poseidon -->
 	<td id=c>	Dessin de diagramme et de maquettes de GUI's
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=fir.png>
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
 
@@ -1164,26 +1105,9 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> Calligra <a href=https://calligra.org/karbon/>Karbon</a> (ex Flow)
-	<td id=c>	Fait partie de la suite Calligra pour Linux/KDE
-	<td id=p>	<img src=lin.png> [<img src=win.png>] [<img src=mac.png>]
-	<!-- rowspan -->
-</tr>
-
-<!--
-<tr>
-	<td id=l>	<img src=s0.png> <a href=http://www.yworks.com>yEd</a> Graph Editor <img src=fre.png>
-	<td id=c>	
-	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
-</tr>
--->
-
-<tr>
 	<td id=d>	Mind-mapping
 	<td id=l>	<img src=s1.png> <a href=https://www.freeplane.org/>Freeplane</a> <br>
-				<img src=s0.png> (fork de <a href=http://freemind.sourceforge.net>FreeMind</a>)
-	<td id=c>	Réalisation de cartes heuristiques / mentales
+	<td id=c>	Réalisation de cartes heuristiques / mentales (fork de <a href=http://freemind.sourceforge.net>FreeMind</a>)
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	MindManager...
 </tr>
@@ -1193,28 +1117,20 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	<td id=l>	<img src=s1.png> <a href=https://librecad.org/>LibreCAD</a>
 	<td id=c>	Logiciels simple de dessin technique 2D <br>(fork de <a href=https://www.qcad.org/>QCad</a>)
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=7>	Autodesk AutoCAD/3dsMax/Maya, Bentley MicroStation, SolidWorks...
+	<td id=s rowspan=6>	Autodesk AutoCAD/3dsMax/Maya, Bentley MicroStation, SolidWorks...
 </tr>
 
 <tr>
-	<td id=d rowspan=2>	Dessin 3D (CAO)
+	<td id=d rowspan=1>	Dessin 3D (CAO)
 	<td id=l>	<img src=s0.png> <a href=https://www.freecadweb.org/>FreeCAD</a>
-	<td id=c>	Modeleur 3D paramétrique <br>(basé sur framework 3D <a href=https://www.opencascade.com/>Open CASCADE</a>)
+	<td id=c>	Modeleur 3D paramétrique <br>(basé sur framework 3D Open CASCADE)
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
 
 <tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> (Trimble) <a href=https://www.sketchup.com/>SketchUp</a> <img src=fre.png>
-	<td id=c>	Logiciel d'esquisses 3D très intuitif, basé web dans sa version free
-	<td id=p>	<img src=fir.png> <img src=chr.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
 	<td id=d rowspan=4>	Modélisation 3D (p.ex. pour impression 3D), image de synthèse (rendering), animation
-	<td id=l>	<img src=s1.png> <a href=https://www.blender.org>Blender</a>
+	<td id=l>	<img src=s0.png> <a href=https://www.blender.org>Blender</a>
 	<td id=c>	Modeleur 3D professionnel très puissant permettant aussi de réaliser des animations
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
@@ -1281,33 +1197,16 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <p>
 Encore <b>quelques logiciels</b> dans ces catégories :
 <ul class=carre>
-<li>Traitement d'images (raster) :
-	<ul>
-	<li><a href=https://imagej.nih.gov/ij/>ImageJ</a> <img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png> : logiciel de traitement et d'analyse d'images ; généraliste (mais très utilisé dans le biomédical, sciences de la vie, matériaux, microscopie...) ; doté de nombreux plugins très avancés ; possibilité de le programmer par macros ; bonne <a href=https://imagejdocu.tudor.lu/>documentation</a>... <!-- article FI 2011 de Daniel Sage STI-IMT-LIB -->
-	<li><a href=https://fiji.sc/>Fiji</a> <img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png> : distribution de <b>ImageJ</b> intégrant Java, Java 3D et des plugins organisés de façon cohérente
-	<li><a href=https://github.com/robaho/seashore>Seashore</a> <img src=mac.png> : logiciel de traitement d'image dérivé de GIMP
-	<li><a href=https://pinta-project.com/>Pinta</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : logiciel convivial de retouche d'images (clone de Paint.NET Windows, s'appuyant sur Gtk et Mono)
-	</ul>
 <li>Photographie :
 	<ul>
 	<li>manipulation d'images HDR (high dynamic range) : <a href=http://qtpfsgui.sourceforge.net/>Luminance HDR</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (alias Qtpfsgui)
-	<li>traitement d'image au format RAW : <a href=https://lightzoneproject.org/>LightZone</a> <img src=lin.png> <img src=win.png> <img src=mac.png>, <a href=http://ufraw.sourceforge.net/>UFRaw</a> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<li>calibration d'écran (au moyen d'une sonde colorimétrique) : <a href=https://www.argyllcms.com/>ArgyllCMS</a> <img src=cmd.png> <img src=lin.png> <img src=win.png> <img src=mac.png>, <a href=https://displaycal.net/>dispcalGUI</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (interface graphique à ArgyllCMS)
-	</ul>
-<li>Mind-mapping :
-	<ul>
-	<li><a href=https://www.xmind.net/>XMind</a> <img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png> : autre logiciel de mind-mapping
 	</ul>
 <li>CAO 2D/3D :
 	<ul>
 	<li><a href=http://www.k-3d.org/>K-3D</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : application de modélisation solide 3D
-	<li><a href=http://www.povray.org>POV-Ray</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (Persistence Of Vision Raytracer) : modélisation 3D et image de synthèse
 	<li><a hreF=http://www.gcad3d.org>gCAD3D</a> <img src=lin.png> <img src=win.png> : dessin/modélisation 3D
 	</ul>
-<li>BIM (Building Information Modeling/Management) :
-    <ul>
-    <li>annuaire d'outils libres de <a href=https://technical.buildingsmart.org/>BuildingSMART.org</a> (openBIM)
-    </ul>
 </ul>
 
 
@@ -1345,7 +1244,7 @@ Encore <b>quelques logiciels</b> dans ces catégories :
 
 <tr>
 	<td id=d rowspan=3>	Lecteur audio, gestion de bibliothèque musicale <b>(2)</b>
-	<td id=l>	<img src=s1.png> <a href=https://www.clementine-player.org/>Clementine</a>
+	<td id=l>	<img src=s0.png> <a href=https://www.clementine-player.org/>Clementine</a>
 	<td id=c>	Lecteur et gestionnaire de musique, capable de gérer les "iChoses" (dérivé de Amarok). Contrôle à distance avec Clementine Remote (Android)
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png>
 	<td id=s rowspan=3>	Apple iTunes...
@@ -1368,19 +1267,11 @@ Encore <b>quelques logiciels</b> dans ces catégories :
 </tr>
 
 <tr>
-	<td id=d rowspan=3>	Serveur de média
+	<td id=d rowspan=2>	Serveur de média
 	<td id=l>	<img src=s0.png> GNU <a href=https://mediagoblin.org/>MediaGoblin</a>
 	<td id=c>	Serveur de streaming vidéo/audio basé web, galerie photo...
 	<td id=p>	<img src=web.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=3>	YouTube, Dailymotion, SoundCloud, Flickr...
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=http://www.subsonic.org/>Subsonic</a>
-	<td id=c>	Serveur de streaming vidéo/audio basé web
-	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
+	<td id=s rowspan=2>	YouTube, Dailymotion, SoundCloud, Flickr...
 </tr>
 
 <tr>
@@ -1392,18 +1283,27 @@ Encore <b>quelques logiciels</b> dans ces catégories :
 </tr>
 
 <tr>
-	<td id=d rowspan=4>	Extraire (ripper) les morceaux d'un CD audio <br>(avec récupération des titres/pochette sur CDDB <a href=https://gnudb.org/>gnuDB</a> (ex freeDB), <a href=https://musicbrainz.org>MusicBrainz</a>...)
+	<td id=d>	Capture et streaming video
+	<td id=l>	<img src=s0.png> <a href=https://obsproject.com/>OBS Studio</a> <!-- Pierre Etienne 17.4.2018 -->
+	<td id=c>	(Open Broadcaster Software)<br>Capture et streaming video
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<td id=s>	
+</tr>
+
+<tr>
+	<td id=d rowspan=3>	Extraire (ripper) les morceaux d'un CD audio <br>(avec récupération des titres/pochette sur CDDB, gnuDB, MusicBrainz...)
 	<td id=l>	<img src=s1.png> <a href=https://cdex.mu/>CDex</a>
 	<td id=c>	Extraction/encodage aux formats : WAV, compressé OGG Vorbis ou MP3 (avec encodeur <a href=https://lame.sourceforge.io/>LAME</a>)
 	<td id=p>	<img src=win.png>
-	<td id=s rowspan=4>	Windows Media Player, Apple iTunes...
+	<td id=s rowspan=3>	Windows Media Player, Apple iTunes...
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://sourceforge.net/projects/ripperx/>ripperX</a> (Gnome) <br>
-				<img src=s0.png> <a href=https://github.com/KDE/audex>Audex</a> (KDE)
-	<td id=c>	Idem sous Linux. <br> Voir aussi: <b>Rhythmbox</b> (également lecteur audio), <b>Sound Juicer</b>
+	<td id=l>	<img src=s1.png> <a href=https://wiki.gnome.org/Apps/SoundJuicer>Sound Juicer</a> (Gnome) <br>
+				<img src=s0.png> <a href=https://github.com/KDE/audex>Audex</a> (KDE) <br>
+				<img src=s0.png> <a href=https://sourceforge.net/projects/ripperx/>ripperX</a>
+	<td id=c>	Idem sous Linux
 	<td id=p>	<img src=lin.png>
 	<!-- rowspan -->
 </tr>
@@ -1417,15 +1317,6 @@ Encore <b>quelques logiciels</b> dans ces catégories :
 </tr>
 
 <tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://www.andrews-corner.org/abcde/index.html>abcde</a> <img src=cmd.png> <!-- Joachim Desroches 16.11.2017 --> <br>
-				<img src=s0.png> <a href=https://xiph.org/paranoia/>cdparanoia</a> <img src=cmd.png> <!-- Joachim Desroches 16.11.2017 -->
-	<td id=c>	Rippers de CD en ligne de commande
-	<td id=p>	<img src=lin.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
 	<td id=d>	Ripper un DVD
 	<td id=l>	<img src=s0.png> <a href=http://ogmrip.sourceforge.net>OGMRip</a>
 	<td id=c>	Ripper le contenu d'un DVD sur fichiers OGM, AVI, MP4 ou Matroska
@@ -1434,48 +1325,33 @@ Encore <b>quelques logiciels</b> dans ces catégories :
 </tr>
 
 <tr>
-	<td id=d rowspan=3>	Enregistrement et édition audio
+	<td id=d rowspan=2>	Enregistrement et édition audio
 	<td id=l>	<img src=s1.png> <a href=https://www.audacityteam.org/>Audacity</a>
-	<td id=c>	Édition multi-pistes, mono/stéréo, effets...
+	<td id=c>	Édition audio multi-pistes, mono/stéréo, effets...
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=3>	Pro Tools, Sony Sound Forge, Cool Edit Pro, Cubase...
+	<td id=s rowspan=2>	Pro Tools, Sony Sound Forge, Cool Edit Pro, Cubase...
 </tr>
 
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://ardour.org/>Ardour</a>
 	<td id=c>	Logiciel d'enregistrement/édition/mixage de niveau professionnel
-    <td id=p>	<img src=lin.png> <img src=mac.png>
+    <td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
 
 <tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=http://sox.sourceforge.net>SoX</a> <img src=cmd.png>
-	<td id=c>	Manipuler des fichiers audios en mode commande : conversion de format, découpage, concaténer, mixer, appliquer des effets, enregistrer, écouter
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<td id=d rowspan=9>	Édition/montage vidéo, réencodage
-	<td id=l>	<img src=s1.png> <a href=http://avidemux.sourceforge.net>Avidemux</a> <br>
+	<td id=d rowspan=6>	Édition/montage vidéo, réencodage
+	<td id=l>	<img src=s0.png> <a href=http://avidemux.sourceforge.net>Avidemux</a> <br>
+				<img src=s0.png> <a href=https://handbrake.fr/>HandBrake</a>
 	<td id=c>	Pour découper, filtrer et réencoder une vidéo
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=9>	Adobe Premiere Pro, Windows Movie Maker, Apple Final Cut Pro, Pinnacle Studio...
+	<td id=s rowspan=6>	Adobe Premiere Pro, Windows Movie Maker, Apple Final Cut Pro, Pinnacle Studio...
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://handbrake.fr/>HandBrake</a> 
-	<td id=c>	Idem
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://github.com/ozmartian/vidcutter>VidCutter</a>
+	<td id=l>	<img src=s0.png> <a href=https://github.com/ozmartian/vidcutter>VidCutter</a>
 	<td id=c>	Découper simplement une vidéo sans la ré-encoder
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
@@ -1483,7 +1359,7 @@ Encore <b>quelques logiciels</b> dans ces catégories :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://kdenlive.org/fr/>Kdenlive</a>
+	<td id=l>	<img src=s2.png> <a href=https://kdenlive.org/fr/>Kdenlive</a>
 	<td id=c>	 (KDE Non Linear Video Editor)<br>Application de montage vidéo évoluée (nombreux effets et transitions, titres animés...) et permettant la réalisation de slideshows (à partir de séquences de photos)
 	<td id=p>	<img src=lin.png> <img src=win.png> [<img src=mac.png>]
 	<!-- rowspan -->
@@ -1491,38 +1367,21 @@ Encore <b>quelques logiciels</b> dans ces catégories :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://www.openshot.org/>OpenShot</a> Video Editor 
-	<td id=c>	Application de montage vidéo simple/intuitive
+	<td id=l>	<img src=s1.png> <a href=https://www.openshot.org/>OpenShot</a> Video Editor <br>
+				<img src=s0.png> <a href=https://shotcut.org/>Shotcut</a> <br>
+				<img src=s0.png> <a href=http://www.pitivi.org>Pitivi</a> (Linux)
+	<td id=c>	Applications de montage vidéo simple
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://shotcut.org/>Shotcut</a>
-	<td id=c>	Application de montage vidéo simple
+	<td id=l>	<img src=s0.png> <a href=https://ffmpeg.org/>FFmpeg</a> <img src=cmd.png> <br>
+				<img src=s0.png> ou son fork <a href=https://libav.org/>Libav</a> <img src=cmd.png> <br>
+				<img src=s0.png> <a href=http://www.mplayerhq.hu/>mencoder</a> (de MPlayer)
+	<td id=c>	Outils extrêmement versatile de manipulation audio et video en mode commande
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=http://www.pitivi.org>Pitivi</a>
-	<td id=c>	Application de montage vidéo simple
-	<td id=p>	<img src=lin.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://ffmpeg.org/>FFmpeg</a> <img src=cmd.png>
-				<p>
-				<img src=s0.png> ou son fork <a href=https://libav.org/>Libav</a> <br>
-				<img src=s0.png> 	(avconv, avplay... <img src=cmd.png>)
-	<td id=c>	Réencoder audio et video en mode commande (ainsi que couper, streamer...)
-				<p>
-				Autres alternatives: <a href=http://www.mplayerhq.hu/>mencoder</a> (fourni avec MPlayer)
-	<td id=p>	<img src=lin.png> <img src=win.png> [<img src=mac.png>]
 	<!-- rowspan -->
 </tr>
 
@@ -1535,9 +1394,18 @@ Encore <b>quelques logiciels</b> dans ces catégories :
 </tr>
 
 <tr>
-	<td id=d>	Capture et broadcast video
-	<td id=l>	<img src=s0.png> <a href=https://obsproject.com/>OBS Studio</a> <!-- Pierre Etienne 17.4.2018 -->
-	<td id=c>	(Open Broadcaster Software)<br>Capture et broadcast video
+	<td id=d>	Création de séquences vidéos à partir de photos, musiques
+	<td id=l>	<img src=s0.png> <a href=https://www.photofilmstrip.org/>PhotoFilmStrip</a> <br>
+				<img src=s0.png> <a href=http://ffdiaporama.tuxfamily.org>ffDiaporama</a>
+	<td id=c>	(aussi possible avec bons logiciels de montage vidéo)
+	<td id=p>	<img src=lin.png> <img src=win.png>
+	<td id=s>	
+</tr>
+
+<tr>
+	<td id=d>	Examiner les propriétés de fichiers audio/vidéo
+	<td id=l>	<img src=s0.png> <a href=https://mediaarea.net/fr/MediaInfo>MediaInfo</a>
+	<td id=c>	Indique le type de conteneur, les codecs audio/vidéo utilisés, bitrates...
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	
 </tr>
@@ -1558,14 +1426,6 @@ Encore <b>quelques logiciels</b> dans ces catégories :
 	<td id=s>	
 </tr>
 
-<tr>
-	<td id=d>	Examiner les propriétés de fichiers audio/vidéo
-	<td id=l>	<img src=s0.png> <a href=https://mediaarea.net/fr/MediaInfo>MediaInfo</a>
-	<td id=c>	Indique le type de conteneur, les codecs audio/vidéo utilisés, bitrates...
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s>	
-</tr>
-
 </table>
 
 
@@ -1581,54 +1441,28 @@ Encore <b>quelques logiciels</b> dans ces catégories :
 <li>En outre nombreux lecteurs <b>audio</b> libres dans le monde Linux <img src=lin.png> (intégrant fonctionnalités internet radios, download podcasts, ripping CDs, accès à BDs titres/pochettes voire lyrics, gravure CDs...) :
 	<a href=https://wiki.gnome.org/Apps/Rhythmbox>Rhythmbox</a> (appli. par défaut sous Ubuntu),
 	<a href=https://amarok.kde.org/>Amarok</a>,
-	<a href=https://www.xmms.org/>XMMS2</a>,
 	etc...
 </ol>
 
 <p>
 Encore <b>quelques logiciels</b> dans ce domaine :
 <ul class=carre>
-<li>Création de séquences vidéos à partir de photos, clips vidéos et musiques :
-	<a href=http://ffdiaporama.tuxfamily.org>ffDiaporama</a> <img src=lin.png> <img src=win.png>,
-	<a href=https://www.photofilmstrip.org/>PhotoFilmStrip</a> <img src=lin.png> <img src=win.png>
-<li>Découpage de gros fichiers audio compressés (MP3, OGG Vorbis) sans décodage/réencodage :
-	<a href=http://mp3splt.sourceforge.net/>Mp3Splt</a> <img src=lin.png> <img src=win.png> <img src=mac.png>
-<li>Réencodage de vidéos (changement de codecs vidéo/audio, résolution, bitrate...) :
-	<ul>
-	<li>
-		<a href=https://www.miksoft.net/mobileMediaConverter.php>Mobile Media Converter</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (autre interface graphique à <b>FFmpeg</b>),
-		<a href=https://github.com/danielgtaylor/arista>Arista Transcoder</a> <img src=lin.png>,
-        <a href=http://www.linuxrising.org/>Transmageddon</a> <img src=lin.png> (basé Gtk et GStreamer),
-        <a href=http://ogmrip.sourceforge.net>OGMRip</a> <img src=lin.png>
-    <!-- 
-		<a href=http://www.mediacoderhq.com/>MediaCoder</a> <img src=fre.png> [<img src=lin.png>] <img src=win.png> [<img src=mac.png>],
-		<a href=http://www.freemake.com/>FreeMake</a> <img src=fre.png> <img src=win.png>
-    -->
-    <li><a href=https://mkvtoolnix.download/>MKVToolNix</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : manipulation de fichiers vidéos au format de conteneur Matroska (MKV)
-	</ul>
 <li>Capture d'écran en mode vidéo (avec audio) pour réaliser des screencasts (tutoriels...) :
 	<a href=http://recordmydesktop.sourceforge.net/>recordMyDesktop</a> <img src=lin.png>,
 	<a href=https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html>VokoScreen</a> <img src=lin.png>,
 	<a href=https://www.maartenbaert.be/simplescreenrecorder/>SimpleScreenRecorder</a> <img src=lin.png>,
 	<a href=https://www.debugmode.com/wink/>Wink</a> <img src=lin.png> <img src=win.png>,
-	<a href=https://camstudio.org>CamStudio</a> <img src=win.png>,
-	<a href=http://krut.sourceforge.net>Krut</a> <img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>,
-	<a href=http://xvidcap.sourceforge.net>xvidcap</a> <img src=lin.png>
+	<a href=https://camstudio.org>CamStudio</a> <img src=win.png>
+    
 <li>Authoring DVD :
 	<a href=https://www.dvdstyler.org/>DVDStyler</a> <img src=lin.png> <img src=win.png> <img src=mac.png>,
 	<a href=http://www.dvdflick.net/>DVD Flick</a> <img src=win.png>
-<li>Montage vidéo :
-	<ul>
-	<li><a href=http://cinelerra.org/>Cinelerra</a> <img src=lin.png>,
-		<a href=https://jliljebl.github.io/flowblade/index.html>Flowblade</a> <img src=lin.png>
-	<li>Projet <a href=https://code.videolan.org/videolan/vlmc>VLMC</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (VideoLAN movie creator) : par l'équipe qui a créé VLC, encore en développement
-	</ul>
+
 <li>Media center (centre multimédia) : lecture de CD/DVD, musique, diaporama photo, streaming internet radio/TV/vidéo, gestion tuner TV TNT/satellite, guides TV/cinéma, widgets, jeux, skins... :
-	<ul>
-	<li><a href=https://kodi.tv/>Kodi</a> (ex-XBMC) <img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png> <img src=ios.png> : successeur multiplateforme de XBox Media Player
-	<li><a href=https://www.mythtv.org/>MythTV</a> <img src=lin.png> <img src=mac.png> : avec enregistreur vidéo numérique
-	</ul>
-<li><a href=https://gstreamer.freedesktop.org/>GStreamer</a> <img src=lin.png> [<img src=win.png>] : framework multimédia utilisé par de très nombreuses <a href=https://gstreamer.freedesktop.org/apps/>applications</a> sous Linux
+    <ul>
+    <li><a href=https://kodi.tv/>Kodi</a> (ex-XBMC) <img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png> <img src=ios.png> : successeur multiplateforme de XBox Media Player,
+    <li><a href=https://www.mythtv.org/>MythTV</a> <img src=lin.png> <img src=mac.png> : avec enregistreur vidéo numérique
+    </ul>
 </ul>
 
 
@@ -1644,27 +1478,28 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	<td id=l>	<img src=s0.png> <a href=https://www.ganttproject.biz>GanttProject</a>
 	<td id=c>	Anciennement dénommé MrProject. Développé dans le cadre du projet GNOME.
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=6>	Microsoft Project...
+	<td id=s rowspan=5>	Microsoft Project...
 </tr>
 
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://www.projectlibre.com/product/projectlibre-open-source>ProjectLibre</a>
-	<td id=c>	 (ex-OpenProj)
+	<td id=c>	 Se présente comme alternative à Microsoft Project
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://wiki.gnome.org/Apps/Planner/>Planner</a>
-	<td id=c>	
+	<td id=l>	<img src=s0.png> <a href=https://wiki.gnome.org/Apps/Planner/>Planner</a> <br>
+				<img src=s0.png> <a href=https://www.taskjuggler.org/>TaskJuggler</a>
+	<td id=c>	Autres gestionnaire de projets
 	<td id=p>	<img src=lin.png> <img src=win.png>
 	<!-- rowspan -->
 </tr>
 
 <tr>
-	<td id=d rowspan=3>	Gestion de projets - solutions web (auto-hébergeables)
+	<td id=d rowspan=2>	Gestion de projets - solutions web (auto-hébergeables)
 	<td id=l>	<img src=s0.png> <a href=https://www.projeqtor.org>ProjeQtOr</a>
 	<td id=c>	Solution très riche (basée PHP/MySQL) implémentant gestion de tâche et d'équipes, de bugs et d'incidents...
 	<td id=p>	<img src=web.png>
@@ -1673,16 +1508,9 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://www.openproject.org/>OpenProject</a>
-	<td id=c>	Solution basée Ruby on Rails
-	<td id=p>	<img src=web.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://www.redmine.org>Redmine</a>
-	<td id=c>	Solution basée Ruby on Rails
+	<td id=l>	<img src=s0.png> <a href=https://www.openproject.org/>OpenProject</a> <br>
+				<img src=s0.png> <a href=https://www.redmine.org>Redmine</a>
+	<td id=c>	Gestionnaires de projet écrits en Ruby on Rails
 	<td id=p>	<img src=web.png>
 	<!-- rowspan -->
 </tr>
@@ -1712,14 +1540,6 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d>	Décompte de vacances et heures
-	<td id=l>	<img src=s0.png> <a href=https://fr.jorani.org/>Jorani</a>
-	<td id=c>	Gestionnaire de demandes de congés et déclarations d'heure supplémentaire
-	<td id=p>	<img src=web.png>
-	<td id=s>	
-</tr>
-
-<tr>
 	<td id=d>	Commerce, boutique en ligne
 	<td id=l>	<img src=s0.png> <a href=https://www.prestashop.com/fr>PrestaShop</a>
 	<td id=c>	Application web libre et modulaire de boutique en ligne
@@ -1728,16 +1548,6 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 </table>
-
-
-<p>
-Encore <b>quelques logiciels</b> dans ce domaine :
-<ul class=carre>
-<li>Application desktop de gestion de projets : 
-	<a href=https://www.taskjuggler.org/>TaskJuggler</a> <img src=lin.png> <img src=win.png>
-<li>Solutions collaboratives de gestion de projets basées web <img src=web.png> : <a href=https://www.dotproject.net/>dotProject</a>, <a href=https://www.phpcollab.com>phpCollab</a>
-</ul>
-
 
 
 
@@ -1751,8 +1561,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<td id=d rowspan=6>	Calcul scientifique et visualisation
 	<td id=l>	<img src=s2.png> <a href=https://www.gnu.org/software/octave/>GNU Octave</a> <br>
-				+ Octave GUI <br>
-				+ packages <a href=https://octave.sourceforge.io/>Octave-Forge</a> <br>
+				et packages <a href=https://octave.sourceforge.io/>Octave-Forge</a> <br>
 	<td id=c>	Environnement de calcul scientifique, largement compatible avec MATLAB. <br>
 				Voir notre procédure d'<a href=https://enacit1.epfl.ch/cours_matlab/octave.shtml>installation</a>.
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
@@ -1761,15 +1570,23 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s2.png> <b>Scientific Python</b> <br>
+	<td id=l>	<img src=s1.png> <b>Scientific Python</b> <br>
 				comprenant notamment : <br>
 				<img src=s0.png> <a href=https://www.numpy.org/>NumPy</a> <br>
 				<img src=s0.png> <a href=https://www.scipy.org/>SciPy</a> <br>
 				<img src=s0.png> <a href=https://matplotlib.org/>MatPlotLib</a> (2D) <br>
-				<img src=s0.png> <a href=https://github.com/enthought/mayavi>MayaVi</a> (3D) <br>
+				<img src=s0.png> <a href=https://docs.enthought.com/mayavi/mayavi/>MayaVi</a> (3D) <br>
 				<img src=s0.png> <a href=https://seaborn.pydata.org/>Seaborn</a> (stats) <br>
-				<img src=s0.png> l'IDE <a href=https://www.spyder-ide.org/>Spyder</a>
-	<td id=c>	Ensemble de bibliothèques <img src=s2.png><a href=https://www.python.org>Python</a> à usage scientifique offrant des fonctionnalités équivalentes à MATLAB et GNU Octave : tableaux/matrices (NumPy), fonctions scientifiques (SciPy), librairies graphiques (MatPlotLib, MayaVi, Seaborn...), IDE (Spyder...), etc...
+				<img src=s0.png> IDE <a href=https://www.spyder-ide.org/>Spyder</a>
+	<td id=c>	Ensemble de bibliothèques <a href=https://www.python.org>Python</a> à usage scientifique offrant des fonctionnalités équivalentes à MATLAB et GNU Octave : tableaux/matrices (NumPy), fonctions scientifiques (SciPy), librairies graphiques (MatPlotLib, MayaVi, Seaborn...), IDE (Spyder...), etc...
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s2.png> <a href=https://docs.continuum.io/anaconda/>Anaconda</a>
+	<td id=c>	Packaging Scientific Python multiplateforme intégrant notamment : Python, Jupyter/IPython, Spyder, python-numpy, python-scipy, python-matplotlib, python-sklearn...
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -1784,15 +1601,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://docs.continuum.io/anaconda/>Anaconda</a>
-	<td id=c>	Packaging Scientific Python multiplateforme intégrant notamment : Python, Jupyter/IPython, Spyder, python-numpy, python-scipy, python-matplotlib, python-sklearn...
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://julialang.org/>Julia</a>
+	<td id=l>	<img src=s0.png> <a href=https://julialang.org/>Julia</a>
 	<td id=c>	Langage de calcul scientifique de haut niveau spécifiquement conçu pour le calcul parallèle et distribué. Assez similaire à MATLAB/Octave mais beaucoup plus rapide.
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
@@ -1807,24 +1616,16 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d>	Statistiques et visualisation
-	<td id=l>	<img src=s1.png> <a href=https://www.r-project.org>R</a> (R Project)
-	<td id=c>	Progiciel extrêmement riche et modulaire (très nombreuses extensions)
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s>	S-Plus, SPSS, Statistica...
-</tr>
-
-<tr>
-	<td id=d rowspan=6>	Grapheur (visualisation de données), curve fitting
-	<td id=l>	<img src=s0.png> <a href=http://www.gnuplot.info/>Gnuplot</a> <img src=cmd.png>
-	<td id=c>	Grapheur 2D/3D en mode commande, longtemps utilisé comme backend graphique par GNU Octave
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=6>	Tableau, SigmaPlot, Igor Pro, Origin, TableCurve 2D...
+	<td id=d rowspan=7>	Grapheur (visualisation de données), curve fitting
+	<td id=l>	<img src=s0.png> <a href=http://www.gnumeric.org/>Gnumeric</a>
+	<td id=c>	Tableur offrant une bonne compatibilité avec Calc et Excel, mais aux possibilités graphiques plus étendues. Développé dans le cadre du projet GNOME
+	<td id=p>	<img src=lin.png> <img src=win.png> [<img src=mac.png>]
+	<td id=s rowspan=7>	Microsoft Excel, Tableau, SigmaPlot, Igor Pro, Origin, TableCurve 2D...
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://kst-plot.kde.org/>Kst</a>
+	<td id=l>	<img src=s0.png> <a href=https://kst-plot.kde.org/>Kst</a>
 	<td id=c>	Grapheur 2D convivial et puissant permettant de grapher des jeux de données très volumineux
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
@@ -1859,6 +1660,31 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	<td id=l>	<img src=s0.png> <a href=https://www.jfree.org/jfreechart/>JFreeChart</a>
 	<td id=c>	Grapheur multiplateforme (basé Java)
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=http://www.gnuplot.info/>Gnuplot</a> <img src=cmd.png>
+	<td id=c>	Grapheur 2D/3D en mode commande, longtemps utilisé comme backend graphique par GNU Octave
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<td id=d rowspan=2>	Statistiques et visualisation
+	<td id=l>	<img src=s1.png> <a href=https://www.r-project.org>R</a> (R Project)
+	<td id=c>	Environnement de statistiques extrêmement riche et modulaire, doté de très nombreuses extensions
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<td id=s rowspan=2>	S-Plus, SPSS, Statistica...
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://www.rstudio.com/>RStudio IDE</a> <br>
+				<img src=s0.png> <a href=https://tinn-r.org/>Tinn-R</a> (Windows)
+	<td id=c>	Éditeurs et environnements de développement (IDE) pour R
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
 
@@ -1919,19 +1745,9 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <p>
 Encore <b>quelques logiciels</b> dans ce domaine :
 <ul class=carre>
-<li><a href=http://freemat.sourceforge.net/>FreeMat</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : progiciel visant aussi la compatibilité avec MATLAB, incluant un IDE (éditeur, debugger...) (basé Qt)
-<li>Éditeur / environnement de développement (IDE) pour <b>R</b> : <a href=https://www.rstudio.com/>RStudio IDE</a> <img src=lin.png> <img src=win.png> <img src=mac.png>,  <a href=https://tinn-r.org/>Tinn-R</a> <img src=win.png>
 <li><a href=http://www.sofastatistics.com>SOFA</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (Statistics Open For All) : logiciel de statistiques facile à prendre en main (interface graphique), offrant de nombreuses possibilités d'import/export,  produisant de beaux graphiques (basé Python, Scipy et wxPython)
 <li><a href=https://www.gnu.org/software/pspp/>PSPP</a> <img src=lin.png> [<img src=win.png>] <img src=mac.png> : progiciel de statistiques largement compatible avec le logiciel commercial SPSS
-<li><a href=https://veusz.github.io/>Veusz</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : grapheur scientifique à interface graphique
-<li>Kitware <a href=https://www.paraview.org/>ParaView</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : progiciel de visualisation 2D/3D, permettant de manipuler de gros jeux de données, basé Tcl/Tk
-<li><a href=https://github.com/gnudatalanguage/gdl>GDL</a> <img src=lin.png> [<img src=mac.png>] (GNU Data Language) : environnement de traitement de données compatible avec IDL6
-<li><a href=http://www.opendx.org/>OpenDX</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : version open-source du produit de visualisation 3D IBM Data Explorer (sous Windows, nécessite Cygwin)
-<li>Librairies de programmation :
-	<ul>
-	<li><a href=http://plplot.sourceforge.net/>PLplot</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : pour la production de graphiques scientifiques 2D/3D évolués
-	<li><a href=https://vtk.org/>VTK</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (Visualization ToolKit) : pour la visualisation de données 2D/3D et le traitement d'image, reposant sur OpenGL, avec support de langages interprétés (Tcl-Tk, Python...)
-	</ul>
+<li><a href=https://github.com/gnudatalanguage/gdl>GDL</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (GNU Data Language) : environnement de traitement de données compatible avec IDL6 et PV-Wave
 </ul>
 
 
@@ -1957,8 +1773,8 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d rowspan=5>	Système de gestion de base de données (SGBD)
-	<td id=l>	<img src=s1.png> LibreOffice <a href=https://www.libreoffice.org>Base</a>
-	<td id=c>	Module SGBD de LibreOffice
+	<td id=l>	<img src=s0.png> LibreOffice <a href=https://www.libreoffice.org>Base</a>
+	<td id=c>	Module SGBD de la suite bureautique LibreOffice
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	Microsoft Access
 </tr>
@@ -1985,7 +1801,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://www.sqlite.org/>SQLite</a> <br><br>
-				<img src=s0.png> et <a href=https://www.gaia-gis.it/gaia-sins/>SpatiaLite</a>
+				<img src=s0.png> et <a href=https://www.gaia-gis.it/fossil/libspatialite/index>SpatiaLite</a>
 	<td id=c>	SGBD léger implémenté sous forme de librairie <br>
 				Extension pour le support d'objets géoréférencés
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
@@ -1995,7 +1811,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://www.mongodb.com/>MongoDB</a>
-	<td id=c>	Base de donnée de type NoSQL distribuable sur plusieurs ordinateurs
+	<td id=c>	Base de donnée de type NoSQL, distribuable sur plusieurs ordinateurs
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -2010,7 +1826,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://www.mysql.com/products/workbench/>MySQL Workbench</a>
+	<td id=l>	<img src=s0.png> <a href=https://www.mysql.com/products/workbench/>MySQL Workbench</a>
 	<td id=c>	Outils MySQL de Oracle
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
@@ -2027,7 +1843,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s1.png> <a href=https://www.adminer.org/>Adminer</a>
-	<td id=c>	Interface web d'administration MySQL, PostgreSQL, SQLite, MS SQL, Oracle, Firebird, SimpleDB, Elasticsearch et MongoDB. Plus simple et plus souple que <b>phpMyAdmin</b>, et se composant d'un seul fichier PHP !
+	<td id=c>	Interface web d'administration MySQL, PostgreSQL, SQLite, MS SQL, Oracle, Firebird, SimpleDB, Elasticsearch et MongoDB. Plus souple que <b>phpMyAdmin</b> et se composant d'un seul fichier PHP !
 	<td id=p>	<img src=web.png>
 	<!-- rowspan -->
 </tr>
@@ -2096,11 +1912,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 Encore <b>quelques logiciels</b> dans ce domaine :
 <ul class=carre>
 <li><a href=https://www.jabref.org/>JabRef</a> <img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png> : gestion de références bibliographiques au format BibTeX (format de bibliographie standard LaTeX)
-<li>SGBD de type "NoSQL" (pour très gros volume de données, répartis, orienté document) :
-	<a href=https://www.mongodb.com/>MongoDB</a> <img src=lin.png> <img src=win.png> <img src=mac.png>,
-	<a href=https://cassandra.apache.org/>Cassandra</a> <img src=lin.png> (mis par Facebook en open-source en 2008)
-<li><a href=http://knoda.sourceforge.net/>Knoda</a> <img src=lin.png> : front-end de SGBD sous Linux/KDE (pour MySQL , PostgreSQL , SQLite ou ODBC), permettant notamment de créer des forms, print reports... <!-- tutoriels dans [LM] mars et avril 05 -->
-<li><a href=https://gitlab.gnome.org/GNOME/glom/>Glom</a> <img src=lin.png> <img src=win.png> : interface graphique permettant le design de BDs (tables, relations...) et l'interaction avec elles à la façon de FileMaker (édition, recherche...)
+<li><a href=http://www.glom.org>Glom</a> <img src=lin.png> <img src=win.png> : interface graphique permettant le design de BDs (tables, relations...) et l'interaction avec elles à la façon de FileMaker (édition, recherche...)
 </ul>
 
 

@@ -1,5 +1,5 @@
 # Annuaire EPFL des principaux logiciels libres
 
-Cet annuaire est accessible à l'adresse <https://enacit.epfl.ch/logiciel-libre/>
+Cet annuaire est diffusé sur <https://enacit.epfl.ch/logiciel-libre/>.
 
-Ils est maintenu par <jdbonjour@gmail.com> à qui tout commentaire peut être envoyé
+Il est maintenu par <jdbonjour@gmail.com> (à vous pouvez adresser tout commentaire, demande de correction, proposition d'ajout...).
