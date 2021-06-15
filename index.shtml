@@ -1576,9 +1576,10 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 				<img src=s0.png> <a href=https://www.scipy.org/>SciPy</a> <br>
 				<img src=s0.png> <a href=https://matplotlib.org/>MatPlotLib</a> (2D) <br>
 				<img src=s0.png> <a href=https://docs.enthought.com/mayavi/mayavi/>MayaVi</a> (3D) <br>
-				<img src=s0.png> <a href=https://seaborn.pydata.org/>Seaborn</a> (stats) <br>
+				<img src=s0.png> <a href=https://pandas.pydata.org/>Pandas</a> <br>
+				<img src=s0.png> <a href=https://seaborn.pydata.org/>Seaborn</a> <br>
 				<img src=s0.png> IDE <a href=https://www.spyder-ide.org/>Spyder</a>
-	<td id=c>	Ensemble de bibliothèques <a href=https://www.python.org>Python</a> à usage scientifique offrant des fonctionnalités équivalentes à MATLAB et GNU Octave : tableaux/matrices (NumPy), fonctions scientifiques (SciPy), librairies graphiques (MatPlotLib, MayaVi, Seaborn...), IDE (Spyder...), etc...
+	<td id=c>	Ensemble de bibliothèques <a href=https://www.python.org>Python</a> à usage scientifique offrant des fonctionnalités équivalentes à MATLAB et GNU Octave : tableaux/matrices (NumPy), fonctions scientifiques (SciPy), librairies graphiques (MatPlotLib, MayaVi...), analyse de données et statistiques (Pandas, Seaborn), IDE (Spyder...), etc...
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -1586,7 +1587,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s2.png> <a href=https://docs.continuum.io/anaconda/>Anaconda</a>
-	<td id=c>	Packaging Scientific Python multiplateforme intégrant notamment : Python, Jupyter/IPython, Spyder, python-numpy, python-scipy, python-matplotlib, python-sklearn...
+	<td id=c>	Packaging multiplateforme de Scientific Python intégrant notamment : Python, Jupyter/IPython, Spyder, python-numpy, python-scipy, python-matplotlib, python-sklearn...
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -1594,7 +1595,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://winpython.github.io/>WinPython</a>
-	<td id=c>	Packaging Scientific Python portable pour Windows intégrant notamment : Python, Jupyter/IPython, Spyder, NumPy, SciPy, MatPlotLib, guiqwt, SymPy...
+	<td id=c>	Packaging Windows portable de Scientific Python intégrant notamment : Python, Jupyter/IPython, Spyder, NumPy, SciPy, MatPlotLib, guiqwt, SymPy...
 	<td id=p>	<img src=win.png>
 	<!-- rowspan -->
 </tr>
@@ -1609,7 +1610,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://www.scilab.org>Scilab</a>
+	<td id=l>	<img src=s0.png> <a href=https://www.scilab.org>Scilab</a>
 	<td id=c>	Environnement de calcul numérique &amp; scientifique riche et moderne. Analogue à MATLAB et GNU Octave, mais non compatible avec ceux-ci (différences syntaxiques, packages et fonctions...)
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
@@ -1762,13 +1763,21 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <!--#include virtual="table-head.shtml" -->
 
 <tr>
-	<td id=d>	Gestion de références bibliographiques
+	<td id=d rowspan=2>	Gestion de références bibliographiques
 	<td id=l>	<img src=s2.png> <a href=https://www.zotero.org/>Zotero</a>
-	<td id=c>	3 implémentations : extension de navigateurs web, extension LibreOffice ou MS Office, application stand-alone. Extension <a href=https://retorque.re/zotero-better-bibtex/>Better BibTeX</a> (BBT) pour interagir avec fichier BibTeX/LaTeX. <br>
+	<td id=c>	Gestion de références bibliographiques en 3 implémentations : extension de navigateurs web, extension LibreOffice ou MS Office, application stand-alone. Extension <a href=https://retorque.re/zotero-better-bibtex/>Better BibTeX</a> (BBT) pour interagir avec fichier BibTeX/LaTeX. <br>
 	Possibilité de synchroniser/partager sa BD dans réseau social Zotero  <!-- article Grolimund FI 10/2011 -->
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <br>
                 <img src=fir.png> <img src=chr.png> <img src=web.png>
-	<td id=s>	EndNote...
+	<td id=s rowspan=2>	EndNote...
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://www.jabref.org/>JabRef</a> 
+	<td id=c>	Gestion de références bibliographiques au format BibTeX (format de bibliographie standard LaTeX)
+	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
 </tr>
 
 <tr>
@@ -1875,8 +1884,8 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://addons.mozilla.org/fr/firefox/addon/sqlite-manager-webext/>SQLite Manager</a>
-	<td id=c>	Extension Firefox pour administrer BDs SQlite
-	<td id=p>	<img src=fir.png>
+	<td id=c>	Extension pour Firefox et Chrome d'administration de BDs SQlite
+	<td id=p>	<img src=fir.png> <img src=chr.png>
 	<!-- rowspan -->
 </tr>
 
@@ -1911,7 +1920,6 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <p>
 Encore <b>quelques logiciels</b> dans ce domaine :
 <ul class=carre>
-<li><a href=https://www.jabref.org/>JabRef</a> <img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png> : gestion de références bibliographiques au format BibTeX (format de bibliographie standard LaTeX)
 <li><a href=http://www.glom.org>Glom</a> <img src=lin.png> <img src=win.png> : interface graphique permettant le design de BDs (tables, relations...) et l'interaction avec elles à la façon de FileMaker (édition, recherche...)
 </ul>
 
@@ -1926,9 +1934,9 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <!--#include virtual="table-head.shtml" -->
 
 <tr>
-	<td id=d rowspan=8>	Éditeur de code (coloriage syntaxique, indentation, macros, snippets, extensions/plugins...)
+	<td id=d rowspan=8>	Éditeur de code (coloriage syntaxique, indentation, macros, extensions/plugins...)
 	<td id=l>	<img src=s1.png> <a href=https://atom.io/>Atom</a>
-	<td id=c>	Éditeur et IDE léger, interagissant avec GitHub
+	<td id=c>	Éditeur et IDE léger, interagissant bien avec GitHub
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s rowspan=8>	
 </tr>
@@ -1937,7 +1945,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	<!-- rowspan -->
 	<td id=l>	<img src=s1.png> <a href=https://www.notepad-plus-plus.org>Notepad++</a> <br>
 				<img src=s1.png> <a href=https://notepadqq.com/>Notepadqq</a>
-	<td id=c>	Éditeur très polyvalent
+	<td id=c>	Éditeur polyvalent
 	<td id=p>	[<img src=lin.png>] <img src=win.png> [<img src=mac.png>] <br>
 				<img src=lin.png>
 	<!-- rowspan -->
@@ -1969,16 +1977,16 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> Adobe <a href=http://brackets.io/>Brackets</a>
-	<td id=c>	Éditeur léger orienté conception web, doté de très nombreuses extensions
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<td id=l>	<img src=s0.png> <a href=https://www.scintilla.org>Scintilla SciTE</a>
+	<td id=c>	Éditeur très léger
+	<td id=p>	<img src=lin.png> <img src=win.png> [<img src=mac.png>]
 	<!-- rowspan -->
 </tr>
 
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=http://www.jedit.org>jEdit</a>
-	<td id=c>	
+	<td id=c>	Éditeur écrit en Java
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -1986,33 +1994,90 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://www.vim.org/>Vim</a> <img src=cmd.png> <br>
-				<img src=s0.png> <a href=https://www.gnu.org/software/emacs/>Emacs</a> <img src=cmd.png>, <a href=https://www.xemacs.org/>XEmacs</a>
+				<img src=s0.png> <a href=https://www.gnu.org/software/emacs/>Emacs</a> <img src=cmd.png> et <a href=https://www.xemacs.org/>XEmacs</a>
 	<td id=c>	Éditeurs en ligne de commande incontournables du monde Unix/Linux
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
 
 <tr>
-	<td id=d>	Éditeur hexadécimal
-	<td id=l>	<img src=s0.png> <a href=https://github.com/EUA/wxHexEditor>wxHexEditor</a>
-	<td id=c>	Éditeur convenant notamment à l'édition de très gros fichiers
+	<td id=d rowspan=2>	Éditeur web (HTML, CSS, JavaScript...)
+	<td id=l>	<img src=s0.png> <a href=http://www.bluegriffon.org>BlueGriffon</a>
+	<td id=c>	Éditeur web s'appuyant sur moteur de rendu Gecko/Firefox <br>
+				(Dérivé de NVU devenu <a href=https://www.kompozer.net>KompoZer</a>)
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s>	
+	<td id=s rowspan=2>	Dreamweaver, Golive, FrontPage...
 </tr>
 
 <tr>
-	<td id=d>	Éditeur web (HTML, CSS, XML, JavaScript...)
-	<td id=l>	<img src=s0.png> <a href=http://www.bluegriffon.org>BlueGriffon</a>
-	<td id=c>	Éditeur web s'appuyant sur moteur de rendu Gecko/Firefox. Dérivé de NVU devenu <a href=https://www.kompozer.net>KompoZer</a>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://www.w3.org/Amaya/>Amaya</a>
+	<td id=c>	Éditeur/browser Web du W3C (HTML 4.01, XHTML 1.1, MathML 2.0, CSS 1/2, SVG)
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s>	Dreamweaver, Golive, FrontPage...
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<td id=d rowspan=2>	Éditeurs spécifiques
+	<td id=l>	<img src=s0.png> <a href=https://xml-copy-editor.sourceforge.io/>XML Copy Editor</a>
+	<td id=c>	Éditeur XML
+	<td id=p>	<img src=lin.png> <img src=win.png>
+	<td id=s rowspan=2>	
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://github.com/EUA/wxHexEditor>wxHexEditor</a>
+	<td id=c>	Éditeur hexadécimal, convenant à l'édition de très gros fichiers
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<td id=d rowspan=3>	Environnement de développement (IDE) généraliste
+	<td id=l>	<img src=s1.png> <a href=https://www.eclipse.org/>Eclipse</a>
+	<td id=c>	IDE professionnel et très polyvalent
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<td id=s rowspan=5>	
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> MS <a href=https://code.visualstudio.com/>Visual Studio Code</a>
+	<td id=c>	IDE de Microsoft <!-- passé en licence MIT -->
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> Apache <a href=https://netbeans.apache.org/>NetBeans</a>
+	<td id=c>	IDE multi-langage, écrit en Java
+	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<td id=d rowspan=2>	IDE orienté C++
+	<td id=l>	<img src=s0.png> <a href=https://www.codeblocks.org/>Code::Blocks</a>
+	<td id=c>	IDE orienté C++ et Fortran
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://orwelldevcpp.blogspot.com/>Dev-C++</a>
+	<td id=c>	S'appuie sur MinGW <!-- utilisé par C. Schenk HYDRAM, P. Etienne, Röthlisberger HEIG-VD -->
+	<td id=p>	<img src=win.png>
+	<!-- rowspan -->
 </tr>
 
 <tr>
 	<td id=d rowspan=2>	Comparaison/fusion de fichiers texte et arborescences de dossiers
 	<td id=l>	<img src=s1.png> <a href=https://meldmerge.org/>Meld</a>
 	<td id=c>	Comparaison visuelle, fusion
-	<td id=p>	<img src=lin.png> [<img src=win.png>] [<img src=mac.png>]
+	<td id=p>	<img src=lin.png> <img src=win.png> [<img src=mac.png>]
 	<td id=s rowspan=2>	
 </tr>
 
@@ -2057,47 +2122,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d rowspan=2>	Environnement de développement (IDE) généraliste <b>(1)</b>
-	<td id=l>	<img src=s1.png> <a href=https://www.eclipse.org/>Eclipse</a>
-	<td id=c>	IDE professionnel et très polyvalent
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=5>	
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://code.visualstudio.com/>MS Visual Studio Code</a>
-	<td id=c>	<!-- passé en licence MIT -->
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<td id=d rowspan=2>	IDE orienté C++
-	<td id=l>	<img src=s0.png> <a href=https://www.codeblocks.org/>Code::Blocks</a>
-	<td id=c>	
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://orwelldevcpp.blogspot.com/>Dev-C++</a>
-	<td id=c>	S'appuie sur MinGW <!-- utilisé par C. Schenk HYDRAM, P. Etienne, Röthlisberger HEIG-VD -->
-	<td id=p>	<img src=win.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<td id=d>	IDE orienté Java
-	<td id=l>	<img src=s0.png> Apache <a href=https://netbeans.apache.org/>NetBeans</a>
-	<td id=c>	
-	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<td id=d>	Compilateurs GNU GCC et G77 (C, C++, Fortran) <b>(2)</b>
+	<td id=d>	Compilateurs GNU GCC et G77 (C, C++, Fortran) <b>(1)</b>
 	<td id=l>	<img src=s0.png> <a href=http://mingw-w64.org/>MinGW</a>
 	<td id=c>	(Minimalist GNU for Windows) Compilateur C/C++/Fortran ne nécessitant pas de couche de compatibilité UNIX (comme Cygwin)
 	<td id=p>	<img src=win.png>
@@ -2114,60 +2139,9 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d rowspan=2>	Langages de scripts
-	<td id=l>	<img src=s1.png> <a href=https://www.perl.com/>Perl</a>
-	<td id=c>	Vénérable langage de script &amp; web encore très utilisé, avec très vaste bibliothèque <a href=https://www.cpan.org/>CPAN</a> (Comprehensive Perl Archive Network). <br>
-				Sous Windows, distributions : <br>
-				- <a href=https://strawberryperl.com/>Strawberry Perl</a> (s'appuie direct. sur CPAN)<br>
-				- <a href=https://www.activestate.com/products/perl/>ActivePerl</a> (s'appuie sur PPM ActiveState) <br>
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=2>	Windows PowerShell, AppleScript...
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://www.python.org/>Python</a>
-	<td id=c>	Langage très en vogue, avec notamment : <br>
-				- shell interactif <a href=https://jupyter.org/>Jupyter</a>/<a href=https://ipython.org/>IPython</a> <br>
-				- bibliothèque <a href=https://pypi.org/>PyPI</a> (Python Package Index) <br>
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<td id=d rowspan=3>	Langages/stacks web <b>(3)</b>
-	<td id=l>	<img src=s0.png> <a href=https://www.php.net>PHP</a>
-	<td id=c>	Langage de programmation coté serveur largement utilisé
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=web.png>
-	<td id=s rowspan=3>	.Net, JEE...
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png><a href=https://developer.mozilla.org/fr/docs/Web/JavaScript>JavaScript</a> (ECMAscript) <br>
-	<td id=c>	Langage coté client (navigateur) ainsi que serveur
-	<td id=p>	<img src=web.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png><a href=https://jquery.com/>jQuery</a> <br>
-						<img src=s0.png> &nbsp; &nbsp; (core, UI, Mobile...) <br>
-				<img src=s0.png><a href=https://meanjs.org/>MEAN Stack</a> : <br>
-				<img src=s0.png> - <a href=https://www.mongodb.org/>MongoDB</a> (BD NoSQL)<br>
-				<img src=s0.png> - <a href=https://angularjs.org/>AngularJS</a> <br>
-				<img src=s0.png> - <a href=https://nodejs.org/>Node.JS</a> (server side)<br>
-				<img src=s0.png>etc...
-	<td id=c>	Librairies/frameworks JavaScript les plus réputés
-	<td id=p>	<img src=web.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
 	<td id=d rowspan=2>	Serveurs web
 	<td id=l>	<img src=s0.png> <a href=https://httpd.apache.org>Apache</a>
-	<td id=c>	Logiciel serveur très modulaire, le plus utilisé au monde
+	<td id=c>	Serveur web très modulaire, le plus répandu sur internet
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s rowspan=2>	Microsoft IIS...
 </tr>
@@ -2175,7 +2149,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://nginx.org/>Nginx</a>
-	<td id=c>	Serveur web à performances élevées
+	<td id=c>	Serveur web performant
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -2190,7 +2164,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://www.easyphp.org/>EasyPHP</a>, <br>
+	<td id=l>	<img src=s0.png> <a href=https://www.easyphp.org/>EasyPHP</a> <br>
 			<img src=s0.png> <a href=https://www.wampserver.com/>WampServer</a>
 	<td id=c>	Analogues à XAMPP mais limité à Windows
 	<td id=p>	<img src=win.png>
@@ -2207,7 +2181,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d rowspan=3>	Copie locale de pages/arborescences web ("aspirateurs" web)
-	<td id=l>	<img src=s1.png> <a href=https://addons.mozilla.org/fr/firefox/addon/webscrapbook/>WebScrapBook</a>
+	<td id=l>	<img src=s0.png> <a href=https://addons.mozilla.org/fr/firefox/addon/webscrapbook/>WebScrapBook</a>
 	<td id=c>	Aspirateur web implémenté sous forme d'extension Firefox
 	<td id=p>	<img src=fir.png>
 	<td id=s rowspan=3>	
@@ -2252,48 +2226,18 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <p>
 <b>Notes</b> :
 <ol>
-<li>Pour un IDE léger, voyez Geany ci-dessus
-<li>Intégré sous Linux<img src=lin-g.png>. Installable sous macOS sous l'appellation "Apple XCode Tools"<img src=mac-g.png>
-<li>Ainsi que nombreux autres langages tels que : Perl, Python... (voir liens ci-dessus)
+<li>La majorité des langages/compilateurs sont intégrés de base sous Linux<img src=lin-g.png>. Installables sous macOS sous l'appellation "Apple XCode Tools"<img src=mac-g.png>
 </ol>
 
 <p>
 Encore <b>quelques logiciels</b> dans ces domaines :
 <ul class=carre>
-<li>Éditeurs :
-	<ul>
-	<li><a href=https://www.scintilla.org>Scintilla SciTE</a> <img src=lin.png> <img src=win.png> [<img src=mac.png>] : éditeur très léger
-	<li><a href=https://www.w3.org/Amaya/>Amaya</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : éditeur/browser Web du W3C (HTML 4.01, XHTML 1.1, MathML 2.0, CSS 1/2, SVG)
-	<li><a href=https://xml-copy-editor.sourceforge.io/>XML Copy Editor</a> <img src=lin.png> <img src=win.png> : éditeur XML
-	</ul>
-<li>Langages :
-	<ul>
-	<li><a href=https://www.ruby-lang.org>Ruby</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : langage de script de même type que Python
-	<li><a href=https://www.processing.org>Processing</a> <img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png> : langage et environnement de programmation graphique et modélisation, notamment utilisé par Arduino (voir plus bas)
-	<li><a href=https://ocaml.org/>OCaml</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (Objective Caml) : implémentation la plus avancée du langage de programmation Caml (Categorical Abstract Machine Language), langage fonctionnel généraliste multi-paradigme
-	</ul>
 <li>Toolkits multiplateformes de développement de <b>GUI</b>'s (interfaces graphiques) pour applications desktop :
 	<ul>
-	<li><a href=https://www.tcl.tk>Tk</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : toolkit né avec le langage de script <a href=www.tcl.tk>Tcl</a> ; voir également Perl/Tk, Tkinter/Python...
-	<li><a href=https://www.wxwidgets.org/>wxWidgets</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : autre toolkit  <!-- voir Linux Journal 7/03 p. 90 --> ; voir également <a href=http://www.wxperl.it/>wxPerl</a>, <a href=https://www.wxpython.org/>wxPython</a>...
-	<li><a href=https://www.gtk.org/>Gtk+</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (GIMP ToolKit) : toolkit à la base de l'environnement de bureau Linux/<b>GNOME</b> ; voir également <a href=http://gtk2-perl.sourceforge.net/>Gtk2-Perl</a>, <a href=https://pygobject.readthedocs.io/>PyGObject</a>, <a href=https://gtk.php.net/>PHP-GTK</a>...
-	<li>(Digia) <a href=https://www.qt.io/>Qt</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : toolkit à la base de l'environnement de bureau Linux/<b>KDE</b> ; voir également <a href=http://perlqt.sourceforge.net/>PerlQt</a>, <a href=https://wiki.python.org/moin/PyQt>PyQt</a>...
-	</ul>
-<li>Plateformes de portage sur mobiles d'applications basées HTML/CSS/JavaScript :
-	<ul>
-	<li><a href=https://cordova.apache.org/>Apache Cordova</a> <img src=and.png> <img src=ios.png> ("incubation" Apache de Adobe PhoneGap), 
-		<a href=https://www.appcelerator.com/>Appcelerator Titanium</a> <img src=and.png> <img src=ios.png>
-	</ul>
-<li>Frameworks de développement d'applications web <img src=web.png> :
-	<ul>
-	<li><a href=https://www.djangoproject.com/>Django</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : framework basé Python
-	<li><a href=https://rubyonrails.org/>Ruby on Rails</a> (RoR) <img src=lin.png> <img src=win.png> <img src=mac.png> : framework basé Ruby
-	<li><a href=https://framework.zend.com/>Zend Framework</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : framework basé PHP
-	<li><a href=http://www.gwtproject.org/>GWT</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (Google Web Toolkit) : ensemble d'outils &amp; widgets web développés par Google
-	</ul>
-<li>Gestion du cycle de vie d'applications :
-	<ul>
-	<li><a href=https://www.tuleap.org/>Tuleap</a> <img src=web.png> : développement agile/waterfall, suivi des bugs, gestion du support
+	<li><a href=https://www.tcl.tk>Tk</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : toolkit né avec le langage de script Tcl. Voir également Tkinter/Python, Perl/Tk...
+	<li><a href=https://www.wxwidgets.org/>wxWidgets</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : autre toolkit  <!-- voir Linux Journal 7/03 p. 90 --> ; voir également <a href=https://www.wxpython.org/>wxPython</a>, <a href=http://www.wxperl.it/>wxPerl</a>...
+	<li><a href=https://www.gtk.org/>GTK</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (GIMP ToolKit) : toolkit à la base de l'environnement de bureau Linux/<b>GNOME</b> ; voir également Python/<a href=https://pygobject.readthedocs.io/>PyGObject</a>, <a href=http://gtk2-perl.sourceforge.net/>Gtk2-Perl</a>, <a href=https://gtk.php.net/>PHP-GTK</a>...
+	<li><a href=https://www.qt.io/>Qt</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : toolkit à la base de l'environnement de bureau Linux/<b>KDE</b> ; voir également <a href=https://wiki.python.org/moin/PyQt>PyQt</a>, <a href=http://perlqt.sourceforge.net/>PerlQt</a>...
 	</ul>
 <li>Galeries web de photos <img src=web.png> :
 	<ul>
@@ -2302,20 +2246,14 @@ Encore <b>quelques logiciels</b> dans ces domaines :
 	</ul>
 <li>Statistiques web <img src=web.png> :
 	<ul>
-	<li><a href=https://matomo.org/>Matomo</a> (ex PhpMyVisites puis Piwik), <a href=http://www.openwebanalytics.com/>Open Web Analytics</a> (OWA) : outils analytiques (du type Google Analytics)
-	<li><a href=http://www.webalizer.org/>Webalizer</a>, <a href=http://awstats.sourceforge.net/>AWStats</a> : outils "classiques"
-	</ul>
-<li>Applications web diverses <img src=web.png> :
-	<ul>
-	<li><a href=https://www.limesurvey.org>LimeSurvey</a> (ex PHPSurveyor) : environnement de développement de sondages en-ligne (basé PHP5, MySQL/PostgreSQL)
-	<li>Logiciels de blog, wiki, forum, CMS : voir plus haut (catégorie "Internet et Communication")
+	<li>outils analytiques (du type Google Analytics) : <a href=https://matomo.org/>Matomo</a> (ex PhpMyVisites puis Piwik), <a href=http://www.openwebanalytics.com/>Open Web Analytics</a> (OWA), <a href=https://umami.is/>umami</a> (basé Node.js))...
+	<li>outils "classiques" : <a href=http://www.webalizer.org/>Webalizer</a>, <a href=http://awstats.sourceforge.net/>AWStats</a>...
 	</ul>
 <li>Librairies graphiques web <img src=web.png> :
 	<ul>
 	<li>coté serveur : <a href=https://libgd.github.io/>GD</a>, <a href=https://jpgraph.net/>JpGraph</a>...
-	<li>coté client : <a href=https://www.highcharts.com/>Highcharts JS</a> (basé JavaScript/jQuery, licence CC BY-NC)
+	<li>coté client : <a href=https://www.highcharts.com/>Highcharts JS</a>...
 	</ul>
-<li>Autres systèmes plus anciens de gestion de versions de code : <a href=http://www.nongnu.org/cvs/>CVS</a>/Concurrent Versions System, <a href=http://subversion.apache.org/>SVN</a>/SubVersion
 </ul>
 
 
@@ -2330,27 +2268,35 @@ Encore <b>quelques logiciels</b> dans ces domaines :
 <!--#include virtual="table-head.shtml" -->
 
 <tr>
-	<td id=d>	Cartographie
+	<td id=d rowspan=2>	Cartographie
 	<td id=l>	<img src=s1.png> <a href=https://www.openstreetmap.org/>OpenStreetMap</a> (OSM)
 	<td id=c>	Projet communautaire de cartographie mondiale (le "wikipédia de la cartographie").
 				<p>
 				Outre les données OSM (qui sont libres) il y a de très nombreux <a href=https://wiki.openstreetmap.org/wiki/Software>logiciels libres</a> dérivés.
 	<td id=p>	<img src=web.png> <img src=lin.png> <img src=win.png> <img src=mac.png> <br>
 				<img src=and.png> <img src=wph.png> <img src=ios.png>
-	<td id=s>	<a href=https://www.google.com/maps/>Google</a> Maps, <a href=https://www.bing.com/maps/>Bing</a> Maps, <a href=https://map.geo.admin.ch/>Géoportail Suisse</a>, données Nokia/Navteq, et TomTom/Tele Atlas...
+	<td id=s rowspan=2>	<a href=https://www.google.com/maps/>Google</a> Maps, <a href=https://www.bing.com/maps/>Bing</a> Maps, données Nokia/Navteq, et TomTom/Tele Atlas...
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s1.png> <a href=https://map.geo.admin.ch/?>Swisstopo</a>
+	<td id=c>	Géoportail Suisse (données en accès libre depuis 2021)
+	<td id=p>	<img src=web.png>
+	<!-- rowspan -->
 </tr>
 
 <tr>
 	<td id=d>	Atlas mondial
-	<td id=l>	<img src=s0.png> <a href=https://edu.kde.org/marble/>Marble</a>
+	<td id=l>	<img src=s0.png> <a href=https://marble.kde.org/>Marble</a>
 	<td id=c>	Globe virtuel et atlas mondial, du projet KDE-Edu
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png>
 	<td id=s>	<a href=https://www.google.com/earth/Google Earth</a>
 </tr>
 
 <tr>
 	<td id=d>	Assemblage de cartes
-	<td id=l>	<img src=s0.png> <a href=http://mobac.sourceforge.net/>MOBAC</a>
+	<td id=l>	<img src=s0.png> <a href=https://mobac.sourceforge.io/>MOBAC</a>
 	<td id=c>	(Mobile Atlas Creator) Assemblage de cartes et création de tuiles pour équipements mobiles...
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	
@@ -2358,14 +2304,14 @@ Encore <b>quelques logiciels</b> dans ces domaines :
 
 <tr>
 	<td id=d>	Visualisation de données géographiques
-	<td id=l>	<img src=s1.png> <a href=http://thuban.intevation.org/>Thuban</a>
+	<td id=l>	<img src=s0.png> <a href=http://thuban.intevation.org/>Thuban</a>
 	<td id=c>	Visualisation de fichiers de GIS vecteur (Shapefile, PostGIS Layer, OGR) et raster (GeoTIFF Layer, GDAL )
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	Logiciels SIG divers
 </tr>
 
 <tr>
-	<td id=d rowspan=2>	Gestion de traces GPS
+	<td id=d rowspan=2>	Gestion de traces GPS/GPX
 	<td id=l>	<img src=s1.png> <a href=https://gpsprune.activityworkshop.net/>GpsPrune</a>
 	<td id=c>	Visualisation (sur fonds OSM), édition et conversion de fichiers GPS (GPX, KML...), géolocalisation de photos (EXIF)
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
@@ -2383,7 +2329,7 @@ Encore <b>quelques logiciels</b> dans ces domaines :
 <tr>
 	<td id=d rowspan=3>	SIG en mode vecteur
 	<td id=l>	<img src=s1.png> <a href=https://qgis.org>QGIS</a> (Quantum GIS)
-	<td id=c>	Solution SIG desktop, ouverte vers GRASS
+	<td id=c>	Logiciel SIG desktop, ouvert vers GRASS
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png>
 	<td id=s rowspan=3>	ESRI ArcGIS, Manifold, PBS MapInfo, Bentley GIS, Smallworld...
 </tr>
@@ -2391,7 +2337,7 @@ Encore <b>quelques logiciels</b> dans ces domaines :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=http://openjump.org>OpenJUMP</a>
-	<td id=c>	Solution SIG desktop, basée sur le framework SIG Java JUMP (JUMP Unified Mapping Platform)
+	<td id=c>	Logiciel SIG desktop. Basé sur le framework SIG Java JUMP (JUMP Unified Mapping Platform)
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -2399,7 +2345,7 @@ Encore <b>quelques logiciels</b> dans ces domaines :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=http://www.gvsig.org>gvSIG</a>
-	<td id=c>	Solution SIG desktop
+	<td id=c>	Logiciel SIG desktop
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -2415,15 +2361,15 @@ Encore <b>quelques logiciels</b> dans ces domaines :
 <tr>
 	<td id=d rowspan=2>	SIG combinant fonctionnalités vecteur &amp; raster
 	<td id=l>	<img src=s1.png> <a href=https://grass.osgeo.org/>GRASS GIS</a> 
-	<td id=c>	(Geographic Resources Analysis Support System) Solution SIG desktop très riche (raster, vecteur, visualisation 3D...) 
+	<td id=c>	(Geographic Resources Analysis Support System) Logiciel SIG desktop très riche (raster, vecteur, visualisation 3D...) 
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=2>	Logiciels ESRI...
+	<td id=s rowspan=2>	ESRI...
 </tr>
 
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=http://udig.refractions.net/>uDig</a>
-	<td id=c>	(User-friendly Desktop Internet GIS) Solution SIG desktop s'appuyant sur Eclipse et GRASS
+	<td id=c>	(User-friendly Desktop Internet GIS) Logiciel SIG desktop s'appuyant sur Eclipse et GRASS
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -2476,12 +2422,10 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 		<a href=https://www.oruxmaps.com/>OruxMaps</a> <img src=fre.png> <img src=and.png> <img SRC=jav.png> <img SRC=lin.png> <img SRC=win.png> <img SRC=mac.png>
 	<li>liste des applications basées OSM sous :
 		<a href=https://wiki.openstreetmap.org/wiki/Android>Android</a> <img src=and.png>,
-		<a href=https://wiki.openstreetmap.org/wiki/Apple_iOS>iOS</a> <img src=ios.png>,
-		<a href=https://wiki.openstreetmap.org/wiki/Windows_Phone>Windows Phone</a> <img src=wph.png> ...
+		<a href=https://wiki.openstreetmap.org/wiki/Apple_iOS>iOS</a> <img src=ios.png> ...
 	</ul>
 <li>Logiciels SIG :
 	<ul>
-	<li><a href=https://geonetwork-opensource.org/>GeoNetwork</a> <img SRC=jav.png> <img SRC=lin.png> <img SRC=win.png> <img SRC=mac.png> : gestion/catalogage des métadonnées géospatiales <!-- M. Parkan -->
 	<li>ITC <a href=http://ilwis.itc.utwente.nl/>ILWIS</a> [<img SRC=lin.png>] <img SRC=win.png> [<img SRC=mac.png>] (Integrated Land and Water Information System) : SIG vecteur et raster
 	<li><a href=http://orbisgis.org/>OrbisGIS</a> <img SRC=jav.png> <img SRC=lin.png> <img SRC=win.png> <img SRC=mac.png> : solution SIG desktop
 	<li><a href=https://www.mapwindow.org/>MapWindow GIS</a> <img SRC=win.png> : solution SIG desktop (basée sur MapWinGIS et s'appuyant sur .NET)
@@ -2493,10 +2437,11 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	</ul>
 <li>Si vous souhaitez contribuer au projet communautaire de cartographie libre mondial <a href=https://www.openstreetmap.org/>OpenStreetMap</a> (OSM) :
 	<ul>
-	<li>éditeur OSM :
+	<li>éditeurs OSM :
 	<a href=https://josm.openstreetmap.de/>JOSM</a> <img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>,
 	<a href=http://merkaartor.be/>Merkaartor</a> <img src=lin.png> <img src=win.png> <img src=mac.png>,
-	<a href=https://wiki.openstreetmap.org/wiki/Potlatch_2>Potlatch</a> <img src=web.png>
+	<a href=https://www.systemed.net/potlatch/>Potlatch</a> <img src=win.png> <img src=mac.png>,
+	<a href=https://github.com/openstreetmap/iD>iD</a> <img src=web.png>
 	</ul>
 
 <!-- 
@@ -2522,7 +2467,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<td id=d rowspan=2>	Gestionnaire de mots de passe
 	<td id=l>	<img src=s2.png> <a href=https://www.keepass.info>KeePass</a> Password Safe
-	<td id=c>	Gestionnaire de mots de passes libre et multiplateformes indispensable (voir <a href=http://flashinformatique.epfl.ch/spip.php?article2180>article</a>) !
+	<td id=c>	Logiciel libre et multiplateforme de gestion de mots de passes
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png> <img src=ios.png>
 	<td id=s rowspan=2>	LastPass, Password Agent...
 </tr>
@@ -2531,7 +2476,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://bitwarden.com/>Bitwarden</a>
 	<td id=c>	Idem
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png> <img src=ios.png>
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png> <img src=ios.png> <img src=fir.png> <img src=chr.png>
 	<!-- rowspan -->
 </tr>
 
@@ -2554,10 +2499,10 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 </table>
 
+<!-- 
 <p>
 Encore <b>quelques logiciels</b> dans ce domaine :
 <ul class=carre>
-<li><a href=https://www.axantum.com/>AxCrypt</a> <img src=win.png> : module de chiffrement fort et compression de fichiers, intégrable à l'explorateur de fichiers Windows
 <li>Analyseurs de protocoles et paquets réseau (sniffer) :
 	<ul>
 	<li><a href=https://www.wireshark.org/>Wireshark</a> <img src=lin.png> <img src=win.png> <img src=mac.png> : anciennement nommé <b>Ethereal</b>
@@ -2573,7 +2518,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	</ul>
 <li>Détection et prévention d'intrusion : <a href=https://www.snort.org/>Snort</a> <img src=lin.png> <img src=win.png> <img src=mac.png>
 </ul>
-
+-->
 
 
 <a name="metier"></a>
@@ -2611,18 +2556,17 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d rowspan=3>	Gravure de CD/DVD (applications à interface graphique)
-	<td id=l>	<img src=s1.png> <a href=http://infrarecorder.org>InfraRecorder</a>
-	<td id=c>	Gravure de fichiers de données, fichiers audio, images ISO
+	<td id=l>	<img src=s0.png> <a href=http://infrarecorder.org>InfraRecorder</a>
+	<td id=c>	Gravure de CD/DVD pour fichiers de données, fichiers audio, images ISO
 	<td id=p>	<img src=win.png>
 	<td id=s rowspan=3>	Nero..., Roxio...
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://wiki.gnome.org/Apps/Brasero>Brasero</a> <br>
-				<img src=s1.png> <a href=https://userbase.kde.org/K3b>K3b</a>
-	<td id=c>	Application standard sous Linux/GNOME <br>
-				respectivement sous Linux/KDE
+	<td id=l>	<img src=s0.png> <a href=https://wiki.gnome.org/Apps/Brasero>Brasero</a> <br>
+				<img src=s0.png> <a href=https://userbase.kde.org/K3b>K3b</a>
+	<td id=c>	Applications de gravure CD/DVD standards sous Linux/GNOME, respectivement sous Linux/KDE
 	<td id=p>	<img src=lin.png>
 	<!-- rowspan -->
 </tr>
@@ -2630,59 +2574,63 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://burn-osx.sourceforge.io/>Burn</a>
-	<td id=c>	
+	<td id=c>	Logiciel de gravure CD/DVD pour Mac
 	<td id=p>	<img src=mac.png>
 	<!-- rowspan -->
 </tr>
 
 <tr>
-	<td id=d rowspan=2>	Gravure de CD/DVD en mode commande
-	<td id=l>	<img src=s0.png> cdrkit (fork de Cdrtools)
-	<td id=c>	Notamment la commande <b>wodim</b> <img src=cmd.png>
-	<td id=p>	<img src=lin.png>
-	<td id=s rowspan=2>	
-</tr>
-
-<tr>
-	<!-- rowspan -->
+	<td id=d>	Gravure de CD/DVD en mode commande
 	<td id=l>	<img src=s0.png> <a href=https://www.berlios.de/software/cdrtools/>Cdrtools</a>
-	<td id=c>	Notamment la commande <b>cdrecord</b> <img src=cmd.png>
+	<td id=c>	Outils de gravure en mode commande, notamment <b>cdrecord</b> <img src=cmd.png>
 	<td id=p>	<img src=lin.png>
-	<!-- rowspan -->
+	<td id=s>
 </tr>
 
 <tr>
-	<td id=d rowspan=2>	Création d'archives de fichiers/dossiers, avec compression, voire chiffrement <b>(1)</b>
-	<td id=l>	<img src=s1.png> <a href=https://peazip.github.io/>PeaZip</a>
+	<td id=d rowspan=3>	Création d'archives de fichiers/dossiers, avec compression, voire chiffrement <b>(1)</b>
+	<td id=l>	<img src=s0.png> <a href=https://peazip.github.io/>PeaZip</a>
 	<td id=c>	Supporte de très nombreux formats d'archive, dont 7Zip et RAR
 	<td id=p>	<img src=lin.png> <img src=win.png>
-	<td id=s rowspan=2>	
+	<td id=s rowspan=3>	
 </tr>
 
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://www.7-zip.org>7-Zip</a>
-	<td id=c>	Dénommé <b>p7zip</b> sous Linux et macOS. Sous macOS, voir <a href=https://www.keka.io/>Keka</a>. Supporte chiffrement fort (AES 256 bits)
-	<td id=p>	<img src=lin.png> <img src=win.png> [<img src=mac.png>]
+	<td id=c>	Supporte chiffrement fort (AES 256 bits) <br>Dénommé <b>p7zip</b> sous Linux
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
 
 <tr>
-	<td id=d rowspan=4>	Analyse et visualisation de l'utilisation de l'espace disque
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://www.keka.io/>Keka</a>
+	<td id=c>	Version 7-Zip pour macOS
+	<td id=p>	<img src=mac.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<td id=d rowspan=5>	Analyse et visualisation de l'utilisation de l'espace disque
 	<td id=l>	<img src=s0.png> <a href=https://windirstat.net>WinDirStat</a>
-	<td id=c>	
+	<td id=c>	Visualisation graphique de l'usage disque
 	<td id=p>	<img src=win.png>
-	<td id=s rowspan=4>	
+	<td id=s rowspan=5>	
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=http://www.marzocca.net/linux/baobab/>Disk Usage Analyzer</a> <br>
-				<img src=s0.png> <a href=http://kdirstat.sourceforge.net>KDirStat</a> <br>
-				<img src=s0.png> <a href=http://gdmap.sourceforge.net/>GdMap</a>
-	<td id=c>	Outil standard s/Linux/GNOME (ex Baobab) <br>
-				Outil standard sous  Linux/KDE <br>
-				Autre outil
+	<td id=l>	<img src=s0.png> <a href=http://www.marzocca.net/linux/baobab/>Disk Usage Analyzer</a>
+	<td id=c>	Outil d'analyse d'usage disque standard s/Linux/GNOME (ex Baobab)
+	<td id=p>	<img src=lin.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://github.com/shundhammer/qdirstat>QDirStat</a> <br>
+	<td id=c>	(ex KDirStat) Analogue à WinDirStat
 	<td id=p>	<img src=lin.png>
 	<!-- rowspan -->
 </tr>
@@ -2698,7 +2646,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=http://www.jgoodies.com/freeware/jdiskreport/>JDiskReport</a>
-	<td id=c>	
+	<td id=c>	Outil d'analyse d'usage disque écrit en Java
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -2713,7 +2661,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d>	Récupération de fichiers effacés par erreur, voire de partitions
-	<td id=l>	<img src=s0.png> <a href=https://www.cgsecurity.org/wiki/PhotoRec>PhotoRec</a> et <br>
+	<td id=l>	<img src=s1.png> <a href=https://www.cgsecurity.org/wiki/PhotoRec>PhotoRec</a> et <br>
 				<img src=s0.png> <a href=https://www.cgsecurity.org/wiki/TestDisk>TestDisk</a>
 	<td id=c>	Récupération de fichiers et <br>
 				récupération de partitions
@@ -2722,25 +2670,17 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d rowspan=6>	Comparaison et synchronisation de répertoires/fichiers (applications à interface graphique) 
+	<td id=d rowspan=3>	Comparaison et synchronisation de répertoires/fichiers (applications à interface graphique) 
 	<td id=l>	<img src=s1.png> <a href=https://freefilesync.org/>FreeFileSync</a>
-	<td id=c>	Très convivial (voir cet <a href=http://flashinformatique.epfl.ch/spip.php?article2170>article</a>)
+	<td id=c>	Outil de synchronisation convivial
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=6>	
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=http://synkron.sourceforge.net>Synkron</a>
-	<td id=c>	Similaire à FreeFileSync
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
+	<td id=s rowspan=3>	
 </tr>
 
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://www.dirsyncpro.org/>DirSync Pro</a>
-	<td id=c>	Léger et multiplateforme
+	<td id=c>	Outil de synchro léger et multiplateforme
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -2754,41 +2694,26 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=http://www.opbyte.it/grsync/>Grsync</a>
-	<td id=c>	Interface graphique GTK à <b>rsync</b> (voir ci-dessous)
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <b>Syncthing</b> (cf plus bas)
-	<td id=c>	Synchronisation en mode client/serveur (avec le même logiciel des 2 cotés)
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
 	<td id=d rowspan=2>	Synchronisation de répertoires/fichiers en mode commande
 	<td id=l>	<img src=s1.png> <a href=https://rsync.samba.org/>rsync</a> <img src=cmd.png>
-	<td id=c>	Intégré à Linux et macOS. <br>
-				Sous Windows: soit sous Cygwin, soit package <a href=https://www.itefix.net/cwrsync>cwRsync</a> <br>
+	<td id=c>	Commande de synchro extrêmement puissante, intégrée à Linux et macOS. <br>
+				Sous Windows: commande offerte soit sous Cygwin, soit via package <a href=https://www.itefix.net/cwrsync>cwRsync</a>. <br>
+				Voir <a href=http://www.opbyte.it/grsync/>Grsync</a>, interface graphique à rsync.<br>
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s rowspan=2>	
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://fr.wikipedia.org/wiki/Robocopy>robocopy</a> <img src=fre.png> <img src=cmd.png>
-	<td id=c>	 Outil Microsoft (anciennement dans Windows Server 2003 Ressource Kit, maintenant intégré à Win7 et WinServer 2008)
+	<td id=l>	<img src=s0.png> <a href=https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/robocopy>robocopy</a> <img src=fre.png> <img src=cmd.png>
+	<td id=c>	 Outil de synchro Microsoft (anciennement dans Windows Server 2003 Ressource Kit, maintenant intégré à Win7 et WinServer 2008)
 	<td id=p>	<img src=win.png>
 	<!-- rowspan -->
 </tr>
 
 <tr>
-	<td id=d>	Nettoyage
-	<td id=l>	<img src=s1.png> <a href=http://bleachbit.sourceforge.net>BleachBit</a>
+	<td id=d>	Nettoyage disque
+	<td id=l>	<img src=s1.png> <a href=https://www.bleachbit.org/>BleachBit</a>
 	<td id=c>	Nettoyage de fichiers inutiles
 	<td id=p>	<img src=lin.png> <img src=win.png>
 	<td id=s>	
@@ -2796,9 +2721,9 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d rowspan=2>	Anonymisation
-	<td id=l>	<img src=s0.png> <a href=https://mat.boum.org/>MAT</a>
+	<td id=l>	<img src=s0.png> <a href=https://0xacab.org/jvoisin/mat2>mat2</a>
 	<td id=c>	(Metadata Anonymisation Toolkit) Anonymisation de fichiers par suppression de métadonnées
-	<td id=p>	<img src=lin.png>
+	<td id=p>	<img src=lin.png> [<img src=mac.png>]
 	<td id=s rowspan=2>	
 </tr>
 
@@ -2820,7 +2745,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s2.png> <a href=https://rescuezilla.com/>Rescuezilla</a> <img src=liv.png>x86
+	<td id=l>	<img src=s1.png> <a href=https://rescuezilla.com/>Rescuezilla</a> <img src=liv.png>x86
 	<td id=c>	Logiciel convivial (avec GUI, sur média bootable basé Linux) de clonage/restore de disques/partitions pour Linux/Windows/macOS. <br>Dispose en outre d'un explorateur d'images compatible avec Clonezilla permettant de recharger des fichiers isolés !
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
@@ -2920,12 +2845,6 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <li>Fonctionnalités en outre intégrées dans les explorateurs de fichiers (Explorer/Windows, Nautilus Linux/GNOME, Finder/macOS...) voire en mode commande (Linux: tar, gzip/gunzip...)
 </ol>
 
-<p>
-Encore <b>quelques logiciels</b> dans ce domaine :
-<ul class=carre>
-<li><a href=https://portableapps.com/apps/utilities/toucan>Toucan</a> <img src=win.png> : autre outil de synchronisation de répertoires/fichiers, à interface graphique
-</ul>
-
 
 
 <a name="virtualisation"></a>
@@ -2936,17 +2855,17 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <!--#include virtual="table-head.shtml" -->
 
 <tr>
-	<td id=d rowspan=5>	Solutions de type simulation ou émulation
+	<td id=d rowspan=4>	Solutions de type simulation ou émulation
 	<td id=l>	<img src=s0.png> <a href=https://www.winehq.org>WINE</a>
 	<td id=c>	Implémentation open source des APIs DOS+Win16+Win32 sur Linux/X-Window et macOS/X11 permettant d'exécuter certaines applications Windows sans installer de machine virtuelle Windows
 	<td id=p>	<img src=lin.png> [<img src=mac.png>]
-	<td id=s rowspan=5>	
+	<td id=s rowspan=4>	
 </tr>
 
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://www.codeweavers.com/crossover>CrossOver</a> <img src=fre.png>
-	<td id=c>	Version affinée et commerciale de WINE, avec support CodeWeavers
+	<td id=c>	Version affinée et commerciale de WINE
 	<td id=p>	<img src=lin.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -2963,14 +2882,6 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	<!-- rowspan -->
 	<td id=l>	<img src=s1.png> <a href=https://github.com/bmatzelle/gow/>Gow</a>
 	<td id=c>	(GNU on Windows) Alternative légère à Cygwin se composant d'une centaine de commandes/outils Unix pour ~20 MB, très facile à installer.
-	<td id=p>	<img src=win.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://reactos.org/>ReactOS</a> <br>
-	<td id=c>	Système d'exploitation libre/open source complet, basé sur les principes de conception de l'architecture Windows NT, compatible au niveau binaire avec Windows (permettant aux applications et pilotes Windows de s'exécuter). Encore au stade de projet
 	<td id=p>	<img src=win.png>
 	<!-- rowspan -->
 </tr>
@@ -3021,14 +2932,6 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	<td id=c>	Déploiement d'applications ou services sous forme de conteneurs
 	<td id=p>	<img src=lin.png>
 	<td id=s>	
-</tr>
-
-<tr>
-	<td id=d>	Gestionnaires d'amorçage (dans le cas où l'on configure une machine en multi-boot)
-	<td id=l>	<img src=s1.png> GNU <a href=https://www.gnu.org/software/grub/>GRUB</a>
-	<td id=c>	Boot manager par défaut de la majorité des distributions Linux. La 1ère partie de GRUB s'installe dans la MBR, donc pas besoin de partition spécifique
-	<td id=p>	<img src=lin.png> <img src=win.png>
-	<td id=s>	Windows boot manager...
 </tr>
 
 </table>
@@ -3096,7 +2999,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<td id=d rowspan=3>	Environnements de bureau les plus répandus sous GNU/Linux
 	<td id=l>	<img src=s1.png> <a href=https://www.gnome.org>GNOME</a>
-	<td id=c>	Environnement de bureau Linux le plus répandu. Basé sur bibliothèque <a href=https://www.gtk.org/>GTK+</a>. <br>
+	<td id=c>	Environnement de bureau Linux le plus répandu. Basé sur bibliothèque <a href=https://www.gtk.org/>GTK</a>. <br>
 				Voir les forks MATE (de GNOME 2) et Cinnamon (de GNOME 3)
 	<td id=p>	<img src=lin.png> [<img src=win.png>] [<img src=mac.png>]
 	<td id=s rowspan=3>	
@@ -3114,7 +3017,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://www.xfce.org>XFCE</a> <br>
 				<img src=s0.png> <a href=https://www.lxde.org>LXDE</a>
-	<td id=c>	Environnements de bureau plus légers que GNOME et KDE. Basés sur bibliothèque <a href=https://www.gtk.org/>GTK+</a>
+	<td id=c>	Environnements de bureau plus légers que GNOME et KDE. Basés sur bibliothèque <a href=https://www.gtk.org/>GTK</a>
 	<td id=p>	<img src=lin.png>
 	<!-- rowspan -->
 </tr>
@@ -3173,7 +3076,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d rowspan=5>	Solutions de backup individuelles, basées sur une simple application cliente et un espace de stockage local ou distant <b>(1)</b>
-	<td id=l>	<img src=s2.png> <a href=http://www.areca-backup.org/>Areca Backup</a>
+	<td id=l>	<img src=s1.png> <a href=http://www.areca-backup.org/>Areca Backup</a>
 	<td id=c>	Solution de backup individuelle (incrémental/différentiel, compression, encryption, sur stockage local/FTS/FTPS/FTP)
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s rowspan=5>	Windows Backup, Apple Time Machine...
@@ -3220,11 +3123,11 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d rowspan=6>	Solutions de backup de parc de machines, basées sur une architecture client/serveur
+	<td id=d rowspan=5>	Solutions de backup de parc de machines, basées sur une architecture client/serveur
 	<td id=l>	<img src=s0.png> <a href=https://github.com/backuppc/backuppc>BackupPC</a>
 	<td id=c>	Serveur de backup Linux (basé Perl, Samba, tar/ssh, rsync, interface web...). Ne nécessite aucun logiciel coté client.
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=6>	Symantec Veritas Backup Exec, EMC Legato Networker, Atempo Time Navigator...
+	<td id=s rowspan=5>	Symantec Veritas Backup Exec, EMC Legato Networker, Atempo Time Navigator...
 </tr>
 
 <tr>
@@ -3253,150 +3156,10 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://burp.grke.org/>BURP</a>
-	<td id=c>	(BackUp and Restore Program) Fork de Bacula
-	<td id=p>	<img src=lin.png> <img src=win.png> [<img src=mac.png>]
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://www.borgbackup.org/>BorgBackup</a>
 	<td id=c>	Serveur Linux, clients Linux et macOS
 	<td id=p>	<img src=lin.png> <img src=mac.png>
 	<!-- rowspan -->
-</tr>
-
-</table>
-
-
-<p>
-<b>Notes</b> :
-<ol>
-<li>Pour les solutions de comparaison/synchronisation de répertoires/fichiers, voir au chapitre Utilitaires plus haut
-</ol>
-
-<p>
-Encore <b>quelques logiciels</b> dans ce domaine :
-<ul class=carre>
-<li>Backup :
-	<ul>
-	<li><a href=http://luckybackup.sourceforge.net>luckyBackup</a> <img src=lin.png> [<img src=win.png>] [<img src=mac.png>] : solution de backup individuelle
-	</ul>
-<li>Outils de déploiement par clonage :
-	<ul>
-	<li>Clonezilla (voir plus haut)
-	<li><a href=https://ping.windowsdream.com/>PING</a> <img src=lin.png> (Partimage Is Not Ghost) : solution de déploiement de postes Windows ou Linux (basée Partimage et LFS, Linux From Scratch)
-	<li><a href=https://fogproject.org/>FOG</a> <img src=lin.png> (Free Open-Source Ghost) : solution de déploiement de postes Windows (basée Linux)
-	<li><a href=http://www.feyrer.de/g4u/>g4u</a> <img src=lin.png> (ghosting for unix) : solution de déploiement de postes Windows ou Linux (basée NetBSD)
-	</ul>
-<li>Outils de gestion de parc informatique :
-	<ul>
-	<li><a href=https://dev.tranquil.it/wiki/WAPT_-_apt-get_pour_Windows>WAPT</a> <img src=win.png> (Windows APT) : automatisation d'installation et mise à jour de logiciels (inspiré du système APT Debian)
-	<li><a href=https://chocolatey.org/>Chocolatey</a> <img src=win.png> : gestionnaire de packages en mode commande
-	<li><a href=https://www.munki.org/>Munki</a> <img src=mac.png> : gestionnaire de packages
-	<li><a href=https://glpi-project.org/>GLPI</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (Gestion Libre de Parc Informatique) : application web de gestion de parc (configuration logicielle/matérielle des postes) et de HelpDesk
-	<li><a href=https://ocsinventory-ng.org/>OCS Inventory NG</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (Open Computers and Software Inventory Next Generation) : solution d'inventaire de parc <b>et</b> de déploiement de logiciels, souvent utilisée conjointement avec GLPI
-	</ul>
-<li>Outils spécifiquement dédiés à l'administration Windows :
-	<ul>
-	<li><a href=https://sourceforge.net/projects/regshot/>RegShot</a> <img src=win.png> : surveillance de l'activité fichier et registry sous Windows, par image avant/après (p.ex. pour voir ce qui est modifié lors de l'instal. d'une appli)
-	<li>(Sysinternals) <a href=https://docs.microsoft.com/fr-ch/sysinternals/downloads/procmon>Process Monitor</a> <img src=fre.png> <img src=win.png> (combine/remplace outils RegMon+FileMon) : pour monitorer en temps réel l'activité fichier et registry sous Windows
-	<li>Fabrication de packages d'installation pour Windows : 
-		<a href=https://www.jrsoftware.org/isinfo.php>Inno Setup</a> <img src=win.png>,
-		<a href=https://nsis.sourceforge.io/>NSIS</a> <img src=win.png> (Nullsoft Scriptable Install System)
-	</ul>
-<li>Divers :
-	<ul>
-	<li><a href=https://www.webmin.com>Webmin</a> <img src=lin.png> <img src=mac.png> : ensemble d'outil basés Web de gestion de machines/serveurs Linux/macOS (intégrant propre serveur Web et modules basés Perl+Java) : Webmin, Usermin, Virtalmin, Cloudmin
-	<li><a href=https://wincdemu.sysprogs.org/>WinCDEmu</a> <img src=win.png> : montage d'images ISO, IMG, CCD...
-	</ul>
-</ul>
-
-
-
-<a name="serveurs"></a>
-<h2>2.16 Solutions pour serveurs, cloud</h2>  <!-- ************************************************************ -->
-
-
-<table class="center logiciel">
-<!--#include virtual="table-head.shtml" -->
-
-<tr>
-	<td id=d rowspan=3>	Serveur NAS (appliance de stockage)
-	<td id=l>	<img src=s0.png> <a href=https://www.freenas.org/>FreeNAS</a> <img src=liv.png>x86
-	<td id=c>	Appliances NAS basées FreeBSD
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=3>	Solutions NetApp, EMC, Synology, QNAP...
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://www.openmediavault.org/>OpenMediaVault</a> <img src=liv.png>x86
-	<td id=c>	Appliance NAS basée Linux/Debian, inspirée de FreeNAS
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://www.openfiler.com/>Openfiler</a> <img src=liv.png>x86
-	<td id=c>	Appliance NAS basé rPath Linux
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<td id=d rowspan=3>	Implémentation de sa propre plateforme de Cloud ("cloud privé" auto-hébergé)
-	<td id=l>	<img src=s0.png> <a href=https://owncloud.com/>ownCloud</a>
-	<td id=c>	Services de cloud : fichiers, contacts, calendriers, galeries photos...
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <br>
-				<img src=web.png> <img src=and.png> <img src=ios.png>
-	<td id=s rowspan=3>	Google Drive/Apps..., Microsoft OneDrive, Apple iCloud, DropBox...
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://nextcloud.com/>Nextcloud</a>
-	<td id=c>	Fork de ownCloud
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <br>
-				<img src=web.png> <img src=and.png> <img src=ios.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://cozy.io/>Cozy</a> <br>
-				<img src=s0.png> <a href=https://yunohost.org/>YunoHost</a> <br>
-				<img src=s0.png> <a href=https://syncloud.org/>Syncloud</a>
-	<td id=c>	Autres solutions d'auto-hébergement (fichiers, agenda, mail, notes, todos, photos...)
-	<td id=p>	<img src=web.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<td id=d rowspan=2>	Stockage/synchronisation de fichiers
-	<td id=l>	<img src=s1.png> <a href=https://syncthing.net/>Syncthing</a> <br>
-				<img src=s0.png> et son fork Pulse
-	<td id=c>	Synchronisation point à point entre machines ou clients/serveur, auto-hébergeable, ouverte, avec possibilité de versioning, léger et simple à mettre en oeuvre
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png>
-	<td id=s rowspan=2>	Google Drive, Microsoft OneDrive, Apple iCloud, DropBox...
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://www.sparkleshare.org/>SparkleShare</a>
-	<td id=c>	Logiciel client offrant fonctionnalité de stockage/synchronisation cloud et utilisant <a href=http://git-scm.com>Git</a> comme backend de stockage
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<!-- rowspan -->
-</tr>
-
-<tr>
-	<td id=d>	Autres types d'appliances...
-	<td id=l>	<img src=s0.png> <a href=https://www.turnkeylinux.org/>TurnKey</a> Linux <img src=liv.png>x86
-	<td id=c>	Une cinquantaine d'appliances Linux spécialisées, basées Ubuntu, pouvant être déployées sur machines physiques, virtuelles ou sur infrastructures de cloud (Amazon, OpenStack...)
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s>	
 </tr>
 
 <tr>
@@ -3420,18 +3183,111 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </table>
 
 
+<p>
+<b>Notes</b> :
+<ol>
+<li>Pour les solutions de comparaison/synchronisation de répertoires/fichiers, voir au chapitre Utilitaires plus haut
+</ol>
 
 <p>
 Encore <b>quelques logiciels</b> dans ce domaine :
 <ul class=carre>
-<li>Consortiums et technologies Cloud libres (XaaS, Infrastructure/Platform/Software as a Service) :
+<li>Outils de déploiement par clonage :
 	<ul>
-	<li><a href=https://www.openstack.org/>OpenStack</a>
-	<li>(Apache) <a href=https://cloudstack.apache.org/>CloudStack</a> <!-- donné par Citrix à Apache avril 2012 -->
-	<li><a href=https://www.occ-data.org/>Open Commons Consortium</a> (OCC)
-	<li><a href=https://opennebula.io/>OpenNebula</a>
+	<li>Clonezilla (voir plus haut)
+	<li><a href=https://ping.windowsdream.com/>PING</a> <img src=lin.png> (Partimage Is Not Ghost) : solution de déploiement de postes Windows ou Linux (basée Partimage et LFS, Linux From Scratch)
+	<li><a href=https://fogproject.org/>FOG</a> <img src=lin.png> (Free Open-Source Ghost) : solution de déploiement de postes Windows (basée Linux)
+	<li><a href=http://www.feyrer.de/g4u/>g4u</a> <img src=lin.png> (ghosting for unix) : solution de déploiement de postes Windows ou Linux (basée NetBSD)
+	</ul>
+
+<!--
+<li>Outils de gestion de parc informatique :
+	<ul>
+	<li><a href=https://dev.tranquil.it/wiki/WAPT_-_apt-get_pour_Windows>WAPT</a> <img src=win.png> (Windows APT) : automatisation d'installation et mise à jour de logiciels (inspiré du système APT Debian)
+	<li><a href=https://chocolatey.org/>Chocolatey</a> <img src=win.png> : gestionnaire de packages en mode commande
+	<li><a href=https://www.munki.org/>Munki</a> <img src=mac.png> : gestionnaire de packages
+	<li><a href=https://glpi-project.org/>GLPI</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (Gestion Libre de Parc Informatique) : application web de gestion de parc (configuration logicielle/matérielle des postes) et de HelpDesk
+	<li><a href=https://ocsinventory-ng.org/>OCS Inventory NG</a> <img src=lin.png> <img src=win.png> <img src=mac.png> (Open Computers and Software Inventory Next Generation) : solution d'inventaire de parc <b>et</b> de déploiement de logiciels, souvent utilisée conjointement avec GLPI
+	</ul>
+-->
+
+<li>Outils spécifiquement dédiés à l'administration Windows :
+	<ul>
+	<li><a href=https://github.com/Seabreg/Regshot>RegShot</a> <img src=win.png> : surveillance de l'activité fichier et registry sous Windows, par image avant/après (p.ex. pour voir ce qui est modifié lors de l'instal. d'une appli)
+	<li>(Sysinternals) <a href=https://docs.microsoft.com/fr-ch/sysinternals/downloads/procmon>Process Monitor</a> <img src=fre.png> <img src=win.png> (combine/remplace outils RegMon+FileMon) : pour monitorer en temps réel l'activité fichier et registry sous Windows
+    <!--
+	<li>Fabrication de packages d'installation pour Windows : 
+		<a href=https://www.jrsoftware.org/isinfo.php>Inno Setup</a> <img src=win.png>,
+		<a href=https://nsis.sourceforge.io/>NSIS</a> <img src=win.png> (Nullsoft Scriptable Install System)
+    -->
+	</ul>
+<li>Divers :
+	<ul>
+	<li><a href=https://wincdemu.sysprogs.org/>WinCDEmu</a> <img src=win.png> : montage d'images ISO, IMG, CCD...
 	</ul>
 </ul>
+
+
+
+<a name="serveurs"></a>
+<h2>2.16 Solutions pour serveurs, cloud</h2>  <!-- ************************************************************ -->
+
+
+<table class="center logiciel">
+<!--#include virtual="table-head.shtml" -->
+
+<tr>
+	<td id=d rowspan=2>	Serveur NAS (appliance de stockage)
+	<td id=l>	<img src=s0.png> <a href=https://www.freenas.org/>TrueNAS</a> <img src=liv.png>x86
+	<td id=c>	(ex FreeNAS) Appliances NAS basées FreeBSD
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<td id=s rowspan=2>	Solutions NetApp, EMC, Synology, QNAP...
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://www.openmediavault.org/>OpenMediaVault</a> <img src=liv.png>x86
+	<td id=c>	Appliance NAS basée Linux/Debian, inspirée de FreeNAS/TrueNAS
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<td id=d rowspan=2>	Implémentation de sa propre plateforme de Cloud ("cloud privé" auto-hébergé)
+	<td id=l>	<img src=s0.png> <a href=https://owncloud.com/>ownCloud</a>
+	<td id=c>	Services de cloud : fichiers, contacts, calendriers, galeries photos...
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <br>
+				<img src=web.png> <img src=and.png> <img src=ios.png>
+	<td id=s rowspan=2>	Google Drive/Apps..., Microsoft OneDrive, Apple iCloud, DropBox...
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://nextcloud.com/>Nextcloud</a>
+	<td id=c>	Fork de ownCloud
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <br>
+				<img src=web.png> <img src=and.png> <img src=ios.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<td id=d rowspan=2>	Stockage/synchronisation de fichiers
+	<td id=l>	<img src=s0.png> <a href=https://syncthing.net/>Syncthing</a>
+	<td id=c>	Synchronisation point à point entre machines ou clients/serveur, auto-hébergeable, ouverte, avec possibilité de versioning, léger et simple à mettre en oeuvre
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png>
+	<td id=s rowspan=2>	Google Drive, Microsoft OneDrive, Apple iCloud, DropBox...
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://www.sparkleshare.org/>SparkleShare</a>
+	<td id=c>	Logiciel client offrant fonctionnalité de stockage/synchronisation cloud et utilisant <a href=http://git-scm.com>Git</a> comme backend de stockage
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
+</tr>
+
+</table>
+
 
 
 
@@ -3452,7 +3308,7 @@ Sur ces plateformes, près de la moitié des applications sont gratuites (<i>freew
 	<td id=l>	<img src=s1.png> Google <a href=https://www.android.com>Android</a>
 	<td id=c>	Système d'exploitation basé sur le noyau Linux et une machine virtuelle Java (Dalvik, puis ART). Si le coeur du système est disponible en open source, il faut noter que les services phares de Google ne le sont pas (Google Play ainsi que les Google Mobile Services tels que Gmail, Maps, Chrome, YouTube, Docs...). De même la grande majorité des apps ne sont pas libres. Lire "<a href=https://www.gnu.org/philosophy/android-and-users-freedom.fr.html>Android et la liberté des utilisateurs</a>"
 	<td id=p>	<img src=and.png>
-	<td id=s rowspan=2>	Apple iOS, Windows Phone...
+	<td id=s rowspan=2>	Apple iOS
 </tr>
 
 <tr>
@@ -3521,11 +3377,11 @@ Voici quelques applications libres intéressantes pour un usage domestique. En av
 </tr>
 
 <tr>
-	<td id=d rowspan=5>	Astronomie
+	<td id=d rowspan=4>	Astronomie
 	<td id=l>	<img src=s0.png> <a href=https://stellarium.org/>Stellarium</a>
 	<td id=c>	Planétarium (atlas du ciel)
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=2>	Google Earth&gt;Sky...
+	<td id=s rowspan=3>	Google Earth&gt;Sky...
 </tr>
 
 <tr>
@@ -3538,26 +3394,18 @@ Voici quelques applications libres intéressantes pour un usage domestique. En av
 
 <tr>
 	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://celestia.space/>Celestia</a>
+	<td id=c>	Simulateur d'exploration de l'espace
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=http://www.sky-map.org/>Sky-Map</a>
 	<td id=c>	Atlas du ciel en ligne (web)
 	<td id=p>	<img src=web.png>
 	<td id=s>	<a href=https://www.google.com/sky/>Google Sky</a>...
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://celestia.space/>Celestia</a>
-	<td id=c>	Simulateur d'exploration de l'espace
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s>	
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=http://distroastro.org/>Distro Astro</a> <img src=liv.png>x86
-	<td id=c>	Compilation, sous forme de DVD Linux bootable, de logiciels libres dans le domaine de l'astronomie
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s>	
 </tr>
 
 <tr>
@@ -3585,19 +3433,11 @@ Voici quelques applications libres intéressantes pour un usage domestique. En av
 </tr>
 
 <tr>
-	<td id=d rowspan=5>	Édition de partitions musicales
+	<td id=d rowspan=4>	Édition de partitions musicales
 	<td id=l>	<img src=s0.png> <a href=https://musescore.org/>MuseScore</a>
 	<td id=c>	Éditeur de partitions WYSIWYG, avec import/export MusicXML et MIDI
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=5>	Finale, Sibelius...
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://vsr.informatik.tu-chemnitz.de/staff/jan/nted/nted.xhtml>NtEd</a> (NoteEdit)
-	<td id=c>	Éditeur de partitions WYSIWYG à l'interface très épurée, avec import/export MusicXML et MIDI
-	<td id=p>	<img src=lin.png>
-	<!-- rowspan -->
+	<td id=s rowspan=4>	Finale, Sibelius...
 </tr>
 
 <tr>
@@ -3666,7 +3506,7 @@ etc...
 	<td id=d>	Simulation de ville/transports
 	<td id=l>	<img src=s0.png> <a href=https://www.simutrans.com/>Simutrans</a> <br>
 				<img src=s0.png> <a href=https://www.openttd.org/>OpenTTD</a>
-	<td id=c>	Simulation de transport
+	<td id=c>	Simulations de transport
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	SimCity...
 </tr>
@@ -3711,7 +3551,7 @@ Merci de <script>msgto('jdbonjour', 'gmail.com','*** Commentaire sur Annuaire lo
 	<td id=d>	Recherche de contenus libres
 	<td id=l>	<img src=s2.png> <a href=https://search.creativecommons.org/>CC Search</a>
 	<td id=c>	Recherche de contenus en licence CC (web, image, musique, vidéo...)
-	<td id=p rowspan=11>	<br><br>Indépendant des plateformes
+	<td id=p rowspan=9>	<br><br>Indépendant des plateformes
 	<td id=s>	
 </tr>
 
@@ -3779,7 +3619,7 @@ Merci de <script>msgto('jdbonjour', 'gmail.com','*** Commentaire sur Annuaire lo
 
 <tr>
 	<td id=d>	Polices de caractère (fontes)
-	<td id=l>	<img src=s1.png> <a href=https://fonts.google.com>Google Fonts</a>
+	<td id=l>	<img src=s0.png> <a href=https://fonts.google.com>Google Fonts</a>
 	<td id=c>	Fontes libres Google, utilisables comme webfonts ou dans documents (TrueType)
 	<!-- rowspan -->
 	<td id=s>	Fontes Adobe, Microsoft, Apple...
@@ -3791,24 +3631,6 @@ Merci de <script>msgto('jdbonjour', 'gmail.com','*** Commentaire sur Annuaire lo
 	<td id=c>	Carte mondiale collaborative (le "wikipedia de la cartographie")
 	<!-- rowspan -->
 	<td id=s>	Google Maps, Bing Maps, Navteq, TeleAtlas...
-</tr>
-
-<tr>
-	<td id=d rowspan=2>	Électronique, hardware
-	<td id=l>	<img src=s0.png> <a href=https://www.arduino.cc>Arduino</a>
-	<td id=c>	Plateforme libre d'électronique programmée basée sur un circuit à microcontrôleurs libre (voir plus haut le langage Processing)
-	<!-- rowspan -->
-	<td id=s rowspan=2>	
-</tr>
-
-<tr>
-	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://ohwr.org/>OHWR.org</a>
-	<td id=c>	(Open Hardware Repository) Espace de partage pour les projets électroniques libres basés sur les licences : <br>
-	- <a href=https://ohwr.org/cernohl>CERN Open Hardware Licence</a> <br>
-	- <a href=https://tapr.org/the-tapr-open-hardware-license/>TAPR Open Hardware Licence</a>
-	<!-- rowspan -->
-	<!-- rowspan -->
 </tr>
 
 <tr>
@@ -3826,10 +3648,6 @@ Merci de <script>msgto('jdbonjour', 'gmail.com','*** Commentaire sur Annuaire lo
 Encore quelques <b>liens</b> dans ce domaine :
 
 <ul>
-<li>Multimédia :
-    <ul>
-    <li><a href=https://lprod.org/>LProd</a> (Libre PRODuction) : vidéos, images, musiques, sons...
-    </ul>
 <li>Données cartographiques/SIG :
     <ul>
     <li><a href=https://www.naturalearthdata.com/>Natural Earth</a> : collection de données vecteur/raster de base (géographie humaine et physique)
@@ -3854,11 +3672,10 @@ Outre les documentations élaborées par les communautés développant ces logiciels
 <li><b>Framasoft.net</b> : ses nombreux <A HREF=https://archive.framalibre.org/rubrique4.html>tutoriels</A>,
 	ainsi que ses ouvrages libres <a href=https://framabook.org/>FramaBook</a> (Unix, Ubuntu, OpenOffice.org, LaTeX, Thunderbird, programmation...)
 <li><b>FLOSSmanuals.net</b> : site collaboratif de manuels
-	en <a href=https://fr.flossmanuals.net/>français</a>
-	et en <a href=https://en.flossmanuals.net/>anglais</a>
+	en <a href=https://www.flossmanualsfr.net/>français</a>
+	et en <a href=https://www.flossmanuals.net/>anglais</a>
 	(à la rédaction desquels vous pouvez collaborer !)
 <li><a href=https://www.howtoforge.com/>HowToForge</a> <img src=lin.png> : tutoriels et "howtos" sur Linux
-<li><a href=https://www.videohelp.com/>ViDEOHelp</a>, <a href=https://lprod.org/>LProd</a> (Libre PRODuction) : guides et forums dans le domaine de la vidéo
 </ul>
 
 <p>
@@ -3883,7 +3700,6 @@ Divers <b>annuaires</b> de logiciels libres :
 <ul>
 <li><img src=s2.png> <a href=https://framalibre.org>FramaLibre</a>, l'annuaire du libre de FramaSoft.org
 <li><img src=s2.png> <a href=https://directory.fsf.org>Free Software Directory</a> de la Free Software Foundation
-<li><a href=https://www.clibre.eu/>cLibre.eu</a>
 <li><a href=https://www.smile.eu/fr/livres-blancslivres-blancs/guide-lopen-source>Open-Source-Guide</a> de la société Smile
 <li><a href=https://opensourcesoftwaredirectory.com/>OpenSourceSoftwareDirectory</a>
 <li>Listes <b>Wikipédia</b> de logiciels libres
@@ -3892,7 +3708,19 @@ Divers <b>annuaires</b> de logiciels libres :
 	, et logiciels <a href=https://fr.wikipedia.org/wiki/Liste_de_logiciels_populaires_sous_Linux>populaires sous Linux</a>
 <li><a href=https://projet-plume.org/>PLUME</a> : Promouvoir les Logiciels Utiles Maîtrisés et <i>Économiques</i> dans l'enseignement supérieur et la recherche (pas uniquement des logiciels libres)
 <li><a href=https://linuxmao.org/>LinuxMAO.org</a>, portail collaboratf francophone sur tout ce qui touche à la Musique Assistée par Ordinateur en Logiciels Libres
+<li>annuaire <a href=https://www.ossdirectory.com/che/fr/>ossdirectory</a> de <a href=https://www.ch-open.ch>CH Open</a>
 <li>annuaire du <a href=https://www.mim-libre.fr/>Socle Interministériel des Logiciels Libres</a> (SILL) en France
+</ul>
+
+
+<p>
+Listes d'<b>équivalences</b> entre logiciels non libres et libres :
+<ul>
+<li>pages Wikipédia d'équivalences propriétaire&lt;-&gt;libre
+	<a href=https://fr.wikipedia.org/wiki/Correspondance_entre_logiciels_libres_et_logiciels_propriétaires>française</a>
+<li>site <a href=https://www.osalt.com/>osalt.com</a>
+<li>page de <a href=https://wiki.linuxquestions.org/wiki/Linux_software_equivalent_to_Windows_software>LinuxQuestions.org</a>
+<li>site de recherche <a href=https://alternativeto.net/>AlternativeTo.net</a>
 </ul>
 
 
@@ -3926,26 +3754,6 @@ Plateformes de distribution/<b>téléchargement</b> de logiciels libres et/ou d'<b
 
 
 <p>
-Listes d'<b>équivalences</b> entre logiciels non libres et libres :
-<ul>
-<li>pages Wikipédia d'équivalences propriétaire&lt;-&gt;libre
-	<a href=https://fr.wikipedia.org/wiki/Correspondance_entre_logiciels_libres_et_logiciels_propriétaires>française</a>
-<li>site <a href=https://www.osalt.com/>osalt.com</a>
-<li>page de <a href=https://wiki.linuxquestions.org/wiki/Linux_software_equivalent_to_Windows_software>LinuxQuestions.org</a>
-<li>site de recherche <a href=https://alternativeto.net/>AlternativeTo.net</a>
-<li>site de recherche/recommandation de logiciels de <a href=https://softwarerecs.stackexchange.com/>StackExchange</a>
-</ul>
-
-
-<p>
-<b>Entreprises</b> orientées logiciel libre en Suisse Romande :
-<ul>
-<li><a href=https://whyopencomputing.ch/>why! open computing SA</a> : société lausannoise vendant des ordinateurs durables (laptops, desktops) préinstallés GNU/Linux Ubuntu
-<li>voir l'annuaire <a href=https://www.ossdirectory.com/che/fr/>ossdirectory</a> de <a href=https://www.ch-open.ch>/ch/open</a>
-</ul>
-
-
-<p>
 Sites <b>associatifs</b> :
 <ul>
 <li>Free Software Foundation : <a href=https://fsf.org/>international</a> et <a href=https://fsfe.org/>Europe</a>
@@ -3954,15 +3762,16 @@ Sites <b>associatifs</b> :
 <!-- <li><a href=http://www.linux-gull.ch/>GULL</a> : Groupe romand des Utilisateurs/trices de GNU/Linux et de Logiciels Libres -->
 <li><a href=https://swisslinux.org>SwissLinux.org</A> : association Suisse d'utilisateurs Linux
 <li><a href=https://aful.org/>AFUL</a> : Association Francophone des Utilisateurs de Linux et de Logiciels Libres
+<li><A HREF=https://gnugeneration.epfl.ch>GNU Generation</A> EPFL
 </ul>
-
 
 
 <p>
-Sites plus spécifiquement destinés à la communauté <b>EPFL</b> :
+<b>Entreprises</b> orientées logiciel libre en Suisse Romande :
 <ul>
-<li><A HREF=https://gnugeneration.epfl.ch>GNU Generation</A> EPFL
+<li><a href=https://whyopencomputing.ch/>why! open computing SA</a> : société lausannoise vendant des ordinateurs durables (laptops, desktops) préinstallés GNU/Linux Ubuntu
 </ul>
+
 
 
 
