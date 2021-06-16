@@ -97,7 +97,7 @@ Vous pouvez aussi lire nos anciens articles suivants : <br>
 	<ol class="tdm">
 	<li><a href=#bureautique target="_self">Bureautique</a>
 	<li><a href=#internet target="_self">Internet et communication</a>
-	<li><a href=#graphisme target="_self">Graphisme 2D/3D et images</a>
+	<li><a href=#graphisme target="_self">Traitement d'image et dessin 2D/3D</a>
 	<li><a href=#multimedia target="_self">Multimédia (son, musique, vidéo, e-books)</a>
 	<li><a href=#projets target="_self">Gestion de projets, organisation, commerce</a>
 	<li><a href=#donnees target="_self">Calcul scientifique, statistiques, gestion/visualisation de données</a>
@@ -112,8 +112,8 @@ Vous pouvez aussi lire nos anciens articles suivants : <br>
 	<li><a href=#administration target="_self">Administration système</a>
 	<li><a href=#serveurs target="_self">Solutions pour serveurs, cloud</a>
 	<li><a href=#mobiles target="_self">Spécifiquement pour plateformes mobiles (smartphones, tablettes)</a>
-	<li><a href=#loisirs target="_self">Usage domestique, loisirs...</a>
-	<li><a href=#divertissement target="_self">Divertissement...</a>
+	<li><a href=#loisirs target="_self">Usage domestique et loisirs</a>
+	<li><a href=#divertissement target="_self">Divertissement et jeux</a>
 	</ol>
 <li><a href=#autresressources target="_self">Autres ressources libres</a>
 <li><a href=#documentation target="_self">Manuels et tutoriels relatifs à des logiciels libres</a>
@@ -287,8 +287,8 @@ Nous utilisons dans cet annuaire l'<b>iconographie</b> suivante :
 		&nbsp; <img src="jav.png"> Basé Java (donc nécessitant la présence du runtime Java, JRE)
 		<br>
 		&nbsp; <img src="and.png"> Android
-		&nbsp; <img src="wph.png"> Windows Phone
-		&nbsp; <img src="ios.png"> iOS
+		<!-- &nbsp; <img src="wph.png"> Windows Phone -->
+		&nbsp; <img src="ios.png"> iOS (tablettes et smartphones)
 		<br>
 		&nbsp; <img src="fir.png"> Extension/addon Firefox
 		&nbsp; <img src="chr.png"> Extension/app Google Chrome
@@ -398,7 +398,7 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 
 <tr>
 	<td id=d>	Correcteur grammatical
-	<td id=l>	<img src=s1.png> <a href=https://grammalecte.net/>Grammalecte</a> (français) <br>
+	<td id=l>	<img src=s0.png> <a href=https://grammalecte.net/>Grammalecte</a> (français) <br>
 				<img src=s0.png> <a href=https://languagetool.org/fr>LanguageTool</a> (multi-l)
 	<td id=c>	Extensions pour LibreOffice et Firefox
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
@@ -648,7 +648,7 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 <tr>
 	<td id=d rowspan=2>	Édition de fichiers PDF <b>(4)</b>
 	<td id=l>	<img src=s1.png> LibreOffice <a href=https://www.libreoffice.org>Draw</a>
-	<td id=c>	Le module de dessin Draw de LibreOffice est capable d'éditer des PDFs !
+	<td id=c>	Module de dessin Draw de LibreOffice, capable d'éditer des PDFs !
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s rowspan=2>	Adobe Acrobat X Pro, Adobe Illustrator
 </tr>
@@ -753,7 +753,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 				<img src=s0.png> <a href=https://www.discourse.org/>Discourse</a>
 	<td id=c>	Plateformes web de discussion incluant fonctionnalités de forum, chat-room et mailing-list
 	<td id=p>	<img src=web.png> 
-	<td id=s>	Slack
+	<td id=s>	Slack, Microsoft Teams...
 </tr>
 
 <tr>
@@ -762,7 +762,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 				<img src=s0.png> <a href=https://pleroma.social/>Pleroma</a>
 	<td id=c>	Plateformes web de discussion / social networking
 	<td id=p>	<img src=web.png> 
-	<td id=s>	Slack
+	<td id=s>	Slack, Microsoft Teams...
 </tr>
 
 <tr>
@@ -792,7 +792,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d rowspan=3>	Messagerie instantanée, téléphonie, visiophonie
-	<td id=l>	<img src=s2.png> <a href=https://signal.org/>Signal</a>
+	<td id=l>	<img src=s1.png> <a href=https://signal.org/>Signal</a>
 	<td id=c>	Messagerie instantanée, téléphonie audio/vidéo. Très sécurisé et respectueux de la sphère privée
 	<td id=p>	<img src=and.png> <img src=ios.png> <br>
 				<img src=lin.png> <img src=win.png> <img src=mac.png>
@@ -801,7 +801,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s2.png> <a href=https://threema.ch/>Threema</a>
+	<td id=l>	<img src=s1.png> <a href=https://threema.ch/>Threema</a>
 	<td id=c>	Messagerie instantanée, téléphonie audio. Très sécurisé et respectueux de la sphère privée
 	<td id=p>	<img src=and.png> <img src=ios.png> <br>
 				<img src=chr.png> <img src=fir.png> 
@@ -810,7 +810,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> <a href=https://telegram.org/>Telegram</a>
+	<td id=l>	<img src=s0.png> <a href=https://telegram.org/>Telegram</a>
 	<td id=c>	Messagerie instantanée
 	<td id=p>	<img src=and.png> <img src=ios.png> <br>
 				<img src=chr.png> <img src=fir.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
@@ -960,7 +960,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 
 <a name="graphisme"></a>
-<h2>2.3 Graphisme 2D/3D et images</h2>  <!-- ************************************************************ -->
+<h2>2.3 Traitement d'image et dessin 2D/3D</h2>  <!-- ************************************************************ -->
 
 <table class="center logiciel">
 <!--#include virtual="table-head.shtml" -->
@@ -1002,7 +1002,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<td id=d rowspan=3>	Visualisation, conversion et retouche simple d'images
 	<td id=l>	<img src=s1.png> <a href=https://www.xnview.com>XnView</a> <img src=fre.png>
-	<td id=c>	Visualisation de fichiers graphiques et conversion de formats (sous-application NConvert), avec quelques fonctions d'éditions (filtres...) et mode diaporama
+	<td id=c>	Visualisation de fichiers graphiques et conversion de formats (sous-application NConvert), avec quelques fonctions d'éditions (filtres, dessin...) et mode diaporama
 	<td id=p>	<img src=win.png>
 	<td id=s rowspan=3>	Outils intégrés aux OS <b>(1)</b>
 </tr>
@@ -1050,7 +1050,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<td id=d>	Dessin vectoriel (figures)
 	<td id=l>	<img src=s1.png> LibreOffice <a href=https://www.libreoffice.org>Draw</a>
-	<td id=c>	Module de dessin intégré à la suite bureautique LibreOffice
+	<td id=c>	Module de dessin de la suite bureautique LibreOffice
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	MS Drawing toolbar
 </tr>
@@ -1099,7 +1099,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://wiki.gnome.org/Apps/Dia>Dia</a>
-	<td id=c>	Fait partie de la suite d'outils Linux/GNOME
+	<td id=c>	Dessin de diagramme faisant partie de la suite d'outils Linux/GNOME
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -1107,7 +1107,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<td id=d>	Mind-mapping
 	<td id=l>	<img src=s1.png> <a href=https://www.freeplane.org/>Freeplane</a> <br>
-	<td id=c>	Réalisation de cartes heuristiques / mentales (fork de <a href=http://freemind.sourceforge.net>FreeMind</a>)
+	<td id=c>	Dessin de cartes heuristiques / mentales (fork de <a href=http://freemind.sourceforge.net>FreeMind</a>)
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	MindManager...
 </tr>
@@ -2035,7 +2035,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d rowspan=3>	Environnement de développement (IDE) généraliste
-	<td id=l>	<img src=s1.png> <a href=https://www.eclipse.org/>Eclipse</a>
+	<td id=l>	<img src=s0.png> <a href=https://www.eclipse.org/>Eclipse</a>
 	<td id=c>	IDE professionnel et très polyvalent
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s rowspan=5>	
@@ -2695,7 +2695,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d rowspan=2>	Synchronisation de répertoires/fichiers en mode commande
-	<td id=l>	<img src=s1.png> <a href=https://rsync.samba.org/>rsync</a> <img src=cmd.png>
+	<td id=l>	<img src=s0.png> <a href=https://rsync.samba.org/>rsync</a> <img src=cmd.png>
 	<td id=c>	Commande de synchro extrêmement puissante, intégrée à Linux et macOS. <br>
 				Sous Windows: commande offerte soit sous Cygwin, soit via package <a href=https://www.itefix.net/cwrsync>cwRsync</a>. <br>
 				Voir <a href=http://www.opbyte.it/grsync/>Grsync</a>, interface graphique à rsync.<br>
@@ -2737,7 +2737,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d rowspan=3>	Clonage de disques ou partitions (disaster recovery backup)
-	<td id=l>	<img src=s1.png> <a href=https://clonezilla.org>Clonezilla Live</a> <img src=liv.png>x86
+	<td id=l>	<img src=s0.png> <a href=https://clonezilla.org>Clonezilla Live</a> <img src=liv.png>x86
 	<td id=c>	Outil puissant de clonage/restore de disques/partitions pour Linux/Windows/macOS. Implémenté sur média bootable (basé Linux), utilisant techniques Partclone (défaut, supportant partitions Linux, Windows, macOS), Partimage, ntfsclone ou dd. <br> Aussi utilisable en mode client/serveur multicast.
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s rowspan=3>	Symantec Ghost, Acronis True Image, Paragon HD Manager...
@@ -2797,11 +2797,11 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d rowspan=3>	Création de médias USB bootables (pour éviter de graver CD)
+	<td id=d rowspan=4>	Création de médias USB bootables (pour éviter de graver CD)
 	<td id=l>	<img src=s1.png> <a href=https://unetbootin.github.io/>UNetbootin</a>
 	<td id=c>	(Universal NETboot INstaller) Création de clé bootable partir de fichiers-image ISO, ou par téléchargement online de distro Linux
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=3>	
+	<td id=s rowspan=4>	
 </tr>
 
 <tr>
@@ -2809,6 +2809,14 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	<td id=l>	<img src=s0.png> <a href=https://rufus.ie/>Rufus</a>
 	<td id=c>	Alternative à UNetbootin
 	<td id=p>	<img src=win.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://www.balena.io/etcher/>balenaEtcher</a>
+	<td id=c>	Autre alternative à UNetbootin
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
 
@@ -2974,7 +2982,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> Red Hat <a href=https://www.centos.org/>CentOS Stream</a>
+	<td id=l>	<img src=s0.png> Red Hat <a href=https://www.centos.org/>CentOS Stream</a>
 	<td id=c>	Version gratuite de la distribution commerciale <a href=https://www.redhat.com/>Red Hat Enterprise Linux</a> (RHEL)
 	<!-- rowspan -->
 	<!-- rowspan -->
@@ -2982,7 +2990,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s1.png> GNU <a href=https://guix.gnu.org/en/download/>Guix System</a>
+	<td id=l>	<img src=s0.png> GNU <a href=https://guix.gnu.org/en/download/>Guix System</a>
 	<td id=c>	Système d'exploitation du projet GNU, fork de <a href=https://nixos.org/>NixOS</a>
 	<!-- rowspan -->
 	<!-- rowspan -->
@@ -2990,7 +2998,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d>	Distributions GNU/Linux bootables (<i>LiveCD/DVD</i>) <b>(1)</b>
-	<td id=l>	<img src=s1.png> <a href=http://www.knoppix.org>Knoppix</a> <img src=liv.png>x86
+	<td id=l>	<img src=s0.png> <a href=http://www.knoppix.org>Knoppix</a> <img src=liv.png>x86
 	<td id=c>	Distribution GNU/Linux bootable la plus célèbre, basée Debian et KDE
 	<td id=p>	<img src=lin.png>
 	<td id=s>	Windows PE, BartPE...
@@ -3001,7 +3009,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	<td id=l>	<img src=s1.png> <a href=https://www.gnome.org>GNOME</a>
 	<td id=c>	Environnement de bureau Linux le plus répandu. Basé sur bibliothèque <a href=https://www.gtk.org/>GTK</a>. <br>
 				Voir les forks MATE (de GNOME 2) et Cinnamon (de GNOME 3)
-	<td id=p>	<img src=lin.png> [<img src=win.png>] [<img src=mac.png>]
+	<td id=p>	<img src=lin.png>
 	<td id=s rowspan=3>	
 </tr>
 
@@ -3009,7 +3017,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	<!-- rowspan -->
 	<td id=l>	<img src=s1.png> <a href=https://kde.org/>KDE</a>
 	<td id=c>	Autre environnement de bureau classique Linux. Basé sur bibliothèque <a href=https://www.qt.io/>Qt</a>
-	<td id=p>	<img src=lin.png> [<img src=win.png>] [<img src=mac.png>]
+	<td id=p>	<img src=lin.png>
 	<!-- rowspan -->
 </tr>
 
@@ -3333,7 +3341,7 @@ Sur ces plateformes, près de la moitié des applications sont gratuites (<i>freew
 
 
 <a name="loisirs"></a>
-<h2>2.18 Usage domestique, loisirs...</h2>  <!-- ************************************************************ -->
+<h2>2.18 Usage domestique et loisirs</h2>  <!-- ************************************************************ -->
 
 Voici quelques applications libres intéressantes pour un usage domestique. En avez-vous d'autres à <script>msgto('jdbonjour', 'gmail.com' ,'*** Commentaire sur Annuaire logiciels libres ', 'nous suggérer')</script> ?
 <p>
@@ -3344,7 +3352,7 @@ Voici quelques applications libres intéressantes pour un usage domestique. En av
 
 <tr>
 	<td id=d>	Aménagement d'intérieur 3D
-	<td id=l>	<img src=s1.png> <a href=http://www.sweethome3d.com>Sweet Home 3D</a>
+	<td id=l>	<img src=s0.png> <a href=http://www.sweethome3d.com>Sweet Home 3D</a>
 	<td id=c>	Pour modéliser très aisément son appartement, sa maison
 	<td id=p>	<img src=jav.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	
@@ -3478,7 +3486,7 @@ Voici quelques applications libres intéressantes pour un usage domestique. En av
 
 
 <a name="divertissement"></a>
-<h2>2.19 Divertissement...</h2>  <!-- ************************************************************ -->
+<h2>2.19 Divertissement et jeux</h2>  <!-- ************************************************************ -->
 
 Contrairement aux idées reçues, il existe beaucoup de jeux libres (et sous Linux). Ce chapitre en présente quelques-uns à titre purement indicatif. Pour davantage de références, voyez par exemple les sites : 
 <a href=https://jeuxlibres.net/>JeuxLibres.Net</a> <img src=lin.png> <img src=win.png>,
@@ -3549,7 +3557,7 @@ Merci de <script>msgto('jdbonjour', 'gmail.com','*** Commentaire sur Annuaire lo
 
 <tr>
 	<td id=d>	Recherche de contenus libres
-	<td id=l>	<img src=s2.png> <a href=https://search.creativecommons.org/>CC Search</a>
+	<td id=l>	<img src=s1.png> <a href=https://search.creativecommons.org/>CC Search</a>
 	<td id=c>	Recherche de contenus en licence CC (web, image, musique, vidéo...)
 	<td id=p rowspan=9>	<br><br>Indépendant des plateformes
 	<td id=s>	
@@ -3698,8 +3706,8 @@ sont très riches !
 <p>
 Divers <b>annuaires</b> de logiciels libres :
 <ul>
-<li><img src=s2.png> <a href=https://framalibre.org>FramaLibre</a>, l'annuaire du libre de FramaSoft.org
-<li><img src=s2.png> <a href=https://directory.fsf.org>Free Software Directory</a> de la Free Software Foundation
+<li><img src=s1.png> <a href=https://framalibre.org>FramaLibre</a>, l'annuaire du libre de FramaSoft.org
+<li><img src=s1.png> <a href=https://directory.fsf.org>Free Software Directory</a> de la Free Software Foundation
 <li><a href=https://www.smile.eu/fr/livres-blancslivres-blancs/guide-lopen-source>Open-Source-Guide</a> de la société Smile
 <li><a href=https://opensourcesoftwaredirectory.com/>OpenSourceSoftwareDirectory</a>
 <li>Listes <b>Wikipédia</b> de logiciels libres
