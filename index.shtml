@@ -447,9 +447,8 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 </tr>
 
 <tr>
-	<td id=d>	Éditeurs Markdown
-	<td id=l>	
-				<img src=s1.png> <a href=https://marktext.app/>Mark Text</a>  <br>
+	<td id=d>	Éditeurs Markdown desktop
+	<td id=l>	<img src=s1.png> <a href=https://marktext.app/>Mark Text</a>  <br>
 				<img src=s1.png> <a href=https://typora.io/>Typora</a>  <br>
 				<img src=s0.png> <a href=https://github.com/mb21/panwriter>PanWriter</a>  <br>
 				<img src=s0.png> <a href=https://docs.zettlr.com/>Zettlr</a>  <br>
@@ -457,6 +456,22 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 				<img src=s0.png> <a href=https://remarkableapp.github.io/>Remarkable</a>   <br>
 	<td id=c>	Quelques éditeurs Markdown...
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<td id=s>	
+</tr>
+
+<tr>
+	<td id=d>	Éditeurs Markdown mobiles
+	<td id=l>	<img src=s0.png> <a href=https://gsantner.net/project/markor.html>Markor</a>  <br>
+	<td id=c>	Editeur Markdown pour smartphone
+	<td id=p>	<img src=and.png>
+	<td id=s>	
+</tr>
+
+<tr>
+	<td id=d>	Environnements Markdown collaboratifs
+	<td id=l>	<img src=s0.png> <a href=https://demo.hedgedoc.org/>HedgeDoc</a>  <br>
+	<td id=c>	Plateforme permettant d'éditer des documents Markdown à plusieurs simultanément
+	<td id=p>	<img src=web.png>
 	<td id=s>	
 </tr>
 
@@ -484,7 +499,7 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 	<td id=d rowspan=3>	Reconnaissance optique de caractères (OCR)
 	<td id=l>	<img src=s0.png> <a href=https://github.com/tesseract-ocr/tesseract>Tesseract OCR</a> <img src=cmd.png>
 	<td id=c>	Moteur d'OCR puissant. Sous Windows, inclu un GUI. <br>
-				Sous Linux, utiliser interface <a href=https://gitlab.gnome.org/World/OpenPaperwork/paperwork>Paperwork</a> <img src=lin.png>
+				Sous Linux, utiliser interface <a href=https://openpaper.work/fr/>Paperwork</a> <img src=lin.png>
 	<td id=p>	<img src=lin.png> <img src=win.png> [<img src=mac.png>]
 	<td id=s rowspan=3>	FineReader, ReadIris, Omnipage...
 </tr>
@@ -1058,7 +1073,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<td id=d>	Illustration (dessin vectoriel évolué)
 	<td id=l>	<img src=s2.png> <a href=https://inkscape.org>Inkscape</a>
-	<td id=c>	Dessin vectorisé 2D au format SVG. Permet aussi de retoucher des fichiers PDF
+	<td id=c>	Puissant logiciel de dessin vectorisé 2D au format SVG. Permet aussi de retoucher des fichiers PDF
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	Adobe Illustrator, Freehand...
 </tr>
@@ -1344,15 +1359,16 @@ Encore <b>quelques logiciels</b> dans ces catégories :
 	<td id=d rowspan=6>	Édition/montage vidéo, réencodage
 	<td id=l>	<img src=s0.png> <a href=http://avidemux.sourceforge.net>Avidemux</a> <br>
 				<img src=s0.png> <a href=https://handbrake.fr/>HandBrake</a>
-	<td id=c>	Pour découper, filtrer et réencoder une vidéo
+	<td id=c>	Logiciels simples pour découper, filtrer et réencoder des vidéos. HandBrake permet en outre de ripper des DVDs.
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s rowspan=6>	Adobe Premiere Pro, Windows Movie Maker, Apple Final Cut Pro, Pinnacle Studio...
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s0.png> <a href=https://github.com/ozmartian/vidcutter>VidCutter</a>
-	<td id=c>	Découper simplement une vidéo sans la ré-encoder
+	<td id=l>	<img src=s0.png> <a href=https://github.com/mifi/lossless-cut>LosslessCut</a> <br>
+				<img src=s0.png> <a href=https://github.com/ozmartian/vidcutter>VidCutter</a>
+	<td id=c>	Découper des vidéos sans les ré-encoder
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -1898,11 +1914,19 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d rowspan=2>	Développement d'applications BD à interface graphique
+	<td id=d rowspan=3>	Développement d'applications BD à interface graphique
 	<td id=l>	<img src=s0.png> Calligra <a href=https://calligra.org/kexi/>Kexi</a>
 	<td id=c>	Solution desktop, embarque SQLite, mais peut interagir avec MySQL ou PostgreSQL. (De la suite Calligra pour Linux/KDE)
 	<td id=p>	<img src=lin.png> [<img src=win.png>] [<img src=mac.png>]
-	<td id=s rowspan=2>	Microsoft Access, FileMaker...
+	<td id=s rowspan=3>	Microsoft Access, FileMaker...
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=http://www.nsbase.neuts.fr/>NSBase</a>
+	<td id=c>	Outil de construction d'applications complètes de base de données
+	<td id=p>	<img src=lin.png> <img src=win.png>
+	<!-- rowspan -->
 </tr>
 
 <tr>
@@ -1912,7 +1936,6 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	<td id=p>	<img src=web.png>
 	<!-- rowspan -->
 </tr>
-
 
 </table>
 
@@ -2241,7 +2264,7 @@ Encore <b>quelques logiciels</b> dans ces domaines :
 	</ul>
 <li>Galeries web de photos <img src=web.png> :
 	<ul>
-	<li>coté serveur : <a href=http://fr.piwigo.org/>Piwigo</a>, <a href=http://www.photoshow-gallery.com/>PhotoShow</a>...
+	<li>coté serveur : <a href=https://fr.piwigo.org/>Piwigo</a>, <a href=https://lychee.electerious.com/>Lychee</a>, <a href=http://www.photoshow-gallery.com/>PhotoShow</a>...
 	<li>coté client : <a href=http://www.highslide.com/>Highslide JS</a> (basé JavaScript/jQuery, licence CC BY-NC)
 	</ul>
 <li>Statistiques web <img src=web.png> :
@@ -2415,7 +2438,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <li>Application géographiques pour <b>équipements mobiles</b> (smartphones, tablettes) :
 	<ul>
 	<li>applications de <b>navigation</b> : parmi le grand nombre d'applications existantes, nous nous contentons d'en citer ici quelques-unes basées sur la cartographie libre <a href=https://www.openstreetmap.org/>OpenStreetMap</a> (OSM) et permettant naviguer de façon offline :
-		<a href=https://osmand.net>OsmAnd</a> <img src=and.png>
+		<a href=https://osmand.net>OsmAnd</a> <img src=and.png> <img src=ios.png>
 		...
 	<li>affichage de <b>cartes</b> raster (en mode connecté et/ou offline) :
 		<a href=https://map.geo.admin.ch/>Géoportail Suisse</a> <img src=web.png>,
@@ -2538,8 +2561,9 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d>	Electricité
-	<td id=l>	<img src=s0.png> <a href=https://qelectrotech.org/>QET</a> (QElectroTech)
-	<td id=c>	Réalisation de schémas électriques
+	<td id=l>	<img src=s0.png> <a href=https://qelectrotech.org/>QET</a> (QElectroTech) <br>
+				<img src=s0.png> <a href=https://www.kicad.org/>KiCad EDA</a>
+	<td id=c>	Réalisation de circuits électroniques
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	
 </tr>
@@ -3362,10 +3386,11 @@ Voici quelques applications libres intéressantes pour un usage domestique. En av
 	<td id=d rowspan=2>	Gestion de comptabilité
 	<td id=l>	<img src=s0.png> <a href=https://www.grisbi.org/>Grisbi</a> <br>
 				<img src=s0.png> <a href=https://kmymoney.org/>KMyMoney</a> <br>
-				<img src=s0.png> <a href=http://homebank.free.fr/>HomeBank</a>
+				<img src=s0.png> <a href=http://homebank.free.fr/>HomeBank</a> <br>
+				<img src=s0.png> <a href=https://kresus.org/>Kresus</a>
 	<td id=c>	Pour gérer ses finances personnelles
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=2>	Microsoft Money, Quicken...
+	<td id=s rowspan=2>	Microsoft Money, Quicken, Bankin...
 </tr>
 
 <tr>
@@ -3473,6 +3498,22 @@ Voici quelques applications libres intéressantes pour un usage domestique. En av
 </tr>
 
 <tr>
+	<td id=d>	Instruments de musique
+	<td id=l>	<img src=s0.png> <a href=http://www.tuxguitar.com.ar/>TuxGuitar</a>
+	<td id=c>	Logiciel de tablature pour guitare
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<td id=s>	Guitar Pro...
+</tr>
+
+<tr>
+	<td id=d>	Dactylographie
+	<td id=l>	<img src=s0.png> <a href=https://klavaro.sourceforge.io/fr/index.html>Klavaro</a>
+	<td id=c>	Logiciel d'apprentissage de la dactylographie
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<td id=s>	
+</tr>
+
+<tr>
 	<td id=d>	...
 	<td id=l>	<img src=s0.png> ...
 	<td id=c>	...
@@ -3572,9 +3613,9 @@ Merci de <script>msgto('jdbonjour', 'gmail.com','*** Commentaire sur Annuaire lo
 </tr>
 
 <tr>
-	<td id=d>	Écrit (lire et publier sous licence libre)
-	<td id=l>	<img src=s0.png> <a href=http://www.inlibroveritas.net/>InLibroVeritas</a>
-	<td id=c>	Oeuvres papier, en-ligne, eBooks...
+	<td id=d>	Médiathèques de contenus librement réutilisables
+	<td id=l>	<img src=s1.png> <a href=https://commons.wikimedia.org/>Wikimedia Commons</a>
+	<td id=c>	Images et fichiers audio/vidéo sous licences Creative Commons. Dépôt de la <a href=https://wikimediafoundation.org/>Wikimedia Foundation</a>.
 	<!-- rowspan -->
 	<td id=s>	
 </tr>
@@ -3610,7 +3651,7 @@ Merci de <script>msgto('jdbonjour', 'gmail.com','*** Commentaire sur Annuaire lo
 				<img src=s0.png> <a href=http://magnatune.com/>Magnatune</a> <br>
 				<img src=s0.png> <a href=https://freesound.org/>FreeSound</a> <br>
 				<img src=s0.png> <a href=https://www.auboutdufil.com/>Auboutdufil</a> <br>
-
+				<img src=s0.png> <a href=https://lasonotheque.org/>LaSonotheque</a> <br>
 	<td id=c>	
 	<!-- rowspan -->
 	<td id=s>	Stores iTunes, Amazon, Google...
@@ -3677,8 +3718,8 @@ Outre les documentations élaborées par les communautés développant ces logiciels
 <p>
 
 <ul>
-<li><b>Framasoft.net</b> : ses nombreux <A HREF=https://archive.framalibre.org/rubrique4.html>tutoriels</A>,
-	ainsi que ses ouvrages libres <a href=https://framabook.org/>FramaBook</a> (Unix, Ubuntu, OpenOffice.org, LaTeX, Thunderbird, programmation...)
+<li><b>Framasoft.org</b> : ses <A HREF=https://docs.framasoft.org/>documentations et guides</A>,
+	ses ouvrages libres <a href=https://framabook.org/>FramaBook</a> (Unix, Ubuntu, OpenOffice.org, LaTeX, Thunderbird, programmation...)
 <li><b>FLOSSmanuals.net</b> : site collaboratif de manuels
 	en <a href=https://www.flossmanualsfr.net/>français</a>
 	et en <a href=https://www.flossmanuals.net/>anglais</a>
