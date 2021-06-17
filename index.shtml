@@ -981,27 +981,35 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <!--#include virtual="table-head.shtml" -->
 
 <tr>
-	<td id=d>	Dessin raster
-	<td id=l>	<img src=s0.png> <a href=http://mypaint.org>MyPaint</a>
-	<td id=c>	Peinture numérique
-	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s>	
+	<td id=d rowspan=3>	Dessin raster
+	<td id=l>	<img src=s0.png> <a href=https://photoflare.io/>PhotoFlare</a>
+	<td id=c>	Logiciel de dessin inspiré de PhotoFiltre
+	<td id=p>	<img src=lin.png> <img src=win.png>
+	<td id=s rowspan=3>	PhotoFiltre...
 </tr>
 
 <tr>
-	<td id=d rowspan=2>	Dessin raster et traitement de photos
+	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://pinta-project.com/>Pinta</a>
 	<td id=c>	Logiciel simple de dessin raster et retouche d'image (clone de Paint.NET Windows)
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=2>	Adobe Photoshop, Adobe Lightroom, Affinity Photo...
+	<!-- rowspan -->
 </tr>
 
 <tr>
 	<!-- rowspan -->
-	<td id=l>	<img src=s2.png> <a href=https://www.gimp.org/>GIMP</a>
-	<td id=c>	Application très riche et extensible (filtres, extensions)
+	<td id=l>	<img src=s0.png> <a href=http://mypaint.org>MyPaint</a>
+	<td id=c>	Logiciel de peinture numérique
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
+</tr>
+
+<tr>
+	<td id=d>	Dessin raster avancé, traitement d'image/photo
+	<td id=l>	<img src=s2.png> <a href=https://www.gimp.org/>GIMP</a>
+	<td id=c>	Application très riche et extensible (filtres, extensions).
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<td id=s>	Adobe Photoshop, Adobe Lightroom, Affinity Photo...
 </tr>
 
 <tr>
@@ -1283,7 +1291,7 @@ Encore <b>quelques logiciels</b> dans ces catégories :
 
 <tr>
 	<td id=d rowspan=2>	Serveur de média
-	<td id=l>	<img src=s0.png> GNU <a href=https://mediagoblin.org/>MediaGoblin</a>
+	<td id=l>	<img src=s0.png> <a href=https://mediagoblin.org/>MediaGoblin</a>
 	<td id=c>	Serveur de streaming vidéo/audio basé web, galerie photo...
 	<td id=p>	<img src=web.png> <img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s rowspan=2>	YouTube, Dailymotion, SoundCloud, Flickr...
@@ -1385,7 +1393,8 @@ Encore <b>quelques logiciels</b> dans ces catégories :
 	<!-- rowspan -->
 	<td id=l>	<img src=s1.png> <a href=https://www.openshot.org/>OpenShot</a> Video Editor <br>
 				<img src=s0.png> <a href=https://shotcut.org/>Shotcut</a> <br>
-				<img src=s0.png> <a href=http://www.pitivi.org>Pitivi</a> (Linux)
+				<img src=s0.png> <a href=http://www.pitivi.org>Pitivi</a> (Linux) <br>
+				<img src=s0.png> <a href=http://jliljebl.github.io/flowblade/>FlowBlade</a> (Linux)
 	<td id=c>	Applications de montage vidéo simple
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
@@ -2622,7 +2631,7 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <tr>
 	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://www.7-zip.org>7-Zip</a>
-	<td id=c>	Supporte chiffrement fort (AES 256 bits) <br>Dénommé <b>p7zip</b> sous Linux
+	<td id=c>	Supporte chiffrement fort (AES 256 bits)
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
@@ -2792,17 +2801,25 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d rowspan=3>     Médias de dépannage bootables
+	<td id=d rowspan=4>     Médias de dépannage bootables
 	<td id=l>	<img src=s0.png> <a href=https://www.system-rescue.org/>SystemRescueCd</a> <img src=liv.png>x86
 	<td id=c>	Live distro Linux avec nombreux outils de dépannage et sauvegarde/resrore de filesystems/partitions (notamment <b>FSArchiver</b>, voir plus haut), récupération de fichiers, réparation boot loader GRUB, outils réseau, test mémoire...
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=3>
+	<td id=s rowspan=4>
 </tr>
 
 	<!-- devenu payant en 2016, beurk :-(  !
 	<td id=l>	<img src=s0.png> <a href=http://partedmagic.com>Parted Magic</a> <img src=liv.png>x86
 	<td id=c>	 Davantage d'une alternative à GParted Live, c'est un mini live distro Linux avec outils de backup (Clonezilla, Ghost4Linux), récupération (TestDisk, PhotoRec), sécurité (TrueCrypt, ClamAV, nmap) et autres (VNC, rsync/Grsync, UNetbootin...) -->
 
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s0.png> <a href=https://ualinux.com/en/ubuntu-rescuepack>Ubuntu RescuePack</a> <img src=liv.png>
+	<td id=c>	Live distro pour traiter des machines Windows/macOS/Linux infectées par des virus/vers, chevaux de troie, rootkits, ransomwares...
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
+</tr>
 
 <tr>
 	<!-- rowspan -->
@@ -3270,10 +3287,10 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d rowspan=2>	Serveur NAS (appliance de stockage)
-	<td id=l>	<img src=s0.png> <a href=https://www.freenas.org/>TrueNAS</a> <img src=liv.png>x86
+	<td id=l>	<img src=s0.png> <a href=https://www.freenas.org/>TrueNAS CORE</a> <img src=liv.png>x86
 	<td id=c>	(ex FreeNAS) Appliances NAS basées FreeBSD
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=2>	Solutions NetApp, EMC, Synology, QNAP...
+	<td id=s rowspan=2>	NetApp, EMC, Synology, QNAP...
 </tr>
 
 <tr>
