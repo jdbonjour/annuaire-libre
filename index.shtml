@@ -849,11 +849,19 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d>	Vidéoconférence
+	<td id=d rowspan=2>	Vidéoconférence
 	<td id=l>	<img src=s2.png> <a href=https://jitsi.org/jitsi-meet/>Jitsi Meet</a>
 	<td id=c>	Vidéoconférence à plusieurs, dans navigateur web sur ordinateur ou app sur smartphone. Via simple URL d'invitation (sur <a href=https://meet.jit.si>meet.jit.si</a>), sans devoir créer de compte. Offre en outre chat, partage d'écran ou fenêtre, enregistrement vidéo.
 	<td id=p>	<img src=chr.png> <img src=fir.png> <br> <img src=and.png> <img src=ios.png> <img src=web.png> 
-	<td id=s>   Zoom, Google Meet, MS Teams, Skype, Cisco WebEx...
+	<td id=s rowspan=2>   Zoom, Google Meet, MS Teams, Skype, Cisco WebEx...
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s1.png> <a href=https://nextcloud.com/talk/>Nextcloud Talk</a>
+	<td id=c>	Idem...
+	<td id=p>	<img src=chr.png> <img src=fir.png> <br> <img src=and.png> <img src=ios.png> <img src=web.png> 
+	<!-- rowspan -->
 </tr>
 
 <tr>
@@ -3527,6 +3535,14 @@ Voici quelques applications libres intéressantes pour un usage domestique. En av
 	<td id=l>	<img src=s0.png> <a href=https://klavaro.sourceforge.io/fr/index.html>Klavaro</a>
 	<td id=c>	Logiciel d'apprentissage de la dactylographie
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<td id=s>	
+</tr>
+
+<tr>
+	<td id=d>	Santé
+	<td id=l>	<img src=s0.png> <a href=https://www.gnuhealth.org/docs/mygnuhealth/>MyGNUHealth</a>
+	<td id=c>	Journal personnel de santé (du projet plus global <a href=https://www.gnuhealth.org/>GNUHealth.org</a>)
+	<td id=p>	<img src=lin.png>
 	<td id=s>	
 </tr>
 
