@@ -3809,8 +3809,9 @@ Listes d'<b>équivalences</b> entre logiciels non libres et libres :
 <p>
 Plateformes de distribution/<b>téléchargement</b> de logiciels libres et/ou d'<b>hébergement</b> de projets open source (<i>forges</i>) :
 <ul>
-<li><a href=https://github.com/>GitHub</a>
-<li><a href=https://sourceforge.net/>SourceForge</a>
+<li><a href=https://github.com/>GitHub</a> (l'incontournable)
+<li><a href=https://www.fosshub.com/>FossHub</a> (très bon dépôt de logiciels exclusivement libre)
+<li><a href=https://sourceforge.net/>SourceForge</a> (l'ancêtre)
 <li><a href=https://savannah.gnu.org/>Savannah</a> (forge de la FSF)
 <li>Le concept d'<b>applications "portables"</b>, installables de façon stand-alone (p.ex. sur devices amovibles) :
 	<ul>
