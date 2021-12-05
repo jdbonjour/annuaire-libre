@@ -1974,11 +1974,11 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 <!--#include virtual="table-head.shtml" -->
 
 <tr>
-	<td id=d rowspan=8>	Éditeur de code (coloriage syntaxique, indentation, macros, extensions/plugins...)
+	<td id=d rowspan=9>	Éditeur de code (coloriage syntaxique, indentation, macros, extensions/plugins...)
 	<td id=l>	<img src=s1.png> <a href=https://atom.io/>Atom</a>
 	<td id=c>	Éditeur et IDE léger, interagissant bien avec GitHub
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
-	<td id=s rowspan=8>	
+	<td id=s rowspan=9>	
 </tr>
 
 <tr>
@@ -2011,6 +2011,14 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 	<!-- rowspan -->
 	<td id=l>	<img src=s1.png> <a href=https://www.geany.org/>Geany</a>
 	<td id=c>	Éditeur et IDE léger et polyvalent
+	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
+	<!-- rowspan -->
+</tr>
+
+<tr>
+	<!-- rowspan -->
+	<td id=l>	<img src=s1.png> <a href=https://cudatext.github.io/>CudaText</a>
+	<td id=c>	Éditeur très léger, doté de nombreux plugins et lexers, intéressant notamment pour l'édition de fichiers JSON
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<!-- rowspan -->
 </tr>
