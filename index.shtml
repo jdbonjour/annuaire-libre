@@ -1095,10 +1095,9 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 </tr>
 
 <tr>
-	<td id=d>	Présentations dynamiques dérivées de fichiers/posters SVG
-	<td id=l>	<img src=s1.png> <a href=https://sozi.baierouge.fr>Sozi</a> <br>
-				<img src=s0.png> <a href=https://code.google.com/archive/p/jessyink/>JessyInk</a>
-	<td id=c>	Solutions inspirées du logiciel en ligne <a href=https://prezi.com/>Prezi</a>, implémentées sous forme d'extensions à Inkscape
+	<td id=d>	Présentation dynamique (animation)
+	<td id=l>	<img src=s1.png> <a href=https://sozi.baierouge.fr>Sozi</a>
+	<td id=c>	Élaboration de présentations animées HTML/JavaScript (i.e. visualisables dans navigateur web) s'appuyant sur des fichiers SVG. Inspirée du logiciel en ligne <a href=https://prezi.com/>Prezi</a>
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png>
 	<td id=s>	Microsoft PowerPoint...
 </tr>
