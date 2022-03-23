@@ -406,11 +406,20 @@ Pour chaque logiciel cité, nous fournissons le <b>lien</b> qui vous conduit vers
 </tr>
 
 <tr>
-	<td id=d rowspan=3>	Gestionnaire de notes
+	<td id=d rowspan=4>	Gestionnaire de tâches et de notes
+	<td id=l>	<img src=s0.png> <a href=https://wiki.gnome.org/Apps/GTG>Getting Things GNOME</a> <br>
+				<img src=s0.png> (GTG)
+    <td id=c>	Gestionnaire de tâches et de todo-list extrêmement flexible (inspiré de Getting Things Done)
+	<td id=p>	<img src=lin.png>
+	<td id=s rowspan=4>	Evernote, MS OneNote, Google Keep
+</tr>
+
+<tr>
+	<!-- rowspan -->
 	<td id=l>	<img src=s0.png> <a href=https://joplinapp.org/>Joplin</a>
 	<td id=c>	Gestionnaire de notes et de tâches basé sur la syntaxe Markdown
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=and.png> <img src=ios.png>
-	<td id=s rowspan=3>	Evernote, MS OneNote, Google Keep
+	<!-- rowspan -->
 </tr>
 
 <tr>
@@ -1112,7 +1121,8 @@ Encore <b>quelques logiciels</b> dans ce domaine :
 
 <tr>
 	<td id=d rowspan=3>	Dessin de diagrammes (vectoriel)
-	<td id=l>	<img src=s1.png> <a href=https://www.diagrams.net/>draw.io</a>
+	<td id=l>	<img src=s1.png> <a href=https://www.diagrams.net/>diagrams.net</a> <br>
+				<img src=s0.png> (anc. draw.io)
 	<td id=c>	Dessin de diagramme
 	<td id=p>	<img src=lin.png> <img src=win.png> <img src=mac.png> <img src=web.png>
 	<td id=s rowspan=3>	Microsoft Visio
